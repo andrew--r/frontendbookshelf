@@ -1,0 +1,35 @@
+.hero
+  padding-bottom 90px
+  
+  background #fad9a9 url('../images/bg3.png') center repeat
+  background-size 203px 317px
+  
+  +mobile()
+    padding-bottom 30px
+  
+  .header
+    background transparent
+    border none
+    box-shadow none
+
+  &__inner
+    container($site-width)
+  
+
+  &__title
+    font-size 36px
+    margin-top 60px
+    margin-bottom 15px
+    
+    +mobile()
+      margin-top 15px
+      margin-bottom 10px
+      
+      font-size 24px 
+  
+  &__description
+    max-width 700px
+    font-size 18px
+    
+    +mobile()
+      font-size 16px 

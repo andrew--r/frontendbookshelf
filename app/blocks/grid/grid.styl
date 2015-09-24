@@ -1,0 +1,28 @@
+.grid
+  margin-top 60px
+  
+  display flex
+  flex-wrap wrap
+  align-items flex-start
+  justify-content space-around
+  
+  &:after
+    content ''
+    display block
+    height 0
+    flex 0 0 250px
+    max-width 250px
+
+  &__item
+    margin-bottom 60px
+    
+    max-width 250px
+    
+    &.js-hidden
+      display none
+    
+    &:empty
+      display block
+      height 0
+      flex 0 0 250px
+      max-width 250px

@@ -1,0 +1,165 @@
+{
+  "books": [
+    {
+      "title": "JavaScript. Сильные стороны",
+      "author": "Дуглас Крокфорд",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/20217226/",
+      "thumb": "crockford-javascript.jpg",
+      "categories": [
+        "javascript"
+      ],
+      "difficulty": [
+        "advanced"
+      ]
+    },
+    {
+      "title": "Сила JavaScript. 68 способов эффективного использования JS",
+      "author": "Дэвид Херман",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/20413530/",
+      "thumb": "js-68-ways.jpg",
+      "categories": [
+        "javascript"
+      ],
+      "difficulty": [
+        "advanced"
+      ]
+    },
+    {
+      "title": "Отзывчивый веб-дизайн",
+      "author": "Итан Маркотт",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/8747299/",
+      "thumb": "responsive-webdesign.jpg",
+      "categories": [
+        "css",
+        "rwd"
+      ],
+      "difficulty": [
+        "advanced"
+      ]
+    },
+    {
+      "title": "Exploring ES6",
+      "author": "Аксель Раушмайер",
+      "language": "en",
+      "link": "http://exploringjs.com/",
+      "thumb": "exploring-es6.jpg",
+      "categories": [
+        "JavaScript"
+      ],
+      "difficulty": [
+        "advanced"
+      ]
+    },
+    {
+      "title": "Разработка Backbone.js приложений",
+      "author": "Эдди Османи",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/25167553/",
+      "thumb": "osmani-backbone.jpg",
+      "categories": [
+        "Backbone"
+      ],
+      "difficulty": [
+        "beginner",
+        "advanced"
+      ]
+    },
+    {
+      "title": "JavaScript. Подробное руководство",
+      "author": "Дэвид Флэнаган",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/19677670/",
+      "thumb": "flanagan-javascript-definitive-guide.jpg",
+      "categories": [
+        "JavaScript"
+      ],
+      "difficulty": [
+        "beginner"
+      ]
+    },
+    {
+      "title": "JavaScript. Карманный справочник",
+      "author": "Дэвид Флэнаган",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/31100361/",
+      "thumb": "flanagan-javascript-pocket-guide.jpg",
+      "categories": [
+        "JavaScript"
+      ],
+      "difficulty": [
+        "beginner",
+        "advanced"
+      ]
+    },
+    {
+      "title": "Learning JavaScript",
+      "author": "Шэлли Пауэрс",
+      "language": "en",
+      "link": "http://shop.oreilly.com/product/9780596521882.do",
+      "thumb": "powers-learning-javascript.jpg",
+      "categories": [
+        "JavaScript"
+      ],
+      "difficulty": [
+        "beginner"
+      ]
+    },
+    {
+      "title": "Большая книга CSS3",
+      "author": "Дэвид Макфарланд",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/24493075/",
+      "thumb": "css3-the-missing-manual.jpg",
+      "categories": [
+        "css"
+      ],
+      "difficulty": [
+        "beginner"
+      ]
+    },
+    {
+      "title": "CSS. Каскадные таблицы стилей",
+      "author": "Эрик А. Мейер",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/3881079/",
+      "thumb": "meyer-css.jpg",
+      "categories": [
+        "css"
+      ],
+      "difficulty": [
+        "beginner"
+      ]
+    },
+    {
+      "title": "High Performance Web Sites",
+      "author": "Стив Саудерс",
+      "language": "en",
+      "link": "http://shop.oreilly.com/product/9780596529307.do",
+      "thumb": "high-perfomance-websites.jpg",
+      "categories": [
+        "perfomance"
+      ],
+      "difficulty": [
+        "beginner",
+        "advanced"
+      ]
+    },
+    {
+      "title": "Even Faster Web Sites",
+      "author": "Стив Саудерс",
+      "language": "en",
+      "link": "http://shop.oreilly.com/product/9780596522315.do",
+      "thumb": "even-faster-websites.jpg",
+      "categories": [
+        "perfomance"
+      ],
+      "difficulty": [
+        "beginner",
+        "advanced"
+      ]
+    }
+  ]
+}

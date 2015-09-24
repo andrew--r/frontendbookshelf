@@ -1,0 +1,26 @@
+.header
+  background $bg-color
+  border-bottom 1px solid $border-color
+  box-shadow 0 2px 16px rgba(#000, 5%)
+  
+
+  &__inner   
+    display flex
+    align-items center
+    justify-content space-between
+    
+    padding-top 20px
+    padding-bottom 20px
+    
+    +mobile()
+      display block
+  
+
+  &__logo
+    +mobile()
+      center()
+      margin-bottom 30px
+  
+
+  &__social
+    text-align center

@@ -1,0 +1,71 @@
+.book
+  display inline-block
+  position relative
+  
+
+  &__thumb
+    position relative
+    
+    display flex
+    justify-content flex-start
+    align-items center
+    
+    margin-bottom 20px
+    
+    max-height 360px
+    overflow hidden
+    
+    border 0    
+    
+    img
+      max-height 360px
+  
+
+  &__language
+    position absolute
+    top 1em
+    left 1em
+    
+    display inline-block
+    size(3em)
+    
+    font-size 12px
+    text-transform uppercase
+    letter-spacing .1em
+    line-height 3em
+    text-align center
+    
+    color #fff
+    // opacity .7
+    
+    border-radius 50%
+    box-shadow 0 0 6px rgba(#000, 30%)
+    
+    &--ru
+      background desaturate(#2ECC40, 20%)
+    &--en
+      background desaturate(#FF4136, 20%)
+  
+  
+  &__info
+    padding 0 .5rem
+
+
+  &__name
+    display block
+    
+    font-size 20px
+    font-weight 700
+    
+    border 0
+  
+
+  &__author
+    display block
+    margin-bottom 5px
+    
+    font-size 12px
+    text-transform uppercase
+    letter-spacing .1em
+    
+    color #888

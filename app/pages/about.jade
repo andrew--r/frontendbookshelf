@@ -1,0 +1,49 @@
+include ../blocks/header/header
+include ../blocks/page-meta/page-meta
+include ../blocks/l-sidebar/l-sidebar
+include ../blocks/content/content
+include ../blocks/support/support
+include ../blocks/footer/footer
+
+doctype html
+html(lang='ru')
+  block head
+    - var pageName = 'about'
+    - var pageTitle = "О проекте — «Книжная полка фронтендера»"
+  include ../blocks/head/head
+  body
+    +header()
+    
+    block page-meta
+      - var title = 'О проекте'
+
+    +page-meta()(class='container')
+
+    +l-sidebar()(class='container')
+      +content()
+        p К сожалению, в рунете очень мало по-настоящему качественных ресурсов для изучения фронтенда. Эти ресурсы можно буквально пересчитать по пальцам одной руки — это #[a(href='http://frontender.info/') Frontender Magazine], #[a(href='https://htmlacademy.ru/') HTML Academy], #[a(href='http://learn.javascript.ru/') «Современный учебник JavaScript»]. Я безмерно благодарен создателям трёх этих ресурсов. Они действительно постарались. 
+
+        p К счастью, тематические сайты — не единственный доступный источник знаний. Существует достаточно большое количество книг, написанных зарубежными авторами. Многие из них переведены на русский язык.
+
+        p «Книжная полка фронтендера» — это коллекция качественных книг по фронтенду. Неважно, новичок вы или продвинутый разработчик — книги разбиты на разные категории. Список книг можно фильтровать по тематике, сложности, языку.
+
+        p Зачем я создал этот проект? Если я собирался изучить новую технологию, мне приходилось гуглить «книги по название_технологии», и не факт, что я что-то нашёл бы. На многие книги я натыкался совершенно случайно. С «книжной полкой фронтендера» гуглить больше не придётся — все книги собраны в одном месте.
+
+        p Если вы знаете книгу, которой нет в списке, пришлите пулл-риквест на #[a(href='') гитхаб] — мы его примем и скажем вам спасибо.
+
+        h2 Поддержите проект!
+        p Собранные средства будут использованы для оплаты хостинга и доменного имени.
+
+        +support()
+    
+    +footer()
+      .footer__left
+        +logo()
+
+      .footer__right
+        p © 2015 #[a(href='http://andrew-r.ru') Андрей Романов]
+
+    script(type='text/javascript', src='//yastatic.net/share/share.js', charset='utf-8')
+    script(type='text/javascript' src='//vk.com/js/api/openapi.js?117')
+    script.
+      VK.Widgets.Group("vk_groups", {mode: 0, width: "220", height: "200", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 100559694);

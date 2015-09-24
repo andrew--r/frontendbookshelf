@@ -1,0 +1,11 @@
+include ../widget/widget
+include ../vk/vk
+include ../avatar/avatar
+
+mixin sidebar()
+  aside.sidebar&attributes(attributes)
+    +widget('Подписывайтесь!')(class="sidebar__widget")
+      +vk()
+
+    +widget('О создателе')(class="sidebar__widget")
+      p #[+avatar('Пингвин')(class='avatar--floating')] #[a(href='http://andrew-r.ru') Андрей Романов]&nbsp;— фронтенд-разработчик, основатель проекта #[a(href="http://forwebdev.ru") For Web]. Люблю веб-разработку и всё, что с ней связано, а ещё люблю музыку&nbsp;— играю на ударных и на гитаре.

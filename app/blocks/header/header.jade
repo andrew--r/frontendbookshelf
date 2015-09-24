@@ -1,0 +1,10 @@
+include ../logo/logo
+include ../social/social
+
+mixin header()
+  header.header
+    .header__inner.container
+      +logo()(class='header__logo')
+
+      .header__social
+        +social()

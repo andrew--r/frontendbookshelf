@@ -1,0 +1,23 @@
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, minimal-ui')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+
+  meta(name='imagetoolbar' content='no')
+  meta(name='msthemecompatible' content='no')
+  meta(name='cleartype' content='on')
+  meta(name='HandheldFriendly' content='True')
+  meta(name='google' value='notranslate')
+
+  meta(name='description' content='')
+  meta(name='keywords' content='')
+
+  block head
+  title= pageTitle || 'Заголовок страницы'
+  
+
+  // Базовые стили
+  link(href='assets/styles/core.min.css?t=' + timestamp rel='stylesheet')
+
+  // Стили страницы
+  link(href='assets/styles/' + pageName + '.min.css?t=' + timestamp rel='stylesheet')

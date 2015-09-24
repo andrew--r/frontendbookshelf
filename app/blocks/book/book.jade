@@ -1,0 +1,11 @@
+mixin book(options)
+  .book(data-categories=options.categories.toString().toLowerCase() data-difficulty=options.difficulty.toString().toLowerCase())&attributes(attributes)
+    a(href=options.link title=options.title).book__thumb
+      if options.language == 'ru'
+        span.book__language.book__language--ru= options.language
+      else if options.language == 'en'
+        span.book__language.book__language--en= options.language
+      img(src='assets/images/books/' + options.thumb, alt=options.title)
+    .book__info
+      span.book__author= options.author
+      a(href=options.link).book__name= options.title

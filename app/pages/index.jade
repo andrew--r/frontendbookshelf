@@ -1,0 +1,27 @@
+include ../blocks/header/header
+include ../blocks/hero/hero
+include ../blocks/sort/sort
+include ../blocks/grid/grid
+include ../blocks/footer/footer
+
+doctype html
+html(lang='ru')
+  block head
+    - var pageName = 'index'
+    - var pageTitle = "Список книг — «Книжная полка фронтендера»"
+  include ../blocks/head/head
+  body
+    +hero()
+    +sort()
+    +grid()
+
+    +footer()(class='footer--main')
+      .footer__left
+        +logo()
+
+      .footer__right
+        a(href='about.html') О проекте
+
+    script(type='text/javascript' src='//yastatic.net/share/share.js', charset='utf-8')
+    script(type='text/javascript' src='assets/scripts/vendor/stretchy.min.js')
+    script(type='text/javascript' src='assets/scripts/build.js')
