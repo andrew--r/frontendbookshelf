@@ -6,12 +6,8 @@
       "language": "ru",
       "link": "http://www.ozon.ru/context/detail/id/20217226/",
       "thumb": "crockford-javascript.jpg",
-      "categories": [
-        "javascript"
-      ],
-      "difficulty": [
-        "advanced"
-      ]
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
     },
     {
       "title": "Сила JavaScript. 68 способов эффективного использования JS",
@@ -19,12 +15,8 @@
       "language": "ru",
       "link": "http://www.ozon.ru/context/detail/id/20413530/",
       "thumb": "js-68-ways.jpg",
-      "categories": [
-        "javascript"
-      ],
-      "difficulty": [
-        "advanced"
-      ]
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
     },
     {
       "title": "Отзывчивый веб-дизайн",
@@ -32,13 +24,8 @@
       "language": "ru",
       "link": "http://www.ozon.ru/context/detail/id/8747299/",
       "thumb": "responsive-webdesign.jpg",
-      "categories": [
-        "css",
-        "rwd"
-      ],
-      "difficulty": [
-        "advanced"
-      ]
+      "categories": ["css", "rwd"],
+      "difficulty": ["advanced"]
     },
     {
       "title": "Exploring ES6",
@@ -46,12 +33,8 @@
       "language": "en",
       "link": "http://exploringjs.com/",
       "thumb": "exploring-es6.jpg",
-      "categories": [
-        "JavaScript"
-      ],
-      "difficulty": [
-        "advanced"
-      ]
+      "categories": ["JavaScript"],
+      "difficulty": ["advanced"]
     },
     {
       "title": "Разработка Backbone.js приложений",
@@ -59,13 +42,8 @@
       "language": "ru",
       "link": "http://www.ozon.ru/context/detail/id/25167553/",
       "thumb": "osmani-backbone.jpg",
-      "categories": [
-        "Backbone"
-      ],
-      "difficulty": [
-        "beginner",
-        "advanced"
-      ]
+      "categories": ["Backbone"],
+      "difficulty": ["beginner", "advanced"]
     },
     {
       "title": "JavaScript. Подробное руководство",
@@ -73,12 +51,8 @@
       "language": "ru",
       "link": "http://www.ozon.ru/context/detail/id/19677670/",
       "thumb": "flanagan-javascript-definitive-guide.jpg",
-      "categories": [
-        "JavaScript"
-      ],
-      "difficulty": [
-        "beginner"
-      ]
+      "categories": ["JavaScript"],
+      "difficulty": ["beginner"]
     },
     {
       "title": "JavaScript. Карманный справочник",
@@ -86,13 +60,8 @@
       "language": "ru",
       "link": "http://www.ozon.ru/context/detail/id/31100361/",
       "thumb": "flanagan-javascript-pocket-guide.jpg",
-      "categories": [
-        "JavaScript"
-      ],
-      "difficulty": [
-        "beginner",
-        "advanced"
-      ]
+      "categories": ["JavaScript"],
+      "difficulty": ["beginner", "advanced"]
     },
     {
       "title": "Learning JavaScript",
@@ -100,12 +69,8 @@
       "language": "en",
       "link": "http://shop.oreilly.com/product/9780596521882.do",
       "thumb": "powers-learning-javascript.jpg",
-      "categories": [
-        "JavaScript"
-      ],
-      "difficulty": [
-        "beginner"
-      ]
+      "categories": ["JavaScript"],
+      "difficulty": ["beginner"]
     },
     {
       "title": "Большая книга CSS3",
@@ -113,12 +78,8 @@
       "language": "ru",
       "link": "http://www.ozon.ru/context/detail/id/24493075/",
       "thumb": "css3-the-missing-manual.jpg",
-      "categories": [
-        "css"
-      ],
-      "difficulty": [
-        "beginner"
-      ]
+      "categories": ["css"],
+      "difficulty": ["beginner"]
     },
     {
       "title": "CSS. Каскадные таблицы стилей",
@@ -126,12 +87,8 @@
       "language": "ru",
       "link": "http://www.ozon.ru/context/detail/id/3881079/",
       "thumb": "meyer-css.jpg",
-      "categories": [
-        "css"
-      ],
-      "difficulty": [
-        "beginner"
-      ]
+      "categories": ["css"],
+      "difficulty": ["beginner"]
     },
     {
       "title": "High Performance Web Sites",
@@ -139,13 +96,8 @@
       "language": "en",
       "link": "http://shop.oreilly.com/product/9780596529307.do",
       "thumb": "high-perfomance-websites.jpg",
-      "categories": [
-        "perfomance"
-      ],
-      "difficulty": [
-        "beginner",
-        "advanced"
-      ]
+      "categories": ["perfomance"],
+      "difficulty": ["beginner", "advanced"]
     },
     {
       "title": "Even Faster Web Sites",
@@ -153,13 +105,98 @@
       "language": "en",
       "link": "http://shop.oreilly.com/product/9780596522315.do",
       "thumb": "even-faster-websites.jpg",
-      "categories": [
-        "perfomance"
-      ],
-      "difficulty": [
-        "beginner",
-        "advanced"
-      ]
+      "categories": ["perfomance"],
+      "difficulty": ["beginner", "advanced"]
+    },
+    {
+      "title": "Пуленепробиваемый веб-дизайн",
+      "author": "Дэн Сидерхолм",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/10793233/",
+      "thumb": "bulletproof-web-design.jpg",
+      "categories": ["css"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "Изучаем HTML5",
+      "author": "Брюс Лоусон, Реми Шарп",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/7622650/",
+      "thumb": "introducing-html5.jpg",
+      "categories": ["html5"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "CSS3 для веб-дизайнеров",
+      "author": "Дэн Сидерхолм",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/19431033/",
+      "thumb": "css3-for-web-designers.jpg",
+      "categories": ["css"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "HTML5 для веб-дизайнеров",
+      "author": "Кит Джереми",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/19431055/",
+      "thumb": "html5-for-web-designers.jpg",
+      "categories": ["html5"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "Сначала мобильные!",
+      "author": "Люк Вроблевски",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/15708347/",
+      "thumb": "mobile-first.jpg",
+      "categories": ["CSS"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "JavaScript Design Patterns",
+      "author": "Эдди Османи",
+      "language": "en",
+      "link": "http://addyosmani.com/resources/essentialjsdesignpatterns/book/",
+      "thumb": "learning-javascript-design-patterns.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "CSS3. Руководство разработчика",
+      "author": "Питер Гастон",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/8465610/",
+      "thumb": "css3-developers-guide.jpg",
+      "categories": ["css"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "JavaScript. Оптимизация производительности",
+      "author": "Николас Закас",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/18421547/",
+      "thumb": "high-perfomance-javascript.jpg",
+      "categories": ["javascript", "perfomance"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "JavaScript. Шаблоны",
+      "author": "Стоян Стефанов",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/6287517/",
+      "thumb": "javascript-patterns.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "Паттерны для масштабируемых JavaScript-приложений",
+      "author": "Эдди Османи",
+      "language": "ru",
+      "link": "http://largescalejs.ru/",
+      "thumb": "largescale-js.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
     }
   ]
 }

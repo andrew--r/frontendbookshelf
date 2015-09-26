@@ -14,9 +14,9 @@
 		<meta name="keywords" content="">
 		<title>Список книг — «Книжная полка фронтендера»</title>
 		<!-- Базовые стили-->
-		<link href="assets/styles/core.min.css?t=1443055918371" rel="stylesheet">
+		<link href="assets/styles/core.min.css?t=1443263516998" rel="stylesheet">
 		<!-- Стили страницы-->
-		<link href="assets/styles/index.min.css?t=1443055918371" rel="stylesheet">
+		<link href="assets/styles/index.min.css?t=1443263516998" rel="stylesheet">
 	</head>
 
 	<body>
@@ -32,78 +32,176 @@
 				<div class="container">
 					<h1 class="hero__title">Забудьте о&nbsp;гугле.</h1>
 					<p class="hero__description"><span class="starts-with-quote">«Книжная полка фронтендера»</span> — это коллекция лучших книг для
-						<nobr>фронтенд-разработчиков</nobr>. Книги рассортированы по&nbsp;тематике и&nbsp;сложности, так что вы&nbsp;с&nbsp;лёгкостью найдёте нужную вам книгу.</p>
+						<nobr>фронтенд-разработчиков</nobr>. Книги можно фильтровать по&nbsp;тематике, языку и&nbsp;сложности, благодаря чему вы&nbsp;с&nbsp;лёгкостью найдёте то, что вам нужно.</p>
 				</div>
 			</div>
 		</div>
 		<div class="sort">
 			<div class="sort__inner container"><span class="sort__text">Мне нужна книга книга <nobr>по<select class="sort__select js-category"></select></nobr></span>
+				<nobr><span class="sort__text">на</span>
+					<select class="sort__select js-language"></select>
+				</nobr><span class="sort__text">языке </span>
 				<nobr><span class="sort__text">для</span>
 					<select class="sort__select js-difficulty"></select>
 				</nobr><span class="sort__text">разработчиков</span>
 			</div>
 		</div>
 		<div class="grid container">
-			<div data-categories="javascript" data-difficulty="advanced" class="book grid__item"><a href="http://www.ozon.ru/context/detail/id/20217226/" title="JavaScript. Сильные стороны" class="book__thumb"><span class="book__language book__language--ru">ru</span><img src="assets/images/books/crockford-javascript.jpg" alt="JavaScript. Сильные стороны"/></a>
-				<div
-				class="book__info"><span class="book__author">Дуглас Крокфорд</span><a href="http://www.ozon.ru/context/detail/id/20217226/" class="book__name">JavaScript. Сильные стороны</a>
+			<div data-categories="javascript" data-difficulties="advanced" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/20217226/" title="JavaScript. Сильные стороны" class="book__thumb">
+					<img src="assets/images/books/crockford-javascript.jpg" alt="JavaScript. Сильные стороны" />
+				</a>
+				<div class="book__info"><span class="book__author">Дуглас Крокфорд</span><a href="http://www.ozon.ru/context/detail/id/20217226/" class="book__name">JavaScript. Сильные стороны</a>
+				</div>
 			</div>
-		</div>
-		<div data-categories="javascript" data-difficulty="advanced" class="book grid__item"><a href="http://www.ozon.ru/context/detail/id/20413530/" title="Сила JavaScript. 68 способов эффективного использования JS" class="book__thumb"><span class="book__language book__language--ru">ru</span><img src="assets/images/books/js-68-ways.jpg" alt="Сила JavaScript. 68 способов эффективного использования JS"/></a>
-			<div
-			class="book__info"><span class="book__author">Дэвид Херман</span><a href="http://www.ozon.ru/context/detail/id/20413530/" class="book__name">Сила JavaScript. 68 способов эффективного использования JS</a>
-		</div>
-		</div>
-		<div data-categories="css,rwd" data-difficulty="advanced" class="book grid__item"><a href="http://www.ozon.ru/context/detail/id/8747299/" title="Отзывчивый веб-дизайн" class="book__thumb"><span class="book__language book__language--ru">ru</span><img src="assets/images/books/responsive-webdesign.jpg" alt="Отзывчивый веб-дизайн"/></a>
-			<div
-			class="book__info"><span class="book__author">Итан Маркотт</span><a href="http://www.ozon.ru/context/detail/id/8747299/" class="book__name">Отзывчивый веб-дизайн</a>
-		</div>
-		</div>
-		<div data-categories="javascript" data-difficulty="advanced" class="book grid__item"><a href="http://exploringjs.com/" title="Exploring ES6" class="book__thumb"><span class="book__language book__language--en">en</span><img src="assets/images/books/exploring-es6.jpg" alt="Exploring ES6"/></a>
-			<div class="book__info"><span class="book__author">Аксель Раушмайер</span><a href="http://exploringjs.com/" class="book__name">Exploring ES6</a>
+			<div data-categories="javascript" data-difficulties="advanced" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/20413530/" title="Сила JavaScript. 68 способов эффективного использования JS" class="book__thumb">
+					<img src="assets/images/books/js-68-ways.jpg" alt="Сила JavaScript. 68 способов эффективного использования JS" />
+				</a>
+				<div class="book__info"><span class="book__author">Дэвид Херман</span><a href="http://www.ozon.ru/context/detail/id/20413530/" class="book__name">Сила JavaScript. 68 способов эффективного использования JS</a>
+				</div>
 			</div>
-		</div>
-		<div data-categories="backbone" data-difficulty="beginner,advanced" class="book grid__item"><a href="http://www.ozon.ru/context/detail/id/25167553/" title="Разработка Backbone.js приложений" class="book__thumb"><span class="book__language book__language--ru">ru</span><img src="assets/images/books/osmani-backbone.jpg" alt="Разработка Backbone.js приложений"/></a>
-			<div
-			class="book__info"><span class="book__author">Эдди Османи</span><a href="http://www.ozon.ru/context/detail/id/25167553/" class="book__name">Разработка Backbone.js приложений</a>
-		</div>
-		</div>
-		<div data-categories="javascript" data-difficulty="beginner" class="book grid__item"><a href="http://www.ozon.ru/context/detail/id/19677670/" title="JavaScript. Подробное руководство" class="book__thumb"><span class="book__language book__language--ru">ru</span><img src="assets/images/books/flanagan-javascript-definitive-guide.jpg" alt="JavaScript. Подробное руководство"/></a>
-			<div
-			class="book__info"><span class="book__author">Дэвид Флэнаган</span><a href="http://www.ozon.ru/context/detail/id/19677670/" class="book__name">JavaScript. Подробное руководство</a>
-		</div>
-		</div>
-		<div data-categories="javascript" data-difficulty="beginner,advanced" class="book grid__item"><a href="http://www.ozon.ru/context/detail/id/31100361/" title="JavaScript. Карманный справочник" class="book__thumb"><span class="book__language book__language--ru">ru</span><img src="assets/images/books/flanagan-javascript-pocket-guide.jpg" alt="JavaScript. Карманный справочник"/></a>
-			<div
-			class="book__info"><span class="book__author">Дэвид Флэнаган</span><a href="http://www.ozon.ru/context/detail/id/31100361/" class="book__name">JavaScript. Карманный справочник</a>
-		</div>
-		</div>
-		<div data-categories="javascript" data-difficulty="beginner" class="book grid__item"><a href="http://shop.oreilly.com/product/9780596521882.do" title="Learning JavaScript" class="book__thumb"><span class="book__language book__language--en">en</span><img src="assets/images/books/powers-learning-javascript.jpg" alt="Learning JavaScript"/></a>
-			<div
-			class="book__info"><span class="book__author">Шэлли Пауэрс</span><a href="http://shop.oreilly.com/product/9780596521882.do" class="book__name">Learning JavaScript</a>
-		</div>
-		</div>
-		<div data-categories="css" data-difficulty="beginner" class="book grid__item"><a href="http://www.ozon.ru/context/detail/id/24493075/" title="Большая книга CSS3" class="book__thumb"><span class="book__language book__language--ru">ru</span><img src="assets/images/books/css3-the-missing-manual.jpg" alt="Большая книга CSS3"/></a>
-			<div
-			class="book__info"><span class="book__author">Дэвид Макфарланд</span><a href="http://www.ozon.ru/context/detail/id/24493075/" class="book__name">Большая книга CSS3</a>
-		</div>
-		</div>
-		<div data-categories="css" data-difficulty="beginner" class="book grid__item"><a href="http://www.ozon.ru/context/detail/id/3881079/" title="CSS. Каскадные таблицы стилей" class="book__thumb"><span class="book__language book__language--ru">ru</span><img src="assets/images/books/meyer-css.jpg" alt="CSS. Каскадные таблицы стилей"/></a>
-			<div
-			class="book__info"><span class="book__author">Эрик А. Мейер</span><a href="http://www.ozon.ru/context/detail/id/3881079/" class="book__name">CSS. Каскадные таблицы стилей</a>
-		</div>
-		</div>
-		<div data-categories="perfomance" data-difficulty="beginner,advanced" class="book grid__item"><a href="http://shop.oreilly.com/product/9780596529307.do" title="High Performance Web Sites" class="book__thumb"><span class="book__language book__language--en">en</span><img src="assets/images/books/high-perfomance-websites.jpg" alt="High Performance Web Sites"/></a>
-			<div
-			class="book__info"><span class="book__author">Стив Саудерс</span><a href="http://shop.oreilly.com/product/9780596529307.do" class="book__name">High Performance Web Sites</a>
-		</div>
-		</div>
-		<div data-categories="perfomance" data-difficulty="beginner,advanced" class="book grid__item"><a href="http://shop.oreilly.com/product/9780596522315.do" title="Even Faster Web Sites" class="book__thumb"><span class="book__language book__language--en">en</span><img src="assets/images/books/even-faster-websites.jpg" alt="Even Faster Web Sites"/></a>
-			<div
-			class="book__info"><span class="book__author">Стив Саудерс</span><a href="http://shop.oreilly.com/product/9780596522315.do" class="book__name">Even Faster Web Sites</a>
-		</div>
-		</div>
-		<div class="grid__item"></div>
+			<div data-categories="css,rwd" data-difficulties="advanced" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/8747299/" title="Отзывчивый веб-дизайн" class="book__thumb">
+					<img src="assets/images/books/responsive-webdesign.jpg" alt="Отзывчивый веб-дизайн" />
+				</a>
+				<div class="book__info"><span class="book__author">Итан Маркотт</span><a href="http://www.ozon.ru/context/detail/id/8747299/" class="book__name">Отзывчивый веб-дизайн</a>
+				</div>
+			</div>
+			<div data-categories="javascript" data-difficulties="advanced" data-languages="en" class="book grid__item">
+				<a href="http://exploringjs.com/" title="Exploring ES6" class="book__thumb">
+					<img src="assets/images/books/exploring-es6.jpg" alt="Exploring ES6" />
+				</a>
+				<div class="book__info"><span class="book__author">Аксель Раушмайер</span><a href="http://exploringjs.com/" class="book__name">Exploring ES6</a>
+				</div>
+			</div>
+			<div data-categories="backbone" data-difficulties="beginner,advanced" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/25167553/" title="Разработка Backbone.js приложений" class="book__thumb">
+					<img src="assets/images/books/osmani-backbone.jpg" alt="Разработка Backbone.js приложений" />
+				</a>
+				<div class="book__info"><span class="book__author">Эдди Османи</span><a href="http://www.ozon.ru/context/detail/id/25167553/" class="book__name">Разработка Backbone.js приложений</a>
+				</div>
+			</div>
+			<div data-categories="javascript" data-difficulties="beginner" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/19677670/" title="JavaScript. Подробное руководство" class="book__thumb">
+					<img src="assets/images/books/flanagan-javascript-definitive-guide.jpg" alt="JavaScript. Подробное руководство" />
+				</a>
+				<div class="book__info"><span class="book__author">Дэвид Флэнаган</span><a href="http://www.ozon.ru/context/detail/id/19677670/" class="book__name">JavaScript. Подробное руководство</a>
+				</div>
+			</div>
+			<div data-categories="javascript" data-difficulties="beginner,advanced" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/31100361/" title="JavaScript. Карманный справочник" class="book__thumb">
+					<img src="assets/images/books/flanagan-javascript-pocket-guide.jpg" alt="JavaScript. Карманный справочник" />
+				</a>
+				<div class="book__info"><span class="book__author">Дэвид Флэнаган</span><a href="http://www.ozon.ru/context/detail/id/31100361/" class="book__name">JavaScript. Карманный справочник</a>
+				</div>
+			</div>
+			<div data-categories="javascript" data-difficulties="beginner" data-languages="en" class="book grid__item">
+				<a href="http://shop.oreilly.com/product/9780596521882.do" title="Learning JavaScript" class="book__thumb">
+					<img src="assets/images/books/powers-learning-javascript.jpg" alt="Learning JavaScript" />
+				</a>
+				<div class="book__info"><span class="book__author">Шэлли Пауэрс</span><a href="http://shop.oreilly.com/product/9780596521882.do" class="book__name">Learning JavaScript</a>
+				</div>
+			</div>
+			<div data-categories="css" data-difficulties="beginner" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/24493075/" title="Большая книга CSS3" class="book__thumb">
+					<img src="assets/images/books/css3-the-missing-manual.jpg" alt="Большая книга CSS3" />
+				</a>
+				<div class="book__info"><span class="book__author">Дэвид Макфарланд</span><a href="http://www.ozon.ru/context/detail/id/24493075/" class="book__name">Большая книга CSS3</a>
+				</div>
+			</div>
+			<div data-categories="css" data-difficulties="beginner" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/3881079/" title="CSS. Каскадные таблицы стилей" class="book__thumb">
+					<img src="assets/images/books/meyer-css.jpg" alt="CSS. Каскадные таблицы стилей" />
+				</a>
+				<div class="book__info"><span class="book__author">Эрик А. Мейер</span><a href="http://www.ozon.ru/context/detail/id/3881079/" class="book__name">CSS. Каскадные таблицы стилей</a>
+				</div>
+			</div>
+			<div data-categories="perfomance" data-difficulties="beginner,advanced" data-languages="en" class="book grid__item">
+				<a href="http://shop.oreilly.com/product/9780596529307.do" title="High Performance Web Sites" class="book__thumb">
+					<img src="assets/images/books/high-perfomance-websites.jpg" alt="High Performance Web Sites" />
+				</a>
+				<div class="book__info"><span class="book__author">Стив Саудерс</span><a href="http://shop.oreilly.com/product/9780596529307.do" class="book__name">High Performance Web Sites</a>
+				</div>
+			</div>
+			<div data-categories="perfomance" data-difficulties="beginner,advanced" data-languages="en" class="book grid__item">
+				<a href="http://shop.oreilly.com/product/9780596522315.do" title="Even Faster Web Sites" class="book__thumb">
+					<img src="assets/images/books/even-faster-websites.jpg" alt="Even Faster Web Sites" />
+				</a>
+				<div class="book__info"><span class="book__author">Стив Саудерс</span><a href="http://shop.oreilly.com/product/9780596522315.do" class="book__name">Even Faster Web Sites</a>
+				</div>
+			</div>
+			<div data-categories="css" data-difficulties="advanced" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/10793233/" title="Пуленепробиваемый веб-дизайн" class="book__thumb">
+					<img src="assets/images/books/bulletproof-web-design.jpg" alt="Пуленепробиваемый веб-дизайн" />
+				</a>
+				<div class="book__info"><span class="book__author">Дэн Сидерхолм</span><a href="http://www.ozon.ru/context/detail/id/10793233/" class="book__name">Пуленепробиваемый веб-дизайн</a>
+				</div>
+			</div>
+			<div data-categories="html5" data-difficulties="advanced" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/7622650/" title="Изучаем HTML5" class="book__thumb">
+					<img src="assets/images/books/introducing-html5.jpg" alt="Изучаем HTML5" />
+				</a>
+				<div class="book__info"><span class="book__author">Брюс Лоусон, Реми Шарп</span><a href="http://www.ozon.ru/context/detail/id/7622650/" class="book__name">Изучаем HTML5</a>
+				</div>
+			</div>
+			<div data-categories="css" data-difficulties="beginner" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/19431033/" title="CSS3 для веб-дизайнеров" class="book__thumb">
+					<img src="assets/images/books/css3-for-web-designers.jpg" alt="CSS3 для веб-дизайнеров" />
+				</a>
+				<div class="book__info"><span class="book__author">Дэн Сидерхолм</span><a href="http://www.ozon.ru/context/detail/id/19431033/" class="book__name">CSS3 для веб-дизайнеров</a>
+				</div>
+			</div>
+			<div data-categories="html5" data-difficulties="beginner" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/19431055/" title="HTML5 для веб-дизайнеров" class="book__thumb">
+					<img src="assets/images/books/html5-for-web-designers.jpg" alt="HTML5 для веб-дизайнеров" />
+				</a>
+				<div class="book__info"><span class="book__author">Кит Джереми</span><a href="http://www.ozon.ru/context/detail/id/19431055/" class="book__name">HTML5 для веб-дизайнеров</a>
+				</div>
+			</div>
+			<div data-categories="css" data-difficulties="advanced" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/15708347/" title="Сначала мобильные!" class="book__thumb">
+					<img src="assets/images/books/mobile-first.jpg" alt="Сначала мобильные!" />
+				</a>
+				<div class="book__info"><span class="book__author">Люк Вроблевски</span><a href="http://www.ozon.ru/context/detail/id/15708347/" class="book__name">Сначала мобильные!</a>
+				</div>
+			</div>
+			<div data-categories="javascript" data-difficulties="advanced" data-languages="en" class="book grid__item">
+				<a href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/" title="JavaScript Design Patterns" class="book__thumb">
+					<img src="assets/images/books/learning-javascript-design-patterns.jpg" alt="JavaScript Design Patterns" />
+				</a>
+				<div class="book__info"><span class="book__author">Эдди Османи</span><a href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/" class="book__name">JavaScript Design Patterns</a>
+				</div>
+			</div>
+			<div data-categories="css" data-difficulties="advanced" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/8465610/" title="CSS3. Руководство разработчика" class="book__thumb">
+					<img src="assets/images/books/css3-developers-guide.jpg" alt="CSS3. Руководство разработчика" />
+				</a>
+				<div class="book__info"><span class="book__author">Питер Гастон</span><a href="http://www.ozon.ru/context/detail/id/8465610/" class="book__name">CSS3. Руководство разработчика</a>
+				</div>
+			</div>
+			<div data-categories="javascript,perfomance" data-difficulties="advanced" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/18421547/" title="JavaScript. Оптимизация производительности" class="book__thumb">
+					<img src="assets/images/books/high-perfomance-javascript.jpg" alt="JavaScript. Оптимизация производительности" />
+				</a>
+				<div class="book__info"><span class="book__author">Николас Закас</span><a href="http://www.ozon.ru/context/detail/id/18421547/" class="book__name">JavaScript. Оптимизация производительности</a>
+				</div>
+			</div>
+			<div data-categories="javascript" data-difficulties="advanced" data-languages="ru" class="book grid__item">
+				<a href="http://www.ozon.ru/context/detail/id/6287517/" title="JavaScript. Шаблоны" class="book__thumb">
+					<img src="assets/images/books/javascript-patterns.jpg" alt="JavaScript. Шаблоны" />
+				</a>
+				<div class="book__info"><span class="book__author">Стоян Стефанов</span><a href="http://www.ozon.ru/context/detail/id/6287517/" class="book__name">JavaScript. Шаблоны</a>
+				</div>
+			</div>
+			<div data-categories="javascript" data-difficulties="advanced" data-languages="ru" class="book grid__item">
+				<a href="http://largescalejs.ru/" title="Паттерны для масштабируемых JavaScript-приложений" class="book__thumb">
+					<img src="assets/images/books/largescale-js.jpg" alt="Паттерны для масштабируемых JavaScript-приложений" />
+				</a>
+				<div class="book__info"><span class="book__author">Эдди Османи</span><a href="http://largescalejs.ru/" class="book__name">Паттерны для масштабируемых JavaScript-приложений</a>
+				</div>
+			</div>
+			<div class="grid__item"></div>
 		</div>
 		<div class="footer footer--main">
 			<div class="footer__inner container">
@@ -116,6 +214,14 @@
 		<script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
 		<script type="text/javascript" src="assets/scripts/vendor/stretchy.min.js"></script>
 		<script type="text/javascript" src="assets/scripts/build.js"></script>
+		<script type="text/javascript">
+			(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter32702595 = new Ya.Metrika({ id:32702595, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");
+		</script>
+		<noscript>
+			<div>
+				<img src="https://mc.yandex.ru/watch/32702595" style="position:absolute; left:-9999px;" alt="">
+			</div>
+		</noscript>
 	</body>
 
 </html>

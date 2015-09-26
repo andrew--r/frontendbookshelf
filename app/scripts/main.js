@@ -17,7 +17,8 @@ class Main {
 
     this.selects = new Selects({
       category: '.js-category',
-      difficulty: '.js-difficulty'
+      difficulty: '.js-difficulty',
+      language: '.js-language'
     });
 
     this.categoriesTable = {
@@ -25,12 +26,19 @@ class Main {
       'css': 'CSS',
       'rwd': 'отзывчивой вёрстке',
       'backbone': 'Backbone',
-      'perfomance': 'оптимизации'
+      'perfomance': 'оптимизации',
+      'html5': 'HTML5'
     };
 
     this.difficultiesTable = {
       'beginner': 'начинающих',
       'advanced': 'продвинутых'
+    };
+
+    this.languagesTable = {
+      'en': 'английском',
+      'ru': 'русском',
+      'any': 'любом'
     };
 
     this.bindEvents();
@@ -39,24 +47,59 @@ class Main {
   }
 
   bindEvents() {
+    // functions to handle select values changes
+    let categoryChanged = (cat) => {
+      this.bookList.filter({
+        criterion: 'category',
+        category: cat
+      });
+
+      this.selects.fill('language', this.bookList.getCriterion('languages'), this.languagesTable);
+      languageChanged(this.selects.getCurrentValue('language'));
+    };
+
+    let languageChanged = (lang) => {
+      this.bookList.filter({
+        criterion: 'language',
+        category: this.selects.getCurrentValue('category'),
+        language: lang
+      });
+
+      this.selects.fill('difficulty', this.bookList.getCriterion('difficulties'), this.difficultiesTable);
+      difficultyChanged(this.selects.getCurrentValue('difficulty'));
+    };
+
+    let difficultyChanged = (diff) => {
+      this.bookList.filter({
+        criterion: 'difficulty',
+        category: this.selects.getCurrentValue('category'),
+        language: this.selects.getCurrentValue('language'),
+        difficulty: diff
+      });
+
+      window.Stretchy.resizeAll();
+    };
+
     // when application starts
     this.on('start', () => {
-      this.selects.fillCategory(this.bookList.getCategories(), this.categoriesTable);
+      this.selects.fill('category', this.bookList.getCriterion('categories'), this.categoriesTable);
 
-      this.bookList.filterByCategory(this.selects.getCurrentCategory());
-      this.selects.fillDifficulty(this.bookList.getDifficulties(), this.difficultiesTable);
+      categoryChanged(this.selects.getCurrentValue('category'));
     });
 
     // when user chooses category
     this.selects.categorySelect.addEventListener('change', (e) => {
-      this.bookList.filterByCategory(e.target.value);
-      this.selects.fillDifficulty(this.bookList.getDifficulties(), this.difficultiesTable);
+      categoryChanged(e.target.value);
     });
 
-    // when user chooses difficulty
+    // when language criterion changes
+    this.selects.languageSelect.addEventListener('change', (e) => {
+      languageChanged(e.target.value);
+    });
+
+    // when difficulty criterion changes
     this.selects.difficultySelect.addEventListener('change', (e) => {
-      console.log('asd');
-      this.bookList.filterByDifficulty(e.target.value, this.selects.getCurrentCategory());
+      difficultyChanged(e.target.value);
     });
   }
 

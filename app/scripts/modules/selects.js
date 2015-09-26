@@ -1,36 +1,37 @@
 let $$ = require('./$$.js');
 
 module.exports = class Selects {
+  // @config — object
+  // @config.categorySelect,
+  // @config.difficultySelect,
+  // @config.languageSelect — string
   constructor(config) {
     this.categorySelect = $$(config.category)[0];
     this.difficultySelect = $$(config.difficulty)[0];
+    this.languageSelect = $$(config.language)[0];
   }
 
-  fillCategory(categories, categoriesTable) {
+  // @type — string
+  // type of select you want to fill in
+  // @typeValues — array
+  // values to fill in the select
+  // @typeTable — object
+  // how to transform option values into readable names
+  fill(type, typeValues, typeTable) {
     let html = '';
 
-    categories.forEach((category) => {
-      html += `<option value="${category}">${categoriesTable[category]}</option>`;
+    typeValues.forEach((value) => {
+      html += `<option value="${value}">${typeTable[value]}</option>`
     });
 
-    this.categorySelect.innerHTML = html;
+    let select = type + 'Select';
+
+    this[select].innerHTML = html;
   }
 
-  fillDifficulty(difficulties, difficultiesTable) {
-    let html = '';
-
-    difficulties.forEach((difficulty) => {
-      html += `<option value="${difficulty}">${difficultiesTable[difficulty]}</option>`;
-    });
-
-    this.difficultySelect.innerHTML = html;
-  }
-
-  getCurrentCategory() {
-    return this.categorySelect.value;
-  }
-
-  getCurrentDifficulty() {
-    return this.difficultySelect.value;
+  getCurrentValue(type) {
+    let select = type + 'Select';
+    
+    return this[select].value;
   }
 }
