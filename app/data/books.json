@@ -197,6 +197,51 @@
       "thumb": "largescale-js.jpg",
       "categories": ["javascript"],
       "difficulty": ["advanced"]
+    },
+    {
+      "title": "You Don't Know JS: Up & Going",
+      "author": "Кайл Симпсон",
+      "language": "en",
+      "link": "https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going",
+      "thumb": "ydkjs-up-and-going.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "You Don't Know JS: Scope & Closures",
+      "author": "Кайл Симпсон",
+      "language": "en",
+      "link": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures",
+      "thumb": "ydkjs-scope-and-closures.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "You Don't Know JS: this & Object Prototypes",
+      "author": "Кайл Симпсон",
+      "language": "en",
+      "link": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes",
+      "thumb": "ydkjs-this-and-op.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "You Don't Know JS: Types & Grammar",
+      "author": "Кайл Симпсон",
+      "language": "en",
+      "link": "https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&%20grammar/README.md#you-dont-know-js-types--grammar",
+      "thumb": "ydkjs-types-and-grammar.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "You Don't Know JS: Async & Performance",
+      "author": "Кайл Симпсон",
+      "language": "en",
+      "link": "https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance",
+      "thumb": "ydkjs-async-and-perfomance.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
     }
   ]
 }

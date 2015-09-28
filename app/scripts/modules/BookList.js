@@ -29,7 +29,7 @@ module.exports = class BookList {
 
   _filterLanguage(language, currentCategory) {
     // hide elements that doesn't match with certain parameter
-    $$(`.book[data-categories="${currentCategory}"]:not([data-languages="${language}"])`).forEach((i) => {
+    $$(`.book[data-categories*="${currentCategory}"]:not([data-languages="${language}"])`).forEach((i) => {
       let index = this.list.indexOf(i);
       this.list[index].classList.add('js-hidden');
     });
