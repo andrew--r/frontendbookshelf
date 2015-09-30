@@ -242,6 +242,15 @@
       "thumb": "ydkjs-async-and-perfomance.jpg",
       "categories": ["javascript"],
       "difficulty": ["advanced"]
+    },
+    {
+      "title": "CSS Secrets",
+      "author": "Лиа Веру",
+      "language": "en",
+      "link": "http://shop.oreilly.com/product/0636920031123.do",
+      "thumb": "css-secrets.jpg",
+      "categories": ["css"],
+      "difficulty": ["advanced"]
     }
   ]
 }
