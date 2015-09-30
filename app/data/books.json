@@ -253,22 +253,13 @@
       "difficulty": ["advanced"]
     },
     {
-      "title": "JavaScript The Good Parts",
-      "author": "Джейк Спарлок",
-      "language": "en",
-      "link": "http://shop.oreilly.com/product/0636920027867.do",
-      "thumb": "js-the-good-parts.jpg",
-      "categories": ["javascript"],
-      "difficulty": ["beginner"]
-    },
-    {
       "title": "Bootstrap",
       "author": "Джейк Спарлок",
       "language": "en",
       "link": "http://shop.oreilly.com/product/0636920027867.do",
       "thumb": "bootstrap.jpg",
       "categories": ["css", "rwd"],
-      "difficulty": ["beginner"]
+      "difficulty": ["advanced"]
     }
   ]
 }
