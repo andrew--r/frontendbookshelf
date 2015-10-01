@@ -260,6 +260,15 @@
       "thumb": "bootstrap.jpg",
       "categories": ["css", "rwd"],
       "difficulty": ["advanced"]
+    },
+    {
+      "title": "JavaScript Enlightenment",
+      "author": "Коди Линдли",
+      "language": "en",
+      "link": "http://www.javascriptenlightenment.com/",
+      "thumb": "javascript-enlightenment.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner"]
     }
   ]
 }
