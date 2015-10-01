@@ -314,6 +314,15 @@
       "thumb": "jquery-fundamentals.jpg",
       "categories": ["jquery"],
       "difficulty": ["beginner"]
+    },
+    {  
+      "title": "Speaking JavaScript",
+      "author": "Аксель Раушмайер",
+      "language": "en",
+      "link": "http://speakingjs.com/es5/index.html",
+      "thumb": "speakingjs-rauschmayer.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
     }
   ]
 }
