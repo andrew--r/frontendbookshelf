@@ -27,7 +27,9 @@ class Main {
       'rwd': 'отзывчивой вёрстке',
       'backbone': 'Backbone',
       'perfomance': 'оптимизации',
-      'html5': 'HTML5'
+      'html5': 'HTML5',
+      'coffeescript': 'CoffeeScript',
+      'jquery': 'jQuery'
     };
 
     this.difficultiesTable = {
@@ -37,8 +39,7 @@ class Main {
 
     this.languagesTable = {
       'en': 'английском',
-      'ru': 'русском',
-      'any': 'любом'
+      'ru': 'русском'
     };
 
     this.bindEvents();

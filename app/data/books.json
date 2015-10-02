@@ -269,6 +269,51 @@
       "thumb": "javascript-enlightenment.jpg",
       "categories": ["javascript"],
       "difficulty": ["beginner"]
+    },
+    {
+      "title": "Выразительный Javascript",
+      "author": "Марейн Хавербек",
+      "language": "ru",
+      "link": "https://karmazzin.gitbooks.io/eloquentjavascript_ru/",
+      "thumb": "eloquent-javascript.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "Building a JavaScript Framework",
+      "author": "Алекс Янг",
+      "language": "en",
+      "link": "http://dailyjs.com/2010/12/02/framework-review/",
+      "thumb": "building-js-framework.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "Smooth CoffeeScript",
+      "author": "E. Hoigaard",
+      "language": "en",
+      "link": "http://autotelicum.github.io/Smooth-CoffeeScript/",
+      "thumb": "smooth-coffeescript.png",
+      "categories": ["coffeescript"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "The Little Book on CoffeeScript",
+      "author": "Алекс Маккоу",
+      "language": "en",
+      "link": "https://arcturo.github.io/library/coffeescript/",
+      "thumb": "the-little-book-on-coffeescript.jpg",
+      "categories": ["coffeescript"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "jQuery Fundamentals",
+      "author": "Ребекка Мёрфи",
+      "language": "en",
+      "link": "http://jqfundamentals.com/",
+      "thumb": "jquery-fundamentals.jpg",
+      "categories": ["jquery"],
+      "difficulty": ["beginner"]
     }
   ]
 }
