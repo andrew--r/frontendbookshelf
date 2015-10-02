@@ -269,6 +269,15 @@
       "thumb": "javascript-enlightenment.jpg",
       "categories": ["javascript"],
       "difficulty": ["beginner"]
+    },
+    {
+      "title": "Не заставляйте меня думать",
+      "author": "Стив Круг",
+      "language": "ru",
+      "link": "https://vk.com/doc102386795_383282861?hash=3c0bff2e83c3498141&dl=a36e30f15806808362",
+      "thumb": "dont-make-me-think.jpg",
+      "categories": ["design"],
+      "difficulty": ["beginner"]
     }
   ]
 }
