@@ -278,6 +278,15 @@
       "thumb": "dont-make-me-think.jpg",
       "categories": ["design"],
       "difficulty": ["beginner"]
+    },
+    {
+      "title": "Transforms in CSS",
+      "author": "Эрик Мэйер",
+      "language": "en",
+      "link": "http://www.oreilly.com/free/transforms-in-css.csp?download=true",
+      "thumb": "transforms-in-css.gif",
+      "categories": ["css"],
+      "difficulty": ["beginner"]
     }
   ]
 }

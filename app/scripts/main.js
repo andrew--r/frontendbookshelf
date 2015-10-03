@@ -24,10 +24,11 @@ class Main {
     this.categoriesTable = {
       'javascript': 'JavaScript',
       'css': 'CSS',
-      'rwd': 'отзывчивой вёрстке',
+      'rwd': 'Отзывчивой вёрстке',
       'backbone': 'Backbone',
-      'perfomance': 'оптимизации',
-      'html5': 'HTML5'
+      'perfomance': 'Оптимизации',
+      'html5': 'HTML5',
+      'design': 'Дизайн'
     };
 
     this.difficultiesTable = {
