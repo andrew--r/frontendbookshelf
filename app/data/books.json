@@ -323,6 +323,15 @@
       "thumb": "speakingjs-rauschmayer.jpg",
       "categories": ["javascript"],
       "difficulty": ["advanced"]
+    },
+    {  
+      "title": "Transforms in CSS",
+      "author": "Эрик Мейер",
+      "language": "en",
+      "link": "http://www.oreilly.com/free/transforms-in-css.csp",
+      "thumb": "transforms-in-css.jpg",
+      "categories": ["css"],
+      "difficulty": ["advanced"]
     }
   ]
 }
