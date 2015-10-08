@@ -332,6 +332,15 @@
       "thumb": "transforms-in-css.jpg",
       "categories": ["css"],
       "difficulty": ["advanced"]
+    },
+    {  
+      "title": "jQuery. Подробное руководство по продвинутому JavaScript",
+      "author": "Бер Бибо, Иегуда Кац",
+      "language": "ru",
+      "link": "http://www.books.ru/books/jquery-podrobnoe-rukovodstvo-po-prodvinutomu-javascript-619339/",
+      "thumb": "jquery-in-action.jpg",
+      "categories": ["jquery"],
+      "difficulty": ["advanced"]
     }
   ]
 }
