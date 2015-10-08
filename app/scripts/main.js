@@ -2,14 +2,14 @@ let $$ = require('./modules/$$.js');
 let pseudohover = require('./modules/pseudohover.js');
 let BookList = require('./modules/BookList.js');
 let Selects = require('./modules/selects.js');
-let pubSubExtend = require('./pubsub.js');
+let PubSub = require('./pubsub.js');
 
 
-class Main {
+class Main extends PubSub {
   constructor() {
     pseudohover();
 
-    pubSubExtend.call(this);
+    super();
 
     this.bookList = new BookList({
       baseClass: '.book'
@@ -110,3 +110,5 @@ class Main {
 }
 
 window.main = new Main();
+
+window.PubSub = PubSub;

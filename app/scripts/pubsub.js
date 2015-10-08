@@ -1,17 +1,17 @@
-module.exports = function() {
-  this.on = function(eventName, callback) {
+module.exports = class PubSub {
+  on(eventName, callback) {
     this.events = this.events || {};
 
     this.events[eventName] = this.events[eventName] || [];
     this.events[eventName].push(callback);
     return this;
-  };
+  }
 
-  this.trigger = function(eventName) {
+  trigger(eventName) {
     if (this.events && this.events[eventName]) {
       this.events[eventName].forEach((i) => {
         i.call(this);
       });
     }
-  };
-}
+  }
+};
