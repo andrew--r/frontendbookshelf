@@ -315,7 +315,7 @@
       "categories": ["jquery"],
       "difficulty": ["beginner"]
     },
-    {  
+    {
       "title": "Speaking JavaScript",
       "author": "Аксель Раушмайер",
       "language": "en",
@@ -332,8 +332,8 @@
       "thumb": "build-your-own-angular-parviainen.png",
       "categories": ["javascript"],
       "difficulty": ["advanced"]
-    },
-    {  
+    }, 
+    {
       "title": "Transforms in CSS",
       "author": "Эрик Мейер",
       "language": "en",
@@ -342,7 +342,7 @@
       "categories": ["css"],
       "difficulty": ["advanced"]
     },
-    {  
+    {
       "title": "jQuery. Подробное руководство по продвинутому JavaScript",
       "author": "Бер Бибо, Иегуда Кац",
       "language": "ru",
@@ -350,6 +350,24 @@
       "thumb": "jquery-in-action.jpg",
       "categories": ["jquery"],
       "difficulty": ["advanced"]
+    },
+    {
+      "title": "Understanding ECMAScript 6",
+      "author": "Николас Закас",
+      "language": "en",
+      "link": "https://leanpub.com/understandinges6/read/",
+      "thumb": "understanding-es6-zakas.png",
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "Front-end Handbook",
+      "author": "Коди Линдли",
+      "language": "en",
+      "link": "https://www.gitbook.com/book/frontendmasters/front-end-handbook/details",
+      "thumb": "frontend-handbook.png",
+      "categories": ["work"],
+      "difficulty": ["beginner"]
     }
   ]
 }

@@ -29,7 +29,8 @@ class Main extends PubSub {
       'perfomance': 'оптимизации',
       'html5': 'HTML5',
       'coffeescript': 'CoffeeScript',
-      'jquery': 'jQuery'
+      'jquery': 'jQuery',
+      'work': 'специфике работы'
     };
 
     this.difficultiesTable = {
