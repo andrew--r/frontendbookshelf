@@ -325,6 +325,15 @@
       "difficulty": ["advanced"]
     },
     {  
+      "title": "Build Your Own AngularJS",
+      "author": "Tero Parviainen",
+      "language": "en",
+      "link": "http://teropa.info/build-your-own-angular",
+      "thumb": "build-your-own-angular-parviainen.png",
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
+    },
+    {  
       "title": "Transforms in CSS",
       "author": "Эрик Мейер",
       "language": "en",
