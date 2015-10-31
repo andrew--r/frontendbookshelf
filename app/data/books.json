@@ -368,6 +368,51 @@
       "thumb": "frontend-handbook.png",
       "categories": ["work"],
       "difficulty": ["beginner"]
+    },
+    {
+      "title": "Professional JavaScript for Web Developers",
+      "author": "Николас Закас",
+      "language": "en",
+      "link": "http://www.amazon.com/Professional-JavaScript-Developers-Nicholas-Zakas/dp/1118026691",
+      "thumb": "professional-js-for-web-developers.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "HTML5 Canvas",
+      "author": "Стив Фултон, Джефф Фултон",
+      "language": "en",
+      "link": "http://www.amazon.com/HTML5-Canvas-Steve-Fulton/dp/1449334989",
+      "thumb": "html5-canvas.jpg",
+      "categories": ["html5"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "Async JavaScript",
+      "author": "Тревор Бёрнхэм",
+      "language": "en",
+      "link": "http://www.amazon.com/Async-JavaScript-Responsive-Pragmatic-Express/dp/1937785270/",
+      "thumb": "async-javascript.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "Test-Driven JavaScript Development",
+      "author": "Кристиан Йохансен",
+      "language": "en",
+      "link": "http://www.amazon.com/Test-Driven-JavaScript-Development-Developers-Library/dp/0321683919",
+      "thumb": "test-driven-js-development.png",
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "Node.js in Action",
+      "author": "Майк Кэнтелон, Марк Хартер, T. J. Holowaychuk, Nathan Rajlich",
+      "language": "en",
+      "link": "http://www.amazon.com/Node-js-Action-Mike-Cantelon/dp/1617290572",
+      "thumb": "node-in-action.jpg",
+      "categories": ["node"],
+      "difficulty": ["beginner"]
     }
   ]
 }

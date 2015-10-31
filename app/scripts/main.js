@@ -30,6 +30,7 @@ class Main extends PubSub {
       'html5': 'HTML5',
       'coffeescript': 'CoffeeScript',
       'jquery': 'jQuery',
+      'node': 'Node.js',
       'work': 'специфике работы'
     };
 
