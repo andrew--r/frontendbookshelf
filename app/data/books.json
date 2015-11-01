@@ -284,7 +284,7 @@
       "author": "Алекс Янг",
       "language": "en",
       "link": "http://dailyjs.com/2010/12/02/framework-review/",
-      "thumb": "building-js-framework.jpg",
+      "thumb": "building-js-framework.png",
       "categories": ["javascript"],
       "difficulty": ["advanced"]
     },
@@ -311,7 +311,7 @@
       "author": "Ребекка Мёрфи",
       "language": "en",
       "link": "http://jqfundamentals.com/",
-      "thumb": "jquery-fundamentals.jpg",
+      "thumb": "jquery-fundamentals.png",
       "categories": ["jquery"],
       "difficulty": ["beginner"]
     },
@@ -329,7 +329,7 @@
       "author": "Tero Parviainen",
       "language": "en",
       "link": "http://teropa.info/build-your-own-angular",
-      "thumb": "build-your-own-angular-parviainen.png",
+      "thumb": "build-your-own-angularjs.jpg",
       "categories": ["javascript"],
       "difficulty": ["advanced"]
     }, 
@@ -356,7 +356,7 @@
       "author": "Николас Закас",
       "language": "en",
       "link": "https://leanpub.com/understandinges6/read/",
-      "thumb": "understanding-es6-zakas.png",
+      "thumb": "understanding-es6.jpg",
       "categories": ["javascript"],
       "difficulty": ["advanced"]
     },
