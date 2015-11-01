@@ -413,6 +413,15 @@
       "thumb": "node-in-action.jpg",
       "categories": ["node"],
       "difficulty": ["beginner"]
+    },
+    {
+      "title": "The npm Book",
+      "author": "Тревор Бёрнхэм",
+      "language": "en",
+      "link": "https://leanpub.com/npm",
+      "thumb": "the-npm-book.jpg",
+      "categories": ["tools"],
+      "difficulty": ["beginner"]
     }
   ]
 }

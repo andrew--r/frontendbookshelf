@@ -31,7 +31,8 @@ class Main extends PubSub {
       'coffeescript': 'CoffeeScript',
       'jquery': 'jQuery',
       'node': 'Node.js',
-      'work': 'специфике работы'
+      'work': 'специфике работы',
+      'tools': 'инструментам/автоматизации'
     };
 
     this.difficultiesTable = {
