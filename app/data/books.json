@@ -422,6 +422,43 @@
       "thumb": "the-npm-book.jpg",
       "categories": ["tools"],
       "difficulty": ["beginner"]
+    },
+    {
+      "title": "Getting Started with Gulp",
+      "author": "Тревис Мейнард",
+      "language": "en",
+      "link": "http://www.amazon.com/Getting-Started-Gulp-Travis-Maynard/dp/1784395765",
+      "thumb": "getting-start-with-gulp.jpg",
+      "categories": ["tools"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "Getting Started with Grunt: The JavaScript Task Runner",
+      "author": "Jaime Pillora",
+      "language": "en",
+      "link": "http://www.amazon.com/Getting-Started-Grunt-JavaScript-Runner/dp/1783980621",
+      "thumb": "getting-start-with-grunt.jpg",
+      "categories": ["tools"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "Backbone.Marionette.js: A Gentle Introduction ",
+      "author": "David Sulc",
+      "language": "en",
+      "link": "https://leanpub.com/marionette-testing",
+      "thumb": "getting-start-with-grunt.jpg",
+      "categories": ["Backbone"],
+      "difficulty": ["Intermediate"]
+    },
+    {
+      "title": " MEAN Machine. A beginner's practical guide to the JavaScript stack. ",
+      "author": " Chris Sevilleja, Holly Lloyd ",
+      "language": "en",
+      "link": "https://leanpub.com/mean-machine",
+      "thumb": "getting-start-with-grunt.jpg",
+      "categories": ["Backbone"],
+      "difficulty": ["Intermediate"]
     }
+
   ]
 }
