@@ -37,6 +37,7 @@ class Main extends PubSub {
 
     this.difficultiesTable = {
       'beginner': 'начинающих',
+      'intermediate': 'средних',
       'advanced': 'продвинутых'
     };
 
