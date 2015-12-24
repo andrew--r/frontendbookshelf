@@ -455,10 +455,37 @@
       "author": " Chris Sevilleja, Holly Lloyd ",
       "language": "en",
       "link": "https://leanpub.com/mean-machine",
-      "thumb": "getting-start-with-grunt.jpg",
+      "thumb": "mean-machine.jpg",
       "categories": ["Backbone"],
       "difficulty": ["Intermediate"]
-    }
+    },
+    {
+      "title": " Секреты JavaScript ниндзя",
+      "author": "Джон Резиг, Беэр Бибо",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/22421421/",
+      "thumb": "sekrety-js-nindzya.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "advanced"]
+    },
+    {
+      "title": "HTML5 и CSS3. Разработка сайтов для любых браузеров и устройств",
+      "author": "Бен Фрейн",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/28335841/",
+      "thumb": "html5-css-dev-site.jpg",
+      "categories": ["html", "css"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "Sass and Compass for Designers",
+      "author": "Бен Фрейн",
+      "language": "en",
+      "link": "http://www.amazon.com/Sass-Compass-Designers-Ben-Frain/dp/1849694540",
+      "thumb": "sass-and-compass-for-designers.jpg",
+      "categories": ["css"],
+      "difficulty": ["beginner"]
+    },
 
   ]
 }
