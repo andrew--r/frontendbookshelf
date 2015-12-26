@@ -539,6 +539,60 @@
       "thumb": "sozdayom-dinamicheskie-sayty-s-pomoschu-php-mysql-javascript-css-i-html5.jpg",
       "categories": ["html5", "css", "javascript"],
       "difficulty": ["intermediate", "advanced"]
+    },
+    {
+      "title": "Web Standards Mastering HTML5, CSS3, and XML",
+      "author":"Leslie F. Sikos, Ph.D.",
+      "language": "en",
+      "link": "http://www.amazon.com/Web-Standards-Mastering-Experts-Development/dp/1430240415",
+      "thumb": "web-standards-html5-css3-xml.jpg",
+      "categories": ["html5", "css"],
+      "difficulty": ["intermediate", "advanced"]
+    },
+    {
+      "title": "Beginning HTML5 Media",
+      "author": "Tom Green , Silvia Pfeiffer",
+      "language": "en",
+      "link": "http://www.amazon.com/Beginning-HTML5-Media-video-standards/dp/1484204611",
+      "thumb": "beginning-html5-media.jpg",
+      "categories": ["html5"],
+      "difficulty": ["intermediate"]
+    },
+    {
+      "title": "HTML5 Programmer's Reference",
+      "author": "Jonathan Reid",
+      "language": "en",
+      "link": "http://www.amazon.com/HTML5-Programmers-Reference-Jonathan-Reid/dp/1430263679",
+      "thumb": "html5-programmer-reference.jpg",
+      "categories": ["html5"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "The Definitive Guide to HTML5 WebSocket",
+      "author": "Vanessa Wang , Frank Salim , Peter Moskovits",
+      "language": "en",
+      "link": "http://www.amazon.com/The-Definitive-Guide-HTML5-WebSocket/dp/1430247401",
+      "thumb": "definitive-guide-to-html5-websocket.jpg",
+      "categories": ["html5"],
+      "difficulty": ["intermediate", "advanced"]
+    },
+    {
+      "title": "HTML5 Advertising",
+      "author": "John Percival",
+      "language": "en",
+      "link": "http://www.amazon.com/HTML5-Advertising-Experts-Voice-Development/dp/1430246022",
+      "thumb": "html5-advertising.jpg",
+      "categories": ["html5"],
+      "difficulty": ["beginner to intermediate"]
+    },
+    {
+      "title": "Pro HTML5 Games",
+      "author": "Aditya Ravi Shankar",
+      "language": "en",
+      "link": "http://www.amazon.com/HTML5-Games-Experts-Voice-Development/dp/143024710X",
+      "thumb": "pro-html5-games.jpg",
+      "categories": ["html5"],
+      "difficulty": ["intermediate"]
     }
   ]
 }
