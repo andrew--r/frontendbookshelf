@@ -420,8 +420,179 @@
       "language": "en",
       "link": "https://leanpub.com/npm",
       "thumb": "the-npm-book.jpg",
+      "categories": ["node"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "Getting Started with Gulp",
+      "author": "Тревис Мейнард",
+      "language": "en",
+      "link": "http://www.amazon.com/Getting-Started-Gulp-Travis-Maynard/dp/1784395765",
+      "thumb": "getting-start-with-gulp.jpg",
       "categories": ["tools"],
       "difficulty": ["beginner"]
+    },
+    {
+      "title": "Getting Started with Grunt: The JavaScript Task Runner",
+      "author": "Jaime Pillora",
+      "language": "en",
+      "link": "http://www.amazon.com/Getting-Started-Grunt-JavaScript-Runner/dp/1783980621",
+      "thumb": "getting-start-with-grunt.jpg",
+      "categories": ["tools"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "Backbone.Marionette.js: A Gentle Introduction ",
+      "author": "David Sulc",
+      "language": "en",
+      "link": "https://leanpub.com/marionette-testing",
+      "thumb": "getting-start-with-grunt.jpg",
+      "categories": ["Backbone"],
+      "difficulty": ["intermediate"]
+    },
+    {
+      "title": " MEAN Machine. A beginner's practical guide to the JavaScript stack. ",
+      "author": " Chris Sevilleja, Holly Lloyd ",
+      "language": "en",
+      "link": "https://leanpub.com/mean-machine",
+      "thumb": "mean-machine.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["intermediate"]
+    },
+    {
+      "title": " Секреты JavaScript ниндзя",
+      "author": "Джон Резиг, Беэр Бибо",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/22421421/",
+      "thumb": "sekrety-js-nindzya.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate", "advanced"]
+    },
+    {
+      "title": "HTML5 и CSS3. Разработка сайтов для любых браузеров и устройств",
+      "author": "Бен Фрейн",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/28335841/",
+      "thumb": "html5-css-dev-site.jpg",
+      "categories": ["html5", "css"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "Sass and Compass for Designers",
+      "author": "Бен Фрейн",
+      "language": "en",
+      "link": "http://www.amazon.com/Sass-Compass-Designers-Ben-Frain/dp/1849694540",
+      "thumb": "sass-and-compass-for-designers.jpg",
+      "categories": ["css"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "HTML5 and CSS3 Responsive Web Design Cookbook",
+      "author":"Benjamin LaGrone",
+      "language": "en",
+      "link": "http://www.amazon.com/HTML5-CSS3-Responsive-Design-Cookbook/dp/184969544X",
+      "thumb": "html-css-responsive-web-design.jpg",
+      "categories": ["css", "rwd", "html5"],
+      "difficulty": ["intermediate"]
+    },
+    {
+      "title": "Lean Websites",
+      "author":"Barbara Bermes",
+      "language": "en",
+      "link": "http://www.amazon.com/Lean-Websites-Barbara-Bermes/dp/0992279461/ref=sr_1_1?s=books&ie=UTF8&qid=1450986754&sr=1-1&keywords=Lean+Websites",
+      "thumb": "lean-websites.jpg",
+      "categories": ["work"],
+      "difficulty": ["intermediate"]
+    },
+    {
+      "title": "HTML5. Для профессионалов.",
+      "author":"Хуан Диего Хоше",
+      "language": "ru",
+      "link": "http://www.piter.com/collection/programmirovanie-na-html5/product/html5-dlya-professionalov-2-e-izd",
+      "thumb": "html5-for-profecional.jpg",
+      "categories": ["html5"],
+      "difficulty": ["intermediate", "advanced"]
+    },
+    {
+      "title": "Less. Путеводитель для новичков",
+      "author":"Денис Малиночкин",
+      "language": "ru",
+      "link": "https://www.gitbook.com/book/mrmlnc/less-guidebook-for-beginners/details",
+      "thumb": "less-guide-for-beginners.jpg",
+      "categories": ["css"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "HTML5. Разработка приложений для мобильных устройств",
+      "author":"Эстель Вейл",
+      "language": "ru",
+      "link": "http://www.piter.com/product/html5-razrabotka-prilozheniy-dlya-mobilnyh-ustroystv",
+      "thumb": "mobile-html5.jpg",
+      "categories": ["html5"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Создаем динамические веб-сайты с помощью PHP, MySQL, JavaScript, CSS и HTML5",
+      "author":"Робин Никсон",
+      "language": "ru",
+      "link": "http://www.piter.com/product/sozdaem-dinamicheskie-veb-sayty-s-pomoschyu-php-mysql-javascript-css-i-html5-3-e-izd?gsaid=42817&_gs_ref=cd206d1dabb5037f895ce4f10a86ea718cf08e21&_gs_cttl=120",
+      "thumb": "sozdayom-dinamicheskie-sayty-s-pomoschu-php-mysql-javascript-css-i-html5.jpg",
+      "categories": ["html5", "css", "javascript"],
+      "difficulty": ["intermediate", "advanced"]
+    },
+    {
+      "title": "Web Standards Mastering HTML5, CSS3, and XML",
+      "author":"Leslie F. Sikos, Ph.D.",
+      "language": "en",
+      "link": "http://www.amazon.com/Web-Standards-Mastering-Experts-Development/dp/1430240415",
+      "thumb": "web-standards-html5-css3-xml.jpg",
+      "categories": ["html5", "css"],
+      "difficulty": ["intermediate", "advanced"]
+    },
+    {
+      "title": "Beginning HTML5 Media",
+      "author": "Tom Green , Silvia Pfeiffer",
+      "language": "en",
+      "link": "http://www.amazon.com/Beginning-HTML5-Media-video-standards/dp/1484204611",
+      "thumb": "beginning-html5-media.jpg",
+      "categories": ["html5"],
+      "difficulty": ["intermediate"]
+    },
+    {
+      "title": "HTML5 Programmer's Reference",
+      "author": "Jonathan Reid",
+      "language": "en",
+      "link": "http://www.amazon.com/HTML5-Programmers-Reference-Jonathan-Reid/dp/1430263679",
+      "thumb": "html5-programmer-reference.jpg",
+      "categories": ["html5"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "The Definitive Guide to HTML5 WebSocket",
+      "author": "Vanessa Wang , Frank Salim , Peter Moskovits",
+      "language": "en",
+      "link": "http://www.amazon.com/The-Definitive-Guide-HTML5-WebSocket/dp/1430247401",
+      "thumb": "definitive-guide-to-html5-websocket.jpg",
+      "categories": ["html5"],
+      "difficulty": ["intermediate", "advanced"]
+    },
+    {
+      "title": "HTML5 Advertising",
+      "author": "John Percival",
+      "language": "en",
+      "link": "http://www.amazon.com/HTML5-Advertising-Experts-Voice-Development/dp/1430246022",
+      "thumb": "html5-advertising.jpg",
+      "categories": ["html5"],
+      "difficulty": ["beginner to intermediate"]
+    },
+    {
+      "title": "Pro HTML5 Games",
+      "author": "Aditya Ravi Shankar",
+      "language": "en",
+      "link": "http://www.amazon.com/HTML5-Games-Experts-Voice-Development/dp/143024710X",
+      "thumb": "pro-html5-games.jpg",
+      "categories": ["html5"],
+      "difficulty": ["intermediate"]
     }
   ]
 }
