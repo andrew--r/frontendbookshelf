@@ -593,6 +593,51 @@
       "thumb": "pro-html5-games.jpg",
       "categories": ["html5"],
       "difficulty": ["intermediate"]
+    },
+    {
+      "title": "Beginning CSS3",
+      "author": "David Powers",
+      "language": "en",
+      "link": "http://www.amazon.com/Beginning-CSS3-Experts-Voice-Development/dp/1430244739",
+      "thumb": "beginning-css3.jpg",
+      "categories": ["css"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Pro CSS3 Animation",
+      "author": "Dudley Storey",
+      "language": "en",
+      "link": "http://www.amazon.com/CSS3-Animation-Experts-Voice-Development/dp/1430247223",
+      "thumb": "pro-css3-animation.jpg",
+      "categories": ["css"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "Beginning CSS Preprocessors With Sass, Compass, and Less",
+      "author": "Anirudh Prabhu",
+      "language": "en",
+      "link": "http://www.apress.com/web-development/css/9781484213483?gtmf=c",
+      "thumb": "beginning-css-preprocessors.jpg",
+      "categories": ["css"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Pro CSS3 Layout Techniques",
+      "author": "Sam Hampton-Smith",
+      "language": "en",
+      "link": "http://www.amazon.co.uk/Pro-CSS3-Layout-Techniques-Hampton-Smith/dp/1430265027",
+      "thumb": "pro-css-layout-tech.jpg",
+      "categories": ["css"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "CSS Quick Syntax Reference",
+      "author": "Mikael Olsson",
+      "language": "en",
+      "link": "http://www.amazon.com/Quick-Syntax-Reference-Mikael-Olsson/dp/143026490X",
+      "thumb": "css-syntax-ref.jpg",
+      "categories": ["css"],
+      "difficulty": ["beginner", "intermediate"]
     }
   ]
 }
