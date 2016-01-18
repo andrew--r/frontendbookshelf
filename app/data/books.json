@@ -324,7 +324,7 @@
       "categories": ["javascript"],
       "difficulty": ["advanced"]
     },
-    {  
+    {
       "title": "Build Your Own AngularJS",
       "author": "Tero Parviainen",
       "language": "en",
@@ -332,7 +332,7 @@
       "thumb": "build-your-own-angularjs.jpg",
       "categories": ["javascript"],
       "difficulty": ["advanced"]
-    }, 
+    },
     {
       "title": "Transforms in CSS",
       "author": "Эрик Мейер",
@@ -637,6 +637,141 @@
       "link": "http://www.amazon.com/Quick-Syntax-Reference-Mikael-Olsson/dp/143026490X",
       "thumb": "css-syntax-ref.jpg",
       "categories": ["css"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Pro TypeScript Application-Scale JavaScript Developmen",
+      "author": "Steve Fenton",
+      "language": "en",
+      "link": "http://www.amazon.com/Pro-TypeScript-Application-Scale-JavaScript-Development/dp/1430267917",
+      "thumb": "pro-typescript.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "Pro JavaScript for Web Apps",
+      "author": "Adam Freeman",
+      "language": "en",
+      "link": "http://www.amazon.com/JavaScript-Apps-Experts-Voice-Development/dp/1430244615",
+      "thumb": "pro-js-4-webapp.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "Pro JavaScript Performance Monitoring and Visualization",
+      "author": "Tom Barker",
+      "language": "en",
+      "link": "http://www.amazon.com/Pro-JavaScript-Performance-Visualization-Development/dp/1430247495",
+      "thumb": "pro-js-performance.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "DOM Scripting",
+      "author": "Jeremy Keith , Jeffrey Sambells",
+      "language": "en",
+      "link": "http://www.amazon.com/DOM-Scripting-Design-JavaScript-Document/dp/1430233893",
+      "thumb": "dom-scripting.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "JavaScript Programmer's Reference",
+      "author": "Thomas Valentine , Jonathan Reid",
+      "language": "en",
+      "link": "http://www.amazon.com/JavaScript-Programmers-Reference-Thomas-Valentine/dp/1430246294/ref=sr_1_1?s=books&ie=UTF8&qid=1453120035&sr=1-1&keywords=Thomas+Valentine+%2C+Jonathan+Reid+apress",
+      "thumb": "js-programm-ref.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["intermediate"]
+    },
+    {
+      "title": "Beginning JavaScript with DOM Scripting and Ajax",
+      "author": "Russ Ferguson , Christian Heilmann",
+      "language": "en",
+      "link": "http://www.amazon.com/Beginning-JavaScript-DOM-Scripting-Ajax/dp/1430250925",
+      "thumb": "begin-js-with-dom-and-ajax.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Physics for JavaScript Games, Animation, and Simulations",
+      "author": "Dev Ramtal , Adrian Dobre",
+      "language": "en",
+      "link": "http://www.amazon.com/Physics-JavaScript-Games-Animation-Simulations/dp/1430263377",
+      "thumb": "physics-for js-games.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "JavaScript Creativity",
+      "author": "Shane Hudson",
+      "language": "en",
+      "link": "http://www.amazon.com/JavaScript-Creativity-Exploring-Modern-Capabilities/dp/1430259442",
+      "thumb": "js-creativity.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "Beginning JSON",
+      "author": "Ben Smith",
+      "language": "en",
+      "link": "http://www.amazon.com/Beginning-JSON-Ben-Smith/dp/1484202031",
+      "thumb": "begining-json.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Pro JavaScript Techniques",
+      "author": "Ben SmithJohn Resig , Russ Ferguson , John Paxton",
+      "language": "en",
+      "link": "http://www.amazon.com/Pro-JavaScript-Techniques-Second-Edition/dp/1430263911",
+      "thumb": "pro-js-techniques.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "JavaScript Quick Syntax Reference",
+      "author": "Mikael Olsson",
+      "language": "en",
+      "link": "http://www.apress.com/web-development/javascript/9781430264934?gtmf=c",
+      "thumb": "js-quick-syntax-reference.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "JavaScript Quick Syntax Reference",
+      "author": "Mikael Olsson",
+      "language": "en",
+      "link": "http://www.apress.com/web-development/javascript/9781430264934?gtmf=c",
+      "thumb": "js-quick-syntax-reference.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Full Stack JavaScript Learn Backbone.js, Node.js and MongoDB",
+      "author": "Azat Mardan",
+      "language": "en",
+      "link": "http://www.amazon.com/Full-Stack-JavaScript-Backbone-js-Node-js/dp/1484217500",
+      "thumb": "full-stack-js.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "JavaScript Recipes A Problem-Solution Approach",
+      "author": "Russ Ferguson , Keith Cirkel",
+      "language": "en",
+      "link": "http://www.amazon.com/JavaScript-Recipes-A-Problem-Solution-Approach/dp/1430261064",
+      "thumb": "js-recipes.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Beginning jQuery",
+      "author": "Jack Franklin",
+      "language": "en",
+      "link": "http://www.amazon.com/Beginning-jQuery-Jack-Franklin/dp/1430249323",
+      "thumb": "beginning-jquery.jpg",
+      "categories": ["javascript"],
       "difficulty": ["beginner", "intermediate"]
     }
   ]
