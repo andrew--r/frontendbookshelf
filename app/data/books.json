@@ -771,8 +771,116 @@
       "language": "en",
       "link": "http://www.amazon.com/Beginning-jQuery-Jack-Franklin/dp/1430249323",
       "thumb": "beginning-jquery.jpg",
+      "categories": ["jquery"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Building JavaScript Games for Phones, Tablets, and Desktop",
+      "author": "Arjan Egges",
+      "language": "en",
+      "link": "http://www.amazon.com/Building-JavaScript-Games-Tablets-Desktop/dp/1430265388",
+      "thumb": "building-js-games.jpg",
       "categories": ["javascript"],
       "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Pro jQuery",
+      "author": "Адам Фримен",
+      "language": "en",
+      "link": "http://www.amazon.com/Pro-jQuery-Experts-Voice-Development/dp/1430240954",
+      "thumb": "pro-jquery.jpg",
+      "categories": ["jquery"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "jQuery 2.0 для профессионалов",
+      "author": "Адам Фримен",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/30925169/",
+      "thumb": "pro-jquery-2.jpg",
+      "categories": ["jquery"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "Practical jQuery",
+      "author": "Mukund Chaudhary , Ankur Kumar",
+      "language": "en",
+      "link": "http://www.amazon.com/Practical-jQuery-Ankur-Kumar/dp/1484207882",
+      "thumb": "practical-jquery.jpg",
+      "categories": ["jquery"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "Beginning Node.js",
+      "author": "Basarat Ali Syed",
+      "language": "en",
+      "link": "http://www.amazon.com/Beginning-Node-js-Basarat-Syed/dp/1484201884",
+      "thumb": "beginning-node.jpg",
+      "categories": ["node"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "Инлайновый контекст форматирования",
+      "author": "Максим Усачёв, Илья Стрельцын",
+      "language": "ru",
+      "link": "http://css-live.ru/articles/obzor-inlajnovyj-kontekst-formatirovaniya.html",
+      "thumb": "inline-formating.jpg",
+      "categories": ["css"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "Get Ready for CSS Grid Layout",
+      "author": "Rachel Andrew",
+      "language": "en",
+      "link": "http://abookapart.com/products/get-ready-for-css-grid-layout",
+      "thumb": "ready-for-css-grid.jpg",
+      "categories": ["css"],
+      "difficulty": ["beginner", "intermediate", "advanced"]
+    },
+    {
+      "title": "Learning TypeScript",
+      "author": " Remo H. Jansen",
+      "language": "en",
+      "link": "https://www.packtpub.com/web-development/learning-typescript",
+      "thumb": "learning-typescript.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Mastering TypeScript",
+      "author": "Nathan Rozentals",
+      "language": "en",
+      "link": "https://www.packtpub.com/web-development/mastering-typescript",
+      "thumb": "mastering-typescript.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["intermediate", "advanced"]
+    },
+    {
+      "title": "Responsive Design: Patterns & Principles",
+      "author": "Ethan Marcotte",
+      "language": "en",
+      "link": "http://abookapart.com/products/responsive-design-patterns-principles",
+      "thumb": "rwd-patterns-principles.jpg",
+      "categories": ["rwd"],
+      "difficulty": ["intermediate", "beginner"]
+    },
+    {
+      "title": "Going Responsive",
+      "author": "Karen McGrane",
+      "language": "en",
+      "link": "http://abookapart.com/products/going-responsive",
+      "thumb": "going-responsive.jpg",
+      "categories": ["rwd"],
+      "difficulty": ["intermediate", "advanced"]
+    }
+    {
+      "title": "If Hemingway Wrote JavaScript",
+      "author": "beginner",
+      "language": "en",
+      "link": "http://www.amazon.com/Hemingway-Wrote-JavaScript-Angus-Croll/dp/1593275854/",
+      "thumb": "if-hemingway-wrote-js.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["intermediate", "beginner"]
     }
   ]
 }
