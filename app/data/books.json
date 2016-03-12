@@ -445,9 +445,9 @@
       "title": "Backbone.Marionette.js: A Gentle Introduction ",
       "author": "David Sulc",
       "language": "en",
-      "link": "https://leanpub.com/marionette-testing",
-      "thumb": "getting-start-with-grunt.jpg",
-      "categories": ["Backbone"],
+      "link": "https://leanpub.com/marionette-gentle-introduction",
+      "thumb": "backbone-marionette.jpg",
+      "categories": ["backbone"],
       "difficulty": ["intermediate"]
     },
     {
@@ -872,14 +872,77 @@
       "thumb": "going-responsive.jpg",
       "categories": ["rwd"],
       "difficulty": ["intermediate", "advanced"]
-    }
+    },
     {
       "title": "If Hemingway Wrote JavaScript",
-      "author": "beginner",
+      "author": "Angus Croll",
       "language": "en",
       "link": "http://www.amazon.com/Hemingway-Wrote-JavaScript-Angus-Croll/dp/1593275854/",
       "thumb": "if-hemingway-wrote-js.jpg",
       "categories": ["javascript"],
+      "difficulty": ["intermediate", "beginner"]
+    },
+    {
+      "title": "Building Backbone Plugins ",
+      "author": "Derick Bailey, Derick Bailey",
+      "language": "en",
+      "link": "https://leanpub.com/building-backbone-plugins",
+      "thumb": "build_backbone_plugins.png",
+      "categories": ["backbone"],
+      "difficulty": ["intermediate", "beginner"]
+    },
+    {
+      "title": "Beginning CSS Preprocessors With Sass, Compass, and Less",
+      "author": "Anirudh Prabhu",
+      "language": "en",
+      "link": "http://www.amazon.com/Beginning-CSS-Preprocessors-Compass-js-Less-js/dp/1484213483",
+      "thumb": "Beginning_CSS_preprocessors.jpg",
+      "categories": ["css"],
+      "difficulty": ["intermediate", "beginner"]
+    },
+    {
+      "title": "JavaScript Object Programming",
+      "author": "Martin Rinehart",
+      "language": "en",
+      "link": "http://www.apress.com/web-development/javascript/9781484217863?gtmf=c",
+      "thumb": "js_object_programming.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["intermediate", "advanced"]
+    },
+    {
+      "title": "You Don't Know JS: ES6 & Beyond",
+      "author": "Kyle Simpson",
+      "language": "en",
+      "link": "https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20%26%20beyond",
+      "thumb": "ydkjs_es6&beyond.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["intermediate", "advanced"]
+    },
+    {
+      "title": "Git for Humans",
+      "author": "David Demaree",
+      "language": "en",
+      "link": "https://abookapart.com/products/git-for-humans",
+      "thumb": "git_for_humans.png",
+      "categories": ["tools"],
+      "difficulty": ["intermediate", "beginner"]
+    },
+    {
+      "title": "Building Front-End Web Apps with Plain JavaScript",
+      "author": "Gerd Wagner",
+      "language": "en",
+      "link": "http://web-engineering.info/tech/JsFrontendApp/book/index.html",
+      "thumb": "building_web_apps_with_js.png",
+      "categories": ["javascript"],
+      "difficulty": ["intermediate", "advanced", "beginner"]
+    },
+    {
+      "title": "Full Stack JavaScript Learn Backbone.js, Node.js and MongoDB",
+      "author": "Azat Mardan",
+      "language": "en",
+      "link": "http://www.apress.com/9781484217504",
+      "thumb": "full_stack_js.jpg",
+      "categories": ["javascript", "backbone", "node"],
       "difficulty": ["intermediate", "beginner"]
     }
   ]
