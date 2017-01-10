@@ -1,7 +1,0 @@
-mixin book(options)
-  .book(data-categories=options.categories.toString().toLowerCase() data-difficulties=options.difficulty.toString().toLowerCase() data-languages=options.language.toString().toLowerCase())&attributes(attributes)
-    a(href=options.link title=options.title).book__thumb
-      img(src='assets/images/books/' + options.thumb, alt=options.title)
-    .book__info
-      span.book__author= options.author
-      a(href=options.link).book__name= options.title
