@@ -324,7 +324,7 @@
       "categories": ["javascript"],
       "difficulty": ["advanced"]
     },
-    {  
+    {
       "title": "Build Your Own AngularJS",
       "author": "Tero Parviainen",
       "language": "en",
@@ -332,7 +332,7 @@
       "thumb": "build-your-own-angularjs.jpg",
       "categories": ["javascript"],
       "difficulty": ["advanced"]
-    }, 
+    },
     {
       "title": "Transforms in CSS",
       "author": "Эрик Мейер",
@@ -445,9 +445,9 @@
       "title": "Backbone.Marionette.js: A Gentle Introduction ",
       "author": "David Sulc",
       "language": "en",
-      "link": "https://leanpub.com/marionette-testing",
-      "thumb": "getting-start-with-grunt.jpg",
-      "categories": ["Backbone"],
+      "link": "https://leanpub.com/marionette-gentle-introduction",
+      "thumb": "backbone-marionette.jpg",
+      "categories": ["backbone"],
       "difficulty": ["intermediate"]
     },
     {
@@ -593,6 +593,357 @@
       "thumb": "pro-html5-games.jpg",
       "categories": ["html5"],
       "difficulty": ["intermediate"]
+    },
+    {
+      "title": "Beginning CSS3",
+      "author": "David Powers",
+      "language": "en",
+      "link": "http://www.amazon.com/Beginning-CSS3-Experts-Voice-Development/dp/1430244739",
+      "thumb": "beginning-css3.jpg",
+      "categories": ["css"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Pro CSS3 Animation",
+      "author": "Dudley Storey",
+      "language": "en",
+      "link": "http://www.amazon.com/CSS3-Animation-Experts-Voice-Development/dp/1430247223",
+      "thumb": "pro-css3-animation.jpg",
+      "categories": ["css"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "Beginning CSS Preprocessors With Sass, Compass, and Less",
+      "author": "Anirudh Prabhu",
+      "language": "en",
+      "link": "http://www.apress.com/web-development/css/9781484213483?gtmf=c",
+      "thumb": "beginning-css-preprocessors.jpg",
+      "categories": ["css"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Pro CSS3 Layout Techniques",
+      "author": "Sam Hampton-Smith",
+      "language": "en",
+      "link": "http://www.amazon.co.uk/Pro-CSS3-Layout-Techniques-Hampton-Smith/dp/1430265027",
+      "thumb": "pro-css-layout-tech.jpg",
+      "categories": ["css"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "CSS Quick Syntax Reference",
+      "author": "Mikael Olsson",
+      "language": "en",
+      "link": "http://www.amazon.com/Quick-Syntax-Reference-Mikael-Olsson/dp/143026490X",
+      "thumb": "css-syntax-ref.jpg",
+      "categories": ["css"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Pro TypeScript Application-Scale JavaScript Developmen",
+      "author": "Steve Fenton",
+      "language": "en",
+      "link": "http://www.amazon.com/Pro-TypeScript-Application-Scale-JavaScript-Development/dp/1430267917",
+      "thumb": "pro-typescript.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "Pro JavaScript for Web Apps",
+      "author": "Adam Freeman",
+      "language": "en",
+      "link": "http://www.amazon.com/JavaScript-Apps-Experts-Voice-Development/dp/1430244615",
+      "thumb": "pro-js-4-webapp.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "Pro JavaScript Performance Monitoring and Visualization",
+      "author": "Tom Barker",
+      "language": "en",
+      "link": "http://www.amazon.com/Pro-JavaScript-Performance-Visualization-Development/dp/1430247495",
+      "thumb": "pro-js-performance.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "DOM Scripting",
+      "author": "Jeremy Keith , Jeffrey Sambells",
+      "language": "en",
+      "link": "http://www.amazon.com/DOM-Scripting-Design-JavaScript-Document/dp/1430233893",
+      "thumb": "dom-scripting.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "JavaScript Programmer's Reference",
+      "author": "Thomas Valentine , Jonathan Reid",
+      "language": "en",
+      "link": "http://www.amazon.com/JavaScript-Programmers-Reference-Thomas-Valentine/dp/1430246294/ref=sr_1_1?s=books&ie=UTF8&qid=1453120035&sr=1-1&keywords=Thomas+Valentine+%2C+Jonathan+Reid+apress",
+      "thumb": "js-programm-ref.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["intermediate"]
+    },
+    {
+      "title": "Beginning JavaScript with DOM Scripting and Ajax",
+      "author": "Russ Ferguson , Christian Heilmann",
+      "language": "en",
+      "link": "http://www.amazon.com/Beginning-JavaScript-DOM-Scripting-Ajax/dp/1430250925",
+      "thumb": "begin-js-with-dom-and-ajax.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Physics for JavaScript Games, Animation, and Simulations",
+      "author": "Dev Ramtal , Adrian Dobre",
+      "language": "en",
+      "link": "http://www.amazon.com/Physics-JavaScript-Games-Animation-Simulations/dp/1430263377",
+      "thumb": "physics-for js-games.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "JavaScript Creativity",
+      "author": "Shane Hudson",
+      "language": "en",
+      "link": "http://www.amazon.com/JavaScript-Creativity-Exploring-Modern-Capabilities/dp/1430259442",
+      "thumb": "js-creativity.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "Beginning JSON",
+      "author": "Ben Smith",
+      "language": "en",
+      "link": "http://www.amazon.com/Beginning-JSON-Ben-Smith/dp/1484202031",
+      "thumb": "begining-json.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Pro JavaScript Techniques",
+      "author": "Ben SmithJohn Resig , Russ Ferguson , John Paxton",
+      "language": "en",
+      "link": "http://www.amazon.com/Pro-JavaScript-Techniques-Second-Edition/dp/1430263911",
+      "thumb": "pro-js-techniques.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "JavaScript Quick Syntax Reference",
+      "author": "Mikael Olsson",
+      "language": "en",
+      "link": "http://www.apress.com/web-development/javascript/9781430264934?gtmf=c",
+      "thumb": "js-quick-syntax-reference.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "JavaScript Quick Syntax Reference",
+      "author": "Mikael Olsson",
+      "language": "en",
+      "link": "http://www.apress.com/web-development/javascript/9781430264934?gtmf=c",
+      "thumb": "js-quick-syntax-reference.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Full Stack JavaScript Learn Backbone.js, Node.js and MongoDB",
+      "author": "Azat Mardan",
+      "language": "en",
+      "link": "http://www.amazon.com/Full-Stack-JavaScript-Backbone-js-Node-js/dp/1484217500",
+      "thumb": "full-stack-js.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "JavaScript Recipes A Problem-Solution Approach",
+      "author": "Russ Ferguson , Keith Cirkel",
+      "language": "en",
+      "link": "http://www.amazon.com/JavaScript-Recipes-A-Problem-Solution-Approach/dp/1430261064",
+      "thumb": "js-recipes.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Beginning jQuery",
+      "author": "Jack Franklin",
+      "language": "en",
+      "link": "http://www.amazon.com/Beginning-jQuery-Jack-Franklin/dp/1430249323",
+      "thumb": "beginning-jquery.jpg",
+      "categories": ["jquery"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Building JavaScript Games for Phones, Tablets, and Desktop",
+      "author": "Arjan Egges",
+      "language": "en",
+      "link": "http://www.amazon.com/Building-JavaScript-Games-Tablets-Desktop/dp/1430265388",
+      "thumb": "building-js-games.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Pro jQuery",
+      "author": "Адам Фримен",
+      "language": "en",
+      "link": "http://www.amazon.com/Pro-jQuery-Experts-Voice-Development/dp/1430240954",
+      "thumb": "pro-jquery.jpg",
+      "categories": ["jquery"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "jQuery 2.0 для профессионалов",
+      "author": "Адам Фримен",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/30925169/",
+      "thumb": "pro-jquery-2.jpg",
+      "categories": ["jquery"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "Practical jQuery",
+      "author": "Mukund Chaudhary , Ankur Kumar",
+      "language": "en",
+      "link": "http://www.amazon.com/Practical-jQuery-Ankur-Kumar/dp/1484207882",
+      "thumb": "practical-jquery.jpg",
+      "categories": ["jquery"],
+      "difficulty": ["advanced", "intermediate"]
+    },
+    {
+      "title": "Beginning Node.js",
+      "author": "Basarat Ali Syed",
+      "language": "en",
+      "link": "http://www.amazon.com/Beginning-Node-js-Basarat-Syed/dp/1484201884",
+      "thumb": "beginning-node.jpg",
+      "categories": ["node"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "Инлайновый контекст форматирования",
+      "author": "Максим Усачёв, Илья Стрельцын",
+      "language": "ru",
+      "link": "http://css-live.ru/articles/obzor-inlajnovyj-kontekst-formatirovaniya.html",
+      "thumb": "inline-formating.jpg",
+      "categories": ["css"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "Get Ready for CSS Grid Layout",
+      "author": "Rachel Andrew",
+      "language": "en",
+      "link": "http://abookapart.com/products/get-ready-for-css-grid-layout",
+      "thumb": "ready-for-css-grid.jpg",
+      "categories": ["css"],
+      "difficulty": ["beginner", "intermediate", "advanced"]
+    },
+    {
+      "title": "Learning TypeScript",
+      "author": " Remo H. Jansen",
+      "language": "en",
+      "link": "https://www.packtpub.com/web-development/learning-typescript",
+      "thumb": "learning-typescript.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["beginner", "intermediate"]
+    },
+    {
+      "title": "Mastering TypeScript",
+      "author": "Nathan Rozentals",
+      "language": "en",
+      "link": "https://www.packtpub.com/web-development/mastering-typescript",
+      "thumb": "mastering-typescript.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["intermediate", "advanced"]
+    },
+    {
+      "title": "Responsive Design: Patterns & Principles",
+      "author": "Ethan Marcotte",
+      "language": "en",
+      "link": "http://abookapart.com/products/responsive-design-patterns-principles",
+      "thumb": "rwd-patterns-principles.jpg",
+      "categories": ["rwd"],
+      "difficulty": ["intermediate", "beginner"]
+    },
+    {
+      "title": "Going Responsive",
+      "author": "Karen McGrane",
+      "language": "en",
+      "link": "http://abookapart.com/products/going-responsive",
+      "thumb": "going-responsive.jpg",
+      "categories": ["rwd"],
+      "difficulty": ["intermediate", "advanced"]
+    },
+    {
+      "title": "If Hemingway Wrote JavaScript",
+      "author": "Angus Croll",
+      "language": "en",
+      "link": "http://www.amazon.com/Hemingway-Wrote-JavaScript-Angus-Croll/dp/1593275854/",
+      "thumb": "if-hemingway-wrote-js.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["intermediate", "beginner"]
+    },
+    {
+      "title": "Building Backbone Plugins ",
+      "author": "Derick Bailey, Derick Bailey",
+      "language": "en",
+      "link": "https://leanpub.com/building-backbone-plugins",
+      "thumb": "build_backbone_plugins.png",
+      "categories": ["backbone"],
+      "difficulty": ["intermediate", "beginner"]
+    },
+    {
+      "title": "Beginning CSS Preprocessors With Sass, Compass, and Less",
+      "author": "Anirudh Prabhu",
+      "language": "en",
+      "link": "http://www.amazon.com/Beginning-CSS-Preprocessors-Compass-js-Less-js/dp/1484213483",
+      "thumb": "Beginning_CSS_preprocessors.jpg",
+      "categories": ["css"],
+      "difficulty": ["intermediate", "beginner"]
+    },
+    {
+      "title": "JavaScript Object Programming",
+      "author": "Martin Rinehart",
+      "language": "en",
+      "link": "http://www.apress.com/web-development/javascript/9781484217863?gtmf=c",
+      "thumb": "js_object_programming.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["intermediate", "advanced"]
+    },
+    {
+      "title": "You Don't Know JS: ES6 & Beyond",
+      "author": "Kyle Simpson",
+      "language": "en",
+      "link": "https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20%26%20beyond",
+      "thumb": "ydkjs_es6&beyond.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["intermediate", "advanced"]
+    },
+    {
+      "title": "Git for Humans",
+      "author": "David Demaree",
+      "language": "en",
+      "link": "https://abookapart.com/products/git-for-humans",
+      "thumb": "git_for_humans.png",
+      "categories": ["tools"],
+      "difficulty": ["intermediate", "beginner"]
+    },
+    {
+      "title": "Building Front-End Web Apps with Plain JavaScript",
+      "author": "Gerd Wagner",
+      "language": "en",
+      "link": "http://web-engineering.info/tech/JsFrontendApp/book/index.html",
+      "thumb": "building_web_apps_with_js.png",
+      "categories": ["javascript"],
+      "difficulty": ["intermediate", "advanced", "beginner"]
+    },
+    {
+      "title": "Full Stack JavaScript Learn Backbone.js, Node.js and MongoDB",
+      "author": "Azat Mardan",
+      "language": "en",
+      "link": "http://www.apress.com/9781484217504",
+      "thumb": "full_stack_js.jpg",
+      "categories": ["javascript", "backbone", "node"],
+      "difficulty": ["intermediate", "beginner"]
     }
   ]
 }
