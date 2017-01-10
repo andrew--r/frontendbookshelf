@@ -1,1 +1,12 @@
-node_modules
+# General files
+*~
+.DS_Store
+
+# Development stuff
+node_modules/
+*.sublime-workspace
+*.pyc
+.vagrant
+.idea
+.vscode
+npm-debug.*
