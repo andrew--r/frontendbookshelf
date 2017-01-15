@@ -14,9 +14,11 @@
     "gulp": "^3.9.1",
     "gulp-csso": "^2.0.0",
     "gulp-data": "^1.2.1",
+    "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^6.2.0",
     "gulp-pug": "^3.2.0",
     "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.8",
     "postcss-cssnext": "^2.9.0",
     "postcss-easy-import": "^1.0.1",
     "require-dir": "^0.3.1"
