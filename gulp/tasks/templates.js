@@ -14,7 +14,7 @@ import {
 
 const { assign } = Object;
 
-gulp.task('markup', () => {
+gulp.task('templates', () => {
 	return gulp
 		.src('./source/pages/*')
 		.pipe(plumber(Config.PLUMBER_OPTIONS))
