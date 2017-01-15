@@ -1,5 +1,14 @@
 import gutil from 'gulp-util';
 
-export const PLUMBER_OPTIONS = {
-	errorHandler: gutil.log,
+export const PLUGINS_OPTIONS = {
+	plumber: {
+		base: {
+			errorHandler: gutil.log,
+		},
+	},
+	pug: {
+		development: {
+			pretty: '\t',
+		},
+	}
 };

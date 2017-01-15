@@ -7,8 +7,8 @@ import pug from 'gulp-pug';
 import rename from 'gulp-rename';
 
 import * as Config from '../config';
-
 import {
+	getPluginOptions,
 	relativePathToAbsolute,
 } from '../helpers';
 
@@ -17,13 +17,13 @@ const { assign } = Object;
 gulp.task('templates', () => {
 	return gulp
 		.src('./source/pages/*')
-		.pipe(plumber(Config.PLUMBER_OPTIONS))
+		.pipe(plumber(getPluginOptions('plumber')))
 		.pipe(getData(() => glob
 			.sync('./source/data/**/*.json')
 			.map((filePath) => require(relativePathToAbsolute(filePath)))
 			.reduce((acc, item) => assign({}, acc, item), {})
 		))
-		.pipe(pug())
+		.pipe(pug(getPluginOptions('pug')))
 		.pipe(rename((path) => {
 			path.dirname = path.basename;
 			path.basename = 'index';

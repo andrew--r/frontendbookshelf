@@ -6,6 +6,9 @@ import cssnext from 'postcss-cssnext';
 import csso from 'gulp-csso';
 
 import * as Config from '../config';
+import {
+	getPluginOptions,
+} from '../helpers';
 
 const postcssProcessors = [
 	easyImport({
@@ -17,7 +20,7 @@ const postcssProcessors = [
 gulp.task('styles', () => {
 	return gulp
 		.src('./source/styles/main.css')
-		.pipe(plumber(Config.PLUMBER_OPTIONS))
+		.pipe(plumber(getPluginOptions('plumber')))
 		.pipe(postcss(postcssProcessors))
 		.pipe(csso())
 		.pipe(gulp.dest('./build'));
