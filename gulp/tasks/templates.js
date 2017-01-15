@@ -25,7 +25,7 @@ gulp.task('templates', () => {
 		))
 		.pipe(pug())
 		.pipe(rename((path) => {
-			path.dirname += path.basename;
+			path.dirname = path.basename;
 			path.basename = 'index';
 			return path;
 		}))
