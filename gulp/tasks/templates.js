@@ -12,8 +12,6 @@ import {
 	relativePathToAbsolute,
 } from '../helpers';
 
-const { assign } = Object;
-
 gulp.task('templates', () => {
 	return gulp
 		.src('./source/pages/*')
@@ -21,7 +19,7 @@ gulp.task('templates', () => {
 		.pipe(getData(() => glob
 			.sync('./source/data/**/*.json')
 			.map((filePath) => require(relativePathToAbsolute(filePath)))
-			.reduce((acc, item) => assign({}, acc, item), {})
+			.reduce((acc, item) => ({ ...acc, ...item }), {})
 		))
 		.pipe(pug(getPluginOptions('pug')))
 		.pipe(rename((path) => {

@@ -1,8 +1,6 @@
 import path from 'path';
 import * as Config from './config';
 
-const { assign } = Object;
-
 /**
  * Converts relative (to project root) path to absolute path
  * @param {String} relativePath
@@ -21,5 +19,5 @@ export function relativePathToAbsolute(relativePath) {
 export function getPluginOptions(pluginName) {
 	const pluginOptions = Config.PLUGINS_OPTIONS[pluginName] || {};
 
-	return assign({}, pluginOptions.base || {}, pluginOptions[process.env.NODE_ENV] || {});
+	return { ...(pluginOptions.base || {}), ...(pluginOptions[process.env.NODE_ENV] || {}) };
 }
