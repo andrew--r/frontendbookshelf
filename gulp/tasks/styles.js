@@ -5,10 +5,10 @@ import easyImport from 'postcss-easy-import';
 import cssnext from 'postcss-cssnext';
 import csso from 'gulp-csso';
 
-import * as Config from '../config';
 import {
 	getPluginOptions,
 } from '../helpers';
+
 
 const postcssProcessors = [
 	easyImport({

@@ -6,11 +6,11 @@ import getData from 'gulp-data';
 import pug from 'gulp-pug';
 import rename from 'gulp-rename';
 
-import * as Config from '../config';
 import {
 	getPluginOptions,
 	relativePathToAbsolute,
 } from '../helpers';
+
 
 gulp.task('templates', () => {
 	return gulp
