@@ -1,3 +1,7 @@
 import gulp from 'gulp';
 
-gulp.task('build', ['templates', 'styles']);
+gulp.task('build', [
+	'templates',
+	'styles',
+	'images',
+]);

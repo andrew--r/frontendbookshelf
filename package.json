@@ -22,6 +22,7 @@
     "gulp": "^3.9.1",
     "gulp-csso": "^2.0.0",
     "gulp-data": "^1.2.1",
+    "gulp-imagemin": "^3.1.1",
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^6.2.0",
     "gulp-pug": "^3.2.0",
