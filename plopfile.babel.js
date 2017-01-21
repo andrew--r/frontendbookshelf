@@ -27,7 +27,7 @@ function getResourcePath(resourceType) {
 function generateResourcePath(resourceType) {
 	const resourcesNamesByType = {
 		template: '{{lowerCase name}}.pug',
-		style: '{{lowerCase name}}.styl'
+		style: '{{lowerCase name}}.css'
 	};
 
 	return `${BLOCKS}/{{lowerCase name}}/${resourcesNamesByType[resourceType]}`;
