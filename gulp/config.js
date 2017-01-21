@@ -11,6 +11,11 @@ export const PLUGINS_OPTIONS = {
 			pretty: '\t',
 		},
 	},
+	postcssEasyImport: {
+		base: {
+			glob: true,
+		},
+	},
 	webpackStream: {
 		base: {
 			entry: './source/scripts/index.js',
@@ -35,5 +40,35 @@ export const PLUGINS_OPTIONS = {
 				screw_ie8: true,
 			},
 		},
+	},
+	browserSync: {
+		base: {
+			port: process.env.PORT || 3000,
+			server: './build',
+			open: 'local',
+		},
+	}
+};
+
+export const PATHS = {
+	source: {
+		templates: {
+			blocks: './source/blocks',
+			layouts: './source/layouts',
+			pages: './source/pages',
+		},
+		scripts: './source/scripts',
+		styles: {
+			common: './source/styles',
+			blocks: './source/blocks',
+		},
+		images: './source/images',
+		data: './source/data',
+	},
+	build: {
+		templates: './build',
+		scripts: './build',
+		styles: './build',
+		images: './build/images',
 	},
 };

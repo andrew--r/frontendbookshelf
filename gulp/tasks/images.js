@@ -1,10 +1,11 @@
 import gulp from 'gulp';
 import imagemin from 'gulp-imagemin';
+import { PATHS } from '../config';
 
 
 gulp.task('images', () => {
 	return gulp
-		.src('./source/images/**/*')
+		.src(`${PATHS.source.images}/**/*`)
 		.pipe(imagemin())
-		.pipe(gulp.dest('./build/images'));
+		.pipe(gulp.dest(PATHS.build.images));
 });

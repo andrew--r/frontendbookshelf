@@ -7,9 +7,11 @@
   "license": "MIT",
   "scripts": {
     "generate": "./node_modules/.bin/plop",
+    "clear": "rm -rf ./build",
+    "watch": "yarn clear && ./node_modules/.bin/gulp watch",
     "build": "yarn build:development",
-    "build:production": "rm -rf ./build && ./node_modules/.bin/cross-env NODE_ENV=production ./node_modules/.bin/gulp build",
-    "build:development": "rm -rf ./build && ./node_modules/.bin/cross-env NODE_ENV=development ./node_modules/.bin/gulp build"
+    "build:production": "yarn clear && ./node_modules/.bin/cross-env NODE_ENV=production ./node_modules/.bin/gulp build",
+    "build:development": "yarn clear && ./node_modules/.bin/cross-env NODE_ENV=development ./node_modules/.bin/gulp build"
   },
   "dependencies": {},
   "devDependencies": {
@@ -19,6 +21,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.22.0",
     "babel-preset-es2015": "^6.18.0",
     "bemto.pug": "^2.1.0",
+    "browser-sync": "^2.18.6",
     "cross-env": "^3.1.4",
     "glob": "^7.1.1",
     "gulp": "^3.9.1",
