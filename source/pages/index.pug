@@ -1,4 +1,15 @@
 extends ../layouts/main
+include ../blocks/hero/hero
+include ../blocks/footer/footer
+include ../blocks/logo/logo
 
 block head
 	- var pageTitle = 'Список книг';
+
+block body
+	+hero()
+	+footer()(class='footer_main')
+		+e.left
+			+logo()
+		+e.right
+			a(href='about.html') О проекте

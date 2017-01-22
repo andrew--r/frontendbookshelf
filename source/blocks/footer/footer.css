@@ -1,0 +1,40 @@
+.footer
+{
+	margin-top: 60px;
+	background: var(--bgColor);
+	border-top: 1px solid var(--borderColor);
+
+	&_main
+	{
+		margin-top: 0;
+	}
+
+	&__inner
+	{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		@media (--mobile)
+		{
+			display: block;
+			text-align: center;
+		}
+	}
+
+	&__left
+	{
+		@media (--mobile)
+		{
+			margin-bottom: 20px;
+
+			& .logo
+			{
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+}

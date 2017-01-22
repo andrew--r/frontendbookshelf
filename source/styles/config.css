@@ -1,0 +1,11 @@
+:root {
+	--siteWidth: 1140px;
+	--linkColor: #0072ba;
+	--linkColorHover: #d04000;
+	--bgColor: #fdfdfd;
+	--borderColor: #eaeaea;
+}
+
+@custom-media --mobile (width <= 480px);
+@custom-media --tablet (width < 1024px);
+@custom-media --desktop (width >= 1024px);

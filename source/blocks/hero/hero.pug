@@ -1,0 +1,9 @@
+include ../header/header
+
+mixin hero()
+	+b.hero&attributes(attributes)
+		+header()
+
+		.container
+			+e.H1.title Забудьте о&nbsp;гугле
+			+e.P.description #[span.starts-with-quote «Книжная полка фронтендера»] — это коллекция лучших книг для #[span.nobr фронтенд-разработчиков]. Книги можно фильтровать по&nbsp;тематике, языку и&nbsp;сложности, благодаря чему вы&nbsp;с&nbsp;лёгкостью найдёте то, что вам нужно.
