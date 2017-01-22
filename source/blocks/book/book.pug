@@ -5,7 +5,7 @@ mixin book(options)
 		data-languages=options.language.toString().toLowerCase()
 	)&attributes(attributes)
 		+e.A.thumb(href=options.link title=options.title)
-			img(src=options.thumb alt=options.title)
+			img(src=`images/books/${options.thumb}` alt=options.title)
 		+e.info
 			+e.SPAN.author= options.author
 			+e.A.name(href=options.link)= options.title

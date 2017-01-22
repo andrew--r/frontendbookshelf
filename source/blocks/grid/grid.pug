@@ -3,8 +3,7 @@ include ../book/book
 mixin grid()
 	+b.grid.container&attributes(attributes)
 		each book in books
-			+e.item
-				+book(book)
+			+book(book)(class='grid__item')
 		//- additional items to fix elements alignment
 		.grid__item
 		.grid__item
