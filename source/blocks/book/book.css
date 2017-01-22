@@ -1,0 +1,46 @@
+.book
+{
+	position: relative;
+	display: inline-block;
+
+	&__thumb
+	{
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		overflow: hidden;
+		max-height: 360px;
+		width: 100%;
+		margin-bottom: 20px;
+		border: none;
+
+		& img
+		{
+			max-height: 360px;
+		}
+	}
+
+	&__info
+	{
+		padding: 0 .5rem;
+	}
+
+	&__name
+	{
+		display: block;
+		font-size: 20px;
+		font-weight: 700;
+		border: 0;
+	}
+
+	&__author
+	{
+		display: block;
+		margin-bottom: 5px;
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		color: #888;
+	}
+}

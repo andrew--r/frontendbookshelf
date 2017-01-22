@@ -1,5 +1,7 @@
 extends ../layouts/main
 include ../blocks/hero/hero
+include ../blocks/filters/filters
+include ../blocks/grid/grid
 include ../blocks/footer/footer
 include ../blocks/logo/logo
 
@@ -8,6 +10,8 @@ block head
 
 block body
 	+hero()
+	+filters()
+	+grid()
 	+footer()(class='footer_main')
 		+e.left
 			+logo()

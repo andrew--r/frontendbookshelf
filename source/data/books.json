@@ -1,1 +1,13 @@
-{}
+{
+  "books": [
+    {
+      "title": "JavaScript. Сильные стороны",
+      "author": "Дуглас Крокфорд",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/20217226/",
+      "thumb": "http://frontendbookshelf.ru/assets/images/books/crockford-javascript.jpg",
+      "categories": ["javascript"],
+      "difficulty": ["advanced"]
+    }
+  ]
+}

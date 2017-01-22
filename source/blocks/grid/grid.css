@@ -1,0 +1,35 @@
+.grid
+{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	margin-top: 60px;
+
+	&::after
+	{
+		content: '';
+	}
+
+	&::after,
+	&__item:empty
+	{
+		display: block;
+		max-width: 250px;
+		height: 0;
+		flex: 0 0 250px;
+	}
+
+	&__item
+	{
+		max-width: 250px;
+		margin-bottom: 60px;
+
+		&.js-hidden
+		{
+			display: block;
+			max-width: 250px;
+			height: 0;
+			flex: 0 0 250px;
+		}
+	}
+}
