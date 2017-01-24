@@ -19,6 +19,9 @@ export const PLUGINS_OPTIONS = {
 	webpackStream: {
 		base: {
 			entry: './source/scripts/index.js',
+			output: {
+				filename: 'bundle.js',
+			},
 			module: {
 				loaders: [
 					{

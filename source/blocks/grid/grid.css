@@ -26,12 +26,14 @@
 		max-width: 250px;
 		margin-bottom: 60px;
 
+		&:empty
+		{
+			margin-bottom: 0;
+		}
+
 		&.js-hidden
 		{
-			display: block;
-			max-width: 250px;
-			height: 0;
-			flex: 0 0 250px;
+			display: none;
 		}
 	}
 }

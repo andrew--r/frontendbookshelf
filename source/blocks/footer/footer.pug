@@ -1,4 +1,6 @@
 mixin footer()
 	+b.footer&attributes(attributes)
 		+e.inner.container
-			block
+			+e.left
+				+logo()
+			+e.P.right Сделал в 2016–2017 #[a(href='http://andrew-r.ru') Андрей Романов]

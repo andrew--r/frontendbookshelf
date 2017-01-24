@@ -188,6 +188,42 @@
       "thumb": "javascript-patterns.jpg",
       "categories": ["javascript"],
       "difficulty": ["advanced"]
+    },
+    {
+      "title": "HTML5 для веб-дизайнеров",
+      "author": "Кит Джереми",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/19431055/",
+      "thumb": "html5-for-web-designers.jpg",
+      "categories": ["html5"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "Изучаем HTML5",
+      "author": "Брюс Лоусон, Реми Шарп",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/7622650/",
+      "thumb": "introducing-html5.jpg",
+      "categories": ["html5"],
+      "difficulty": ["advanced"]
+    },
+    {
+      "title": "Node.js in Action",
+      "author": "Майк Кэнтелон, Марк Хартер, T. J. Holowaychuk, Nathan Rajlich",
+      "language": "en",
+      "link": "http://www.amazon.com/Node-js-Action-Mike-Cantelon/dp/1617290572",
+      "thumb": "node-in-action.jpg",
+      "categories": ["node"],
+      "difficulty": ["beginner"]
+    },
+    {
+      "title": "Отзывчивый веб-дизайн",
+      "author": "Итан Маркотт",
+      "language": "ru",
+      "link": "http://www.ozon.ru/context/detail/id/8747299/",
+      "thumb": "responsive-webdesign.jpg",
+      "categories": ["css", "rwd"],
+      "difficulty": ["advanced"]
     }
   ]
 }

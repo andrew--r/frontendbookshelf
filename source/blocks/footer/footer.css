@@ -1,13 +1,7 @@
 .footer
 {
-	margin-top: 60px;
 	background: var(--bgColor);
 	border-top: 1px solid var(--borderColor);
-
-	&_main
-	{
-		margin-top: 0;
-	}
 
 	&__inner
 	{
