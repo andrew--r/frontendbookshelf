@@ -9,6 +9,8 @@
     "generate": "./node_modules/.bin/plop",
     "clear": "rm -rf ./build",
     "watch": "yarn clear && ./node_modules/.bin/gulp watch",
+    "format": "yarn format:styles",
+    "format:styles": "./node_modules/.bin/gulp format:styles",
     "build": "yarn build:development",
     "build:production": "yarn clear && ./node_modules/.bin/cross-env NODE_ENV=production ./node_modules/.bin/gulp build",
     "build:development": "yarn clear && ./node_modules/.bin/cross-env NODE_ENV=development ./node_modules/.bin/gulp build"
@@ -37,7 +39,10 @@
     "plop": "^1.7.3",
     "postcss-cssnext": "^2.9.0",
     "postcss-easy-import": "^1.0.1",
+    "postcss-reporter": "^3.0.0",
+    "postcss-sorting": "^2.0.1",
     "require-dir": "^0.3.1",
+    "stylefmt": "^5.1.1",
     "webpack-stream": "^3.2.0"
   },
   "browserslist": [

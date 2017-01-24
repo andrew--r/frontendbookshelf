@@ -4,6 +4,7 @@ import rename from 'gulp-rename';
 import postcss from 'gulp-postcss';
 import easyImport from 'postcss-easy-import';
 import cssnext from 'postcss-cssnext';
+import reporter from 'postcss-reporter';
 import csso from 'gulp-csso';
 import { PATHS } from '../config';
 import { getPluginOptions } from '../helpers';
@@ -16,6 +17,7 @@ gulp.task('styles', () => {
 		.pipe(postcss([
 			easyImport(getPluginOptions('postcssEasyImport')),
 			cssnext(),
+			reporter({ clearAllMessages: true }),
 		]))
 		.pipe(csso())
 		.pipe(rename('main.css'))

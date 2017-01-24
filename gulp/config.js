@@ -1,4 +1,32 @@
 import gutil from 'gulp-util';
+import path from 'path';
+
+const cssRulesOrder = require(path.resolve(process.cwd(), './css-rules-order'));
+
+export const PATHS = {
+	source: {
+		base: './source',
+		templates: {
+			blocks: './source/blocks',
+			layouts: './source/layouts',
+			pages: './source/pages',
+		},
+		scripts: './source/scripts',
+		styles: {
+			all: './source/{styles,blocks}',
+			common: './source/styles',
+			blocks: './source/blocks',
+		},
+		images: './source/images',
+		data: './source/data',
+	},
+	build: {
+		templates: './build',
+		scripts: './build',
+		styles: './build',
+		images: './build/images',
+	},
+};
 
 export const PLUGINS_OPTIONS = {
 	plumber: {
@@ -14,6 +42,14 @@ export const PLUGINS_OPTIONS = {
 	postcssEasyImport: {
 		base: {
 			glob: true,
+		},
+	},
+	postcssSorting: {
+		base: {
+			'rule-nested-empty-line-before': [true, { except: ['first-nested'] }],
+			'at-rule-nested-empty-line-before': [true, { except: ['first-nested'] }],
+			'declaration-empty-line-before': false,
+			'properties-order': cssRulesOrder,
 		},
 	},
 	webpackStream: {
@@ -51,27 +87,4 @@ export const PLUGINS_OPTIONS = {
 			open: 'local',
 		},
 	}
-};
-
-export const PATHS = {
-	source: {
-		templates: {
-			blocks: './source/blocks',
-			layouts: './source/layouts',
-			pages: './source/pages',
-		},
-		scripts: './source/scripts',
-		styles: {
-			common: './source/styles',
-			blocks: './source/blocks',
-		},
-		images: './source/images',
-		data: './source/data',
-	},
-	build: {
-		templates: './build',
-		scripts: './build',
-		styles: './build',
-		images: './build/images',
-	},
 };
