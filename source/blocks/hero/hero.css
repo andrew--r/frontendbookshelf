@@ -11,16 +11,16 @@
 
 	& .header
 	{
-		background: transparent;
 		border: none;
+		background: transparent;
 		box-shadow: none;
 	}
 
 	&__title
 	{
-		font-size: 36px;
 		margin-top: 60px;
 		margin-bottom: 15px;
+		font-size: 36px;
 
 		@media (--mobile)
 		{

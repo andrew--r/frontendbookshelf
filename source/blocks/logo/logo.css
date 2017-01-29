@@ -4,10 +4,10 @@
 	width: 128px;
 	height: 50px;
 	text-indent: -9999px;
+	border: none;
 	background: url('images/logo.png') center no-repeat;
 	background-color: transparent;
 	background-size: cover;
-	border: none;
 
 	&:hover,
 	&.hover

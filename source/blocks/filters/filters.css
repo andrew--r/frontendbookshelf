@@ -3,9 +3,9 @@
 	padding: 30px 0;
 	font-size: 0;
 	line-height: 2;
+	border-bottom: 1px solid var(--borderColor);
 	background: var(--bgColor);
 	box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, .2);
-	border-bottom: 1px solid var(--borderColor);
 
 	&__text
 	{
