@@ -1,7 +1,6 @@
 import gutil from 'gulp-util';
 import path from 'path';
-
-const cssRulesOrder = require(path.resolve(process.cwd(), './css-rules-order'));
+import stylelintConfig from '../stylelint.config';
 
 export const PATHS = {
 	source: {
@@ -49,7 +48,7 @@ export const PLUGINS_OPTIONS = {
 			'rule-nested-empty-line-before': [true, { except: ['first-nested'] }],
 			'at-rule-nested-empty-line-before': [true, { except: ['first-nested'] }],
 			'declaration-empty-line-before': false,
-			'properties-order': cssRulesOrder,
+			'properties-order': stylelintConfig.rules['declaration-block-properties-order'],
 		},
 	},
 	webpackStream: {
