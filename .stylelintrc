@@ -18,7 +18,7 @@
     "number-no-trailing-zeros": true,
     "selector-combinator-space-before": "always",
     "selector-combinator-space-after": "always",
-    "selector-list-comma-newline-before": "never",
+    "selector-list-comma-newline-before": "never-multi-line",
     "selector-list-comma-newline-after": "always",
     "selector-list-comma-space-before": "never",
     "selector-list-comma-space-after": "never",
