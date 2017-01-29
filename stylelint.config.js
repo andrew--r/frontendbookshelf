@@ -4,7 +4,7 @@ module.exports = {
     'color-hex-case': 'lower',
     'color-hex-length': 'short',
     'at-rule-empty-line-before': ['always', {
-      except: ['first-nested'],
+      except: ['first-nested', 'blockless-after-same-name-blockless'],
     }],
     'at-rule-semicolon-newline-after': 'always',
     'block-closing-brace-newline-before': 'always',
