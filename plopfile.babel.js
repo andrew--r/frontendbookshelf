@@ -16,23 +16,14 @@ const addMarkup = {
 	templateFile: 'plop-templates/block/block.pug',
 };
 
-function getResourcePath(resourceType) {
-	const resourcesTypes = {
-		template: '{{;p}}'
-	};
-
-	return `${BLOCKS}/`;
-}
-
 function generateResourcePath(resourceType) {
 	const resourcesNamesByType = {
 		template: '{{lowerCase name}}.pug',
-		style: '{{lowerCase name}}.css'
+		style: '{{lowerCase name}}.css',
 	};
 
 	return `${BLOCKS}/{{lowerCase name}}/${resourcesNamesByType[resourceType]}`;
 }
-
 
 module.exports = (plop) => {
 	plop.setGenerator('block', {

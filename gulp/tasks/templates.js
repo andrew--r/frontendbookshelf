@@ -1,6 +1,5 @@
 import fs from 'fs';
 import glob from 'glob';
-import path from 'path';
 import gulp from 'gulp';
 import plumber from 'gulp-plumber';
 import getData from 'gulp-data';
@@ -9,8 +8,7 @@ import rename from 'gulp-rename';
 import { PATHS } from '../config';
 import { getPluginOptions } from '../helpers';
 
-
-const parseDataFile = (path) => JSON.parse(fs.readFileSync(path));
+const parseDataFile = (filePath) => JSON.parse(fs.readFileSync(filePath));
 const mergeObjects = (target, source) => ({ ...target, ...source });
 
 gulp.task('templates', () => {
@@ -20,16 +18,13 @@ gulp.task('templates', () => {
 		.pipe(getData(() => glob
 			.sync(`${PATHS.source.data}/**/*.json`)
 			.map(parseDataFile)
-			.reduce(mergeObjects, {})
-		))
+			.reduce(mergeObjects, {})))
 		.pipe(pug(getPluginOptions('pug')))
 		.pipe(rename((path) => {
 			if (path.basename !== 'index') {
-				path.dirname = path.basename;
-				path.basename = 'index';
+				path.dirname = path.basename; // eslint-disable-line no-param-reassign
+				path.basename = 'index'; // eslint-disable-line no-param-reassign
 			}
-
-			return path;
 		}))
 		.pipe(gulp.dest(PATHS.build.templates));
 });

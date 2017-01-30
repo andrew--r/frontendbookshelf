@@ -5,7 +5,6 @@ import uglify from 'gulp-uglify';
 import { PATHS } from '../config';
 import { getPluginOptions } from '../helpers';
 
-
 const isProduction = process.env.NODE_ENV === 'production';
 
 gulp.task('scripts', () => {

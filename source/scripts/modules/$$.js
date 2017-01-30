@@ -1,11 +1,11 @@
-module.exports = function(selector) {
-  var nodeList = Array;
+module.exports = function $$(selector) {
+	const nodeList = Array;
 
-  nodeList.prototype.on = function(event, callback) {
-    this.forEach((item) => {
-      item.addEventListener(event, callback);
-    });
-  };
+	nodeList.prototype.on = function onEvent(event, callback) {
+		this.forEach((item) => {
+			item.addEventListener(event, callback);
+		});
+	};
 
-  return nodeList.apply(null, [].slice.call(document.querySelectorAll(selector)));
-}
+	return nodeList(...[].slice.call(document.querySelectorAll(selector)));
+};

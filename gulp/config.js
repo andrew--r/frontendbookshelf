@@ -1,5 +1,4 @@
 import gutil from 'gulp-util';
-import path from 'path';
 import stylelintConfig from '../stylelint.config';
 
 export const PATHS = {
@@ -85,5 +84,5 @@ export const PLUGINS_OPTIONS = {
 			server: './build',
 			open: 'local',
 		},
-	}
+	},
 };

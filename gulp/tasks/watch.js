@@ -3,7 +3,6 @@ import browserSync from 'browser-sync';
 import { PATHS } from '../config';
 import { getPluginOptions } from '../helpers';
 
-
 const server = browserSync.create();
 const { reload } = server;
 
