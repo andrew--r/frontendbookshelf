@@ -1,6 +1,5 @@
 mixin filters()
 	+b.filters&attributes(attributes)
 		.container
-			+e.SPAN.text Мне нужна книга #[span.nobr по #[+e.SELECT.select.js-category]]
-			span.nobr #[+e.SPAN.text на #[+e.SELECT.select.js-language] #[+e.SPAN.text языке]]
-			span.nobr #[+e.SPAN.text  для #[+e.SELECT.select.js-difficulty] #[+e.SPAN.text разработчиков]]
+			+e.text
+				| Мне нужна книга #[span.nobr по #[+e.SELECT.select.js-category]] #[span.nobr на #[+e.SELECT.select.js-language]] языке #[span.nobr для #[+e.SELECT.select.js-difficulty]] разработчиков
