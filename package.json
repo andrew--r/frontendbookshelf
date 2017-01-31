@@ -8,7 +8,7 @@
   "scripts": {
     "generate": "./node_modules/.bin/plop",
     "clear": "rm -rf ./build",
-    "watch": "yarn clear && ./node_modules/.bin/gulp watch",
+    "start": "yarn clear && ./node_modules/.bin/gulp watch",
     "lint": "yarn lint:styles && yarn lint:scripts",
     "lint:styles": "./node_modules/.bin/stylelint source/**/*.css",
     "lint:scripts": "./node_modules/.bin/eslint source/**/*.js",
