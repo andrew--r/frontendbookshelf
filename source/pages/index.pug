@@ -1,5 +1,5 @@
 extends ../layouts/main
-include ../blocks/hero/hero
+include ../blocks/header/header
 include ../blocks/filters/filters
 include ../blocks/grid/grid
 include ../blocks/footer/footer
@@ -9,7 +9,7 @@ block head
 	- var pageTitle = 'Список книг';
 
 block body
-	+hero()
+	+header()
 	+filters()
 	+grid()
 	+footer()
