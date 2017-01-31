@@ -14,7 +14,8 @@
     "lint:scripts": "./node_modules/.bin/eslint source/**/*.js",
     "build": "yarn build:development",
     "build:production": "yarn clear && ./node_modules/.bin/cross-env NODE_ENV=production ./node_modules/.bin/gulp build",
-    "build:development": "yarn clear && ./node_modules/.bin/cross-env NODE_ENV=development ./node_modules/.bin/gulp build"
+    "build:development": "yarn clear && ./node_modules/.bin/cross-env NODE_ENV=development ./node_modules/.bin/gulp build",
+    "precommit": "yarn lint"
   },
   "dependencies": {},
   "devDependencies": {
@@ -42,6 +43,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.8",
+    "husky": "^0.13.1",
     "plop": "^1.7.3",
     "postcss-cssnext": "^2.9.0",
     "postcss-easy-import": "^1.0.1",
