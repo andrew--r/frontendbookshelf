@@ -21,5 +21,7 @@ gulp.task('watch', ['build'], () => {
 		`${PATHS.source.styles.blocks}/**/*.css`,
 	], ['styles', reload]);
 
+	gulp.watch(`${PATHS.source.scripts}/**/*.js`, ['scripts', reload]);
+
 	gulp.watch(`${PATHS.source.images}/**/*`, ['images', reload]);
 });
