@@ -9,7 +9,7 @@ import csso from 'gulp-csso';
 import { PATHS } from '../config';
 import { getPluginOptions } from '../helpers';
 
-gulp.task('styles', ['format:styles'], () => {
+gulp.task('styles', () => {
 	return gulp
 		.src(`${PATHS.source.styles.common}/index.css`)
 		.pipe(plumber(getPluginOptions('plumber')))
