@@ -1,0 +1,90 @@
+html
+{
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after
+{
+	box-sizing: inherit;
+}
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	font-size: 100%;
+	font-weight: 900;
+}
+
+h1
+{
+	font-size: 42px;
+}
+
+h2
+{
+	font-size: 30px;
+}
+
+h3
+{
+	font-size: 22px;
+}
+
+ul
+{
+	list-style: none;
+}
+
+button,
+input,
+select,
+textarea
+{
+	margin: 0;
+}
+
+iframe
+{
+	border: 0;
+}
+
+img
+{
+	max-width: 100%;
+	height: auto;
+}

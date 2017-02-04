@@ -1,0 +1,10 @@
+.page
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.page__content
+{
+	flex: 1;
+}

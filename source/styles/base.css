@@ -1,101 +1,19 @@
 html,
-body,
-p,
-ol,
-ul,
-li,
-dl,
-dt,
-dd,
-blockquote,
-figure,
-fieldset,
-legend,
-textarea,
-pre,
-iframe,
-hr,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6
+body
 {
-	margin: 0;
-	padding: 0;
-}
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6
-{
-	font-size: 100%;
-	font-weight: 900;
-}
-
-h1
-{
-	font-size: 42px;
-}
-
-h2
-{
-	font-size: 30px;
-}
-
-h3
-{
-	font-size: 22px;
-}
-
-ul
-{
-	list-style: none;
-}
-
-button,
-input,
-select,
-textarea
-{
-	margin: 0;
+	font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.2;
 }
 
 html
 {
-	box-sizing: border-box;
+	height: 100%;
 }
 
-*,
-*:before,
-*:after
-{
-	box-sizing: inherit;
-}
-
-img
-{
-	max-width: 100%;
-	height: auto;
-}
-
-iframe
-{
-	border: 0;
-}
-
-html,
 body
 {
-	height: 100%;
-	font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.2;
+	min-height: 100%;
 }
 
 a
