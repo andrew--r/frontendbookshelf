@@ -1,10 +1,12 @@
 :root
 {
-	--siteWidth: 1140px;
-	--linkColor: #0072ba;
-	--linkColorHover: #d04000;
-	--bgColor: #fdfdfd;
-	--borderColor: #eaeaea;
+	--site-width: 1140px;
+	--link-color: #0072ba;
+	--link-color-hover: #d04000;
+	--bg-color: #fdfdfd;
+	--border-color: #eaeaea;
+
+	--grid-item-padding: 1rem;
 }
 
 @custom-media --mobile (width <= 480px);

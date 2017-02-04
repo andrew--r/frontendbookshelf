@@ -2,45 +2,45 @@
 {
 	position: relative;
 	display: inline-block;
+	border: 0;
+}
 
-	&__thumb
-	{
-		position: relative;
-		display: flex;
-		align-items: center;
-		justify-content: flex-start;
-		overflow: hidden;
-		width: 100%;
-		max-height: 360px;
-		margin-bottom: 20px;
-		border: none;
+.book__thumb
+{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	max-height: 360px;
+	margin-bottom: 20px;
+}
 
-		& img
-		{
-			max-height: 360px;
-		}
-	}
+.book__thumb img
+{
+	max-height: 360px;
+	box-shadow: 0 8px 24px -8px rgba(0, 0, 0, .1);
+}
 
-	&__info
-	{
-		padding: 0 .5rem;
-	}
+.book__info
+{
+	padding: 0 .5rem;
+}
 
-	&__name
-	{
-		display: block;
-		font-size: 20px;
-		font-weight: 700;
-		border: 0;
-	}
+.book__title
+{
+	display: block;
+	font-size: 20px;
+	font-weight: 700;
+	border: 0;
+}
 
-	&__author
-	{
-		display: block;
-		margin-bottom: 5px;
-		font-size: 12px;
-		letter-spacing: .1em;
-		text-transform: uppercase;
-		color: #888;
-	}
+.book__author
+{
+	display: block;
+	padding-top: 10px;
+	font-size: 12px;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	color: #888;
 }

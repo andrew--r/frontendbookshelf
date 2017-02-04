@@ -18,14 +18,14 @@ module.exports = class BookList {
 		$$(`.book:not([data-categories="${name}"])`).forEach((i) => {
 			const index = this.list.indexOf(i);
 
-			this.list[index].classList.add('js-hidden');
+			this.list[index].parentNode.classList.add('js-hidden');
 		});
 
 		// show elements that matches
 		$$(`.book[data-categories*="${name}"]`).forEach((i) => {
 			const index = this.list.indexOf(i);
 
-			this.list[index].classList.remove('js-hidden');
+			this.list[index].parentNode.classList.remove('js-hidden');
 		});
 	}
 
@@ -34,14 +34,14 @@ module.exports = class BookList {
 		$$(`.book[data-categories*="${currentCategory}"]:not([data-languages="${language}"])`).forEach((i) => {
 			const index = this.list.indexOf(i);
 
-			this.list[index].classList.add('js-hidden');
+			this.list[index].parentNode.classList.add('js-hidden');
 		});
 
 		// show elements that matches
 		$$(`.book[data-categories*="${currentCategory}"][data-languages="${language}"]`).forEach((i) => {
 			const index = this.list.indexOf(i);
 
-			this.list[index].classList.remove('js-hidden');
+			this.list[index].parentNode.classList.remove('js-hidden');
 		});
 	}
 
@@ -49,13 +49,13 @@ module.exports = class BookList {
 		$$(`.book[data-categories*="${currentCategory}"][data-languages="${currentLanguage}"]:not([data-difficulties="${difficulty}"])`).forEach((i) => {
 			const index = this.list.indexOf(i);
 
-			this.list[index].classList.add('js-hidden');
+			this.list[index].parentNode.classList.add('js-hidden');
 		});
 
 		$$(`.book[data-categories*="${currentCategory}"][data-languages="${currentLanguage}"][data-difficulties*="${difficulty}"]`).forEach((i) => {
 			const index = this.list.indexOf(i);
 
-			this.list[index].classList.remove('js-hidden');
+			this.list[index].parentNode.classList.remove('js-hidden');
 		});
 	}
 

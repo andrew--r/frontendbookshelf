@@ -16,23 +16,9 @@ body
 	min-height: 100%;
 }
 
-a
-{
-	text-decoration: none;
-	color: var(--linkColor);
-	border-bottom: 1px solid color(var(--linkColor) alpha(25%));
-
-	&:hover,
-	&.hover
-	{
-		color: var(--linkColorHover);
-		border-bottom: 1px solid color(var(--linkColorHover) alpha(25%));
-	}
-}
-
 .container
 {
-	max-width: var(--siteWidth);
+	max-width: var(--site-width);
 	margin-right: auto;
 	margin-left: auto;
 	padding-right: 40px;

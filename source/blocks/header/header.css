@@ -1,7 +1,7 @@
 .header
 {
-	border-bottom: 1px solid var(--borderColor);
-	background: var(--bgColor);
+	border-bottom: 1px solid var(--border-color);
+	background: var(--bg-color);
 	box-shadow: 0 2px 16px rgba(#000, 5%);
 
 	&__inner

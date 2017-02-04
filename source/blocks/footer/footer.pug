@@ -1,6 +1,8 @@
+include ../link/link
+
 mixin footer()
 	+b.footer&attributes(attributes)
 		+e.inner.container
 			+e.left
 				+logo()
-			+e.P.right Сделал в 2016–2017 #[a(href='http://andrew-r.ru') Андрей Романов]
+			+e.P.right Сделал в 2016–2017 #[+link()(href='http://andrew-r.ru') Андрей Романов]

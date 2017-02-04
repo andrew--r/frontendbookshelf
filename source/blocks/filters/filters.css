@@ -3,8 +3,8 @@
 	padding: 30px 0;
 	font-size: 0;
 	line-height: 2;
-	border-bottom: 1px solid var(--borderColor);
-	background: var(--bgColor);
+	border-bottom: 1px solid var(--border-color);
+	background: var(--bg-color);
 
 	&__text
 	{

@@ -7,5 +7,5 @@ mixin book(options)
 		+e.A.thumb(href=options.link title=options.title)
 			img(src=`images/books/${options.thumb}` alt=options.title)
 		+e.info
+			+e.SPAN.title= options.title
 			+e.SPAN.author= options.author
-			+e.A.name(href=options.link)= options.title

@@ -1,39 +1,31 @@
 .grid
 {
+	padding-top: 60px;
+}
+
+.grid__inner
+{
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-around;
-	margin-top: 60px;
+	margin: 0 calc(var(--grid-item-padding) * -1);
 	flex-wrap: wrap;
+}
 
-	&::after
-	{
-		content: '';
-	}
+.grid__item
+{
+	min-width: 250px;
+	margin-bottom: 60px;
+	padding: 0 var(--grid-item-padding);
+	flex: 1 1 25%;
+}
 
-	&::after,
-	&__item:empty
-	{
-		display: block;
-		max-width: 250px;
-		height: 0;
-		flex: 0 0 250px;
-	}
+.grid__item.js-last-visible
+{
+	flex-basis: 100%;
+}
 
-	&__item
-	{
-		max-width: 250px;
-		margin-bottom: 60px;
-		flex: 0 0 250px;
-
-		&:empty
-		{
-			margin-bottom: 0;
-		}
-
-		&.js-hidden
-		{
-			display: none;
-		}
-	}
+.grid__item.js-hidden
+{
+	display: none;
 }

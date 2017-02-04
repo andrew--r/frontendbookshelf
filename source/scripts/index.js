@@ -1,4 +1,4 @@
-import pseudohover from './modules/pseudohover';
+import './modules/stretchy';
 import BookList from './modules/BookList';
 import Selects from './modules/selects';
 import PubSub from './pubsub';
@@ -38,7 +38,6 @@ class Main extends PubSub {
 			ru: 'русском',
 		};
 
-		pseudohover();
 		this.bindEvents();
 		this.start();
 	}
