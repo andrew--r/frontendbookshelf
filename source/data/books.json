@@ -215,15 +215,6 @@
       "thumb": "node-in-action.jpg",
       "categories": ["node"],
       "difficulty": ["beginner"]
-    },
-    {
-      "title": "Отзывчивый веб-дизайн",
-      "author": "Итан Маркотт",
-      "language": "ru",
-      "link": "http://www.ozon.ru/context/detail/id/8747299/",
-      "thumb": "responsive-webdesign.jpg",
-      "categories": ["css", "rwd"],
-      "difficulty": ["advanced"]
     }
   ]
 }
