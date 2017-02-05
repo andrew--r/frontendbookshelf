@@ -1,17 +1,10 @@
 .logo
 {
-	display: block;
-	width: 128px;
-	height: 50px;
-	text-indent: -9999px;
-	border: none;
-	background: url('images/logo.png') center no-repeat;
-	background-color: transparent;
-	background-size: cover;
+	font-size: 4rem;
 
-	&:hover,
-	&.hover
+	@media (--tablet)
 	{
-		border: none;
+		font-size: 2.5rem;
 	}
+
 }

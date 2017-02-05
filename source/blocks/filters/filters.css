@@ -1,19 +1,17 @@
 .filters
 {
-	padding: 30px 0;
+	padding: 20px 0;
 	font-size: 0;
 	line-height: 2;
-	border-bottom: 1px solid var(--border-color);
-	background: var(--bg-color);
+}
 
-	&__text
-	{
-		font-size: 1rem;
-	}
+.filters__text
+{
+	font-size: 1rem;
+}
 
-	&__select
-	{
-		margin: 0 .5em;
-		font-size: 1rem;
-	}
+.filters__select
+{
+	margin: 0 .5em;
+	font-size: 1rem;
 }

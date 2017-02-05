@@ -1,34 +1,10 @@
 .footer
 {
-	border-top: 1px solid var(--border-color);
-	background: var(--bg-color);
+	width: 100%;
+}
 
-	&__inner
-	{
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		padding-top: 30px;
-		padding-bottom: 30px;
-
-		@media (--mobile)
-		{
-			display: block;
-			text-align: center;
-		}
-	}
-
-	&__left
-	{
-		@media (--mobile)
-		{
-			margin-bottom: 20px;
-
-			& .logo
-			{
-				margin-right: auto;
-				margin-left: auto;
-			}
-		}
-	}
+.footer__credits
+{
+	padding: .5rem 0;
+	font-size: .875rem;
 }

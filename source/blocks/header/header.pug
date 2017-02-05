@@ -1,8 +1,5 @@
 include ../logo/logo
-include ../social/social
 
 mixin header()
-	+b.header
-		+e.inner.container
-			+logo()(class='header__logo')
-			+social()
+	+b.header.container
+		+logo()
