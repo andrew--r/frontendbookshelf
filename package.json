@@ -9,7 +9,7 @@
     "generate": "./node_modules/.bin/plop",
     "clear": "rm -rf ./build",
     "start": "yarn clear && $(yarn bin)/gulp watch",
-    "lint": "yarn lint:styles && yarn lint:scripts",
+    "lint": "yarn lint:styles & yarn lint:scripts",
     "lint:styles": "$(yarn bin)/stylelint source/**/*.css",
     "lint:scripts": "$(yarn bin)/eslint source/**/*.js",
     "format:styles": "$(yarn bin)/gulp format:styles",
