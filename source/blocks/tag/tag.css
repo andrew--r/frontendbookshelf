@@ -1,0 +1,27 @@
+.tag
+{
+	display: inline-block;
+	margin-right: .5rem;
+	padding: .25rem var(--tag-items-spacing);
+	line-height: 1;
+	cursor: pointer;
+	color: var(--tag-color);
+	background-color: var(--tag-background);
+	border: 1px solid var(--tag-background);
+	border-radius: 3px;
+}
+
+.tag__checkbox
+{
+	margin: 0 var(--tag-items-spacing);
+}
+
+.tag__content
+{
+	padding: 0 var(--tag-items-spacing);
+}
+
+.tag__content:active
+{
+	user-select: none;
+}
