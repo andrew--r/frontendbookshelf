@@ -1,5 +1,22 @@
+include ../tag/tag
+
 mixin filters()
-	+b.filters&attributes(attributes)
-		.container
-			+e.text
-				| Мне нужна книга #[span.nobr по #[+e.SELECT.select.js-category]] #[span.nobr на #[+e.SELECT.select.js-language]] языке #[span.nobr для #[+e.SELECT.select.js-difficulty]] разработчиков
+	+b.filters.container&attributes(attributes)
+		+tag('CSS')
+		+tag('JavaScript')
+		+tag('Вёрстка')
+		+tag('HTML')
+		+tag('SVG')
+		+tag('Node.js')
+		+tag('Оптимизация')
+		+tag('Backbone')
+		+tag('jQuery')
+		+tag('CSS')
+		+tag('JavaScript')
+		+tag('Вёрстка')
+		+tag('HTML')
+		+tag('SVG')
+		+tag('Node.js')
+		+tag('Оптимизация')
+		+tag('Backbone')
+		+tag('jQuery')

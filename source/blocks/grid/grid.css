@@ -1,6 +1,6 @@
 .grid
 {
-	padding-top: 60px;
+	padding-top: 50px;
 }
 
 .grid__inner
@@ -15,7 +15,7 @@
 .grid__item
 {
 	min-width: 250px;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 	padding: 0 var(--grid-item-padding);
 	flex: 1 1 25%;
 }

@@ -6,9 +6,9 @@
 	line-height: 1;
 	cursor: pointer;
 	color: var(--tag-color);
-	background-color: var(--tag-background);
 	border: 1px solid var(--tag-background);
 	border-radius: 3px;
+	background-color: var(--tag-background);
 }
 
 .tag__checkbox
