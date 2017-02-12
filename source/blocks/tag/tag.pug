@@ -1,4 +1,6 @@
-mixin tag(name, groupName)
-	+b.LABEL.tag&attributes(attributes)
-		+e.INPUT.checkbox(type='checkbox' name=groupName || 'current-tag')
-		+e.SPAN.content= name
+include ../checkbox/checkbox
+
+mixin tag(id)
+	+b.LABEL.tag(for=`tag-${id}`)&attributes(attributes)
+		+checkbox(`tag-${id}`)(class='tag__checkbox')
+		+e.SPAN.content= tags[id]

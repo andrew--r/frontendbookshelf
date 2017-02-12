@@ -1,19 +1,11 @@
 :root
 {
 	--site-width: 1140px;
+	--site-padding: 20px;
+	--site-background: #fff;
 	--link-color: #0072ba;
 	--link-color-hover: #d04000;
-	--bg-color: #fdfdfd;
 	--border-color: #eaeaea;
-
-	--tag-items-spacing: .25rem;
-	--tag-color: #4078c0;
-	--tag-color-active: #fff;
-	--tag-background: #e7f2ff;
-	--tag-background-hover: color(var(--tag-background) whiteness(85%));
-	--tag-background-active: #4a89dc;
-
-	--grid-item-padding: 1rem;
 }
 
 @custom-media --mobile (width <= 480px);

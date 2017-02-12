@@ -1,3 +1,13 @@
+:root
+{
+	--tag-items-spacing: .25rem;
+	--tag-color: #4078c0;
+	--tag-color-active: #fff;
+	--tag-background: #e7f2ff;
+	--tag-background-hover: color(var(--tag-background) whiteness(85%));
+	--tag-background-active: #4a89dc;
+}
+
 .tag
 {
 	display: inline-block;

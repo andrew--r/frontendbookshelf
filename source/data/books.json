@@ -2,219 +2,171 @@
   "books": [
     {
       "title": "You Don't Know JS: Up & Going",
-      "author": "Кайл Симпсон",
-      "language": "en",
+      "authors": ["Кайл Симпсон"],
       "link": "https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going",
       "thumb": "ydkjs-up-and-going.jpg",
-      "categories": ["javascript"],
-      "difficulty": ["beginner"]
+      "tags": [1, 5, 8]
     },
     {
       "title": "You Don't Know JS: Scope & Closures",
-      "author": "Кайл Симпсон",
-      "language": "en",
+      "authors": ["Кайл Симпсон"],
       "link": "https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures",
       "thumb": "ydkjs-scope-and-closures.jpg",
-      "categories": ["javascript"],
-      "difficulty": ["beginner"]
+      "tags": [1, 2, 5, 8]
     },
     {
       "title": "You Don't Know JS: this & Object Prototypes",
-      "author": "Кайл Симпсон",
-      "language": "en",
+      "authors": ["Кайл Симпсон"],
       "link": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes",
       "thumb": "ydkjs-this-and-op.jpg",
-      "categories": ["javascript"],
-      "difficulty": ["beginner"]
+      "tags": [1, 2, 5, 8]
     },
     {
       "title": "You Don't Know JS: Types & Grammar",
-      "author": "Кайл Симпсон",
-      "language": "en",
+      "authors": ["Кайл Симпсон"],
       "link": "https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&%20grammar/README.md#you-dont-know-js-types--grammar",
       "thumb": "ydkjs-types-and-grammar.jpg",
-      "categories": ["javascript"],
-      "difficulty": ["beginner"]
+      "tags": [1, 2, 5, 8]
     },
     {
       "title": "You Don't Know JS: Async & Performance",
-      "author": "Кайл Симпсон",
-      "language": "en",
+      "authors": ["Кайл Симпсон"],
       "link": "https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance",
       "thumb": "ydkjs-async-and-perfomance.jpg",
-      "categories": ["javascript"],
-      "difficulty": ["advanced"]
+      "tags": [2, 3, 5, 8]
     },
     {
       "title": "CSS Secrets",
-      "author": "Лиа Веру",
-      "language": "en",
+      "authors": ["Лиа Веру"],
       "link": "http://shop.oreilly.com/product/0636920031123.do",
       "thumb": "css-secrets.jpg",
-      "categories": ["css"],
-      "difficulty": ["advanced"]
+      "tags": [2, 3, 5, 7]
     },
     {
       "title": "JavaScript Enlightenment",
-      "author": "Коди Линдли",
-      "language": "en",
+      "authors": ["Коди Линдли"],
       "link": "http://www.javascriptenlightenment.com/",
       "thumb": "javascript-enlightenment.jpg",
-      "categories": ["javascript"],
-      "difficulty": ["beginner"]
+      "tags": [1, 2, 5, 8]
     },
     {
       "title": "Выразительный Javascript",
-      "author": "Марейн Хавербек",
-      "language": "ru",
+      "authors": ["Марейн Хавербек"],
       "link": "https://karmazzin.gitbooks.io/eloquentjavascript_ru/",
       "thumb": "eloquent-javascript.jpg",
-      "categories": ["javascript"],
-      "difficulty": ["beginner"]
+      "tags": [1, 2, 4, 8]
     },
     {
       "title": "Speaking JavaScript",
-      "author": "Аксель Раушмайер",
-      "language": "en",
+      "authors": ["Аксель Раушмайер"],
       "link": "http://speakingjs.com/es5/index.html",
       "thumb": "speakingjs-rauschmayer.jpg",
-      "categories": ["javascript"],
-      "difficulty": ["advanced"]
+      "tags": [3, 5, 8]
     },
     {
       "title": "Transforms in CSS",
-      "author": "Эрик Мейер",
-      "language": "en",
+      "authors": ["Эрик Мейер"],
       "link": "http://www.oreilly.com/free/transforms-in-css.csp",
       "thumb": "transforms-in-css.jpg",
-      "categories": ["css"],
-      "difficulty": ["advanced"]
+      "tags": [2, 3, 5, 7]
     },
     {
       "title": "Understanding ECMAScript 6",
-      "author": "Николас Закас",
-      "language": "en",
+      "authors": ["Николас Закас"],
       "link": "https://leanpub.com/understandinges6/read/",
       "thumb": "understanding-es6.jpg",
-      "categories": ["javascript"],
-      "difficulty": ["advanced"]
+      "tags": [2, 3, 5, 8]
     },
     {
       "title": "JavaScript. Сильные стороны",
-      "author": "Дуглас Крокфорд",
-      "language": "ru",
+      "authors": ["Дуглас Крокфорд"],
       "link": "http://www.ozon.ru/context/detail/id/20217226/",
       "thumb": "crockford-javascript.jpg",
-      "categories": ["javascript"],
-      "difficulty": ["advanced"]
+      "tags": [2, 3, 4, 8]
     },
     {
       "title": "Сила JavaScript. 68 способов эффективного использования JS",
-      "author": "Дэвид Херман",
-      "language": "ru",
+      "authors": ["Дэвид Херман"],
       "link": "http://www.ozon.ru/context/detail/id/20413530/",
       "thumb": "js-68-ways.jpg",
-      "categories": ["javascript"],
-      "difficulty": ["advanced"]
+      "tags": [2, 3, 4, 8]
     },
     {
       "title": "Отзывчивый веб-дизайн",
-      "author": "Итан Маркотт",
-      "language": "ru",
+      "authors": ["Итан Маркотт"],
       "link": "http://www.ozon.ru/context/detail/id/8747299/",
       "thumb": "responsive-webdesign.jpg",
-      "categories": ["css", "rwd"],
-      "difficulty": ["advanced"]
+      "tags": [2, 4, 7]
     },
     {
       "title": "Exploring ES6",
-      "author": "Аксель Раушмайер",
-      "language": "en",
+      "authors": ["Аксель Раушмайер"],
       "link": "http://exploringjs.com/",
       "thumb": "exploring-es6.jpg",
-      "categories": ["JavaScript"],
-      "difficulty": ["advanced"]
+      "tags": [2, 3, 5, 8]
     },
     {
       "title": "JavaScript. Подробное руководство",
-      "author": "Дэвид Флэнаган",
-      "language": "ru",
+      "authors": ["Дэвид Флэнаган"],
       "link": "http://www.ozon.ru/context/detail/id/19677670/",
       "thumb": "flanagan-javascript-definitive-guide.jpg",
-      "categories": ["JavaScript"],
-      "difficulty": ["beginner"]
+      "tags": [1, 2, 3, 4, 8]
     },
     {
       "title": "High Performance Web Sites",
-      "author": "Стив Саудерс",
-      "language": "en",
+      "authors": ["Стив Саудерс"],
       "link": "http://shop.oreilly.com/product/9780596529307.do",
       "thumb": "high-perfomance-websites.jpg",
-      "categories": ["perfomance"],
-      "difficulty": ["beginner", "advanced"]
+      "tags": [1, 3, 5, 10]
     },
     {
       "title": "Пуленепробиваемый веб-дизайн",
-      "author": "Дэн Сидерхолм",
-      "language": "ru",
+      "authors": ["Дэн Сидерхолм"],
       "link": "http://www.ozon.ru/context/detail/id/10793233/",
       "thumb": "bulletproof-web-design.jpg",
-      "categories": ["css"],
-      "difficulty": ["advanced"]
+      "tags": [3, 4, 7]
     },
     {
       "title": "Сначала мобильные!",
-      "author": "Люк Вроблевски",
-      "language": "ru",
+      "authors": ["Люк Вроблевски"],
       "link": "http://www.ozon.ru/context/detail/id/15708347/",
       "thumb": "mobile-first.jpg",
-      "categories": ["CSS"],
-      "difficulty": ["advanced"]
+      "tags": [3, 4, 7]
     },
     {
       "title": "JavaScript Design Patterns",
-      "author": "Эдди Османи",
-      "language": "en",
+      "authors": ["Эдди Османи"],
       "link": "http://addyosmani.com/resources/essentialjsdesignpatterns/book/",
       "thumb": "learning-javascript-design-patterns.jpg",
-      "categories": ["javascript"],
-      "difficulty": ["advanced"]
+      "tags": [3, 5, 8]
     },
     {
       "title": "JavaScript. Шаблоны",
-      "author": "Стоян Стефанов",
-      "language": "ru",
+      "authors": ["Стоян Стефанов"],
       "link": "http://www.ozon.ru/context/detail/id/6287517/",
       "thumb": "javascript-patterns.jpg",
-      "categories": ["javascript"],
-      "difficulty": ["advanced"]
+      "tags": [3, 4, 8]
     },
     {
       "title": "HTML5 для веб-дизайнеров",
-      "author": "Кит Джереми",
-      "language": "ru",
+      "authors": ["Кит Джереми"],
       "link": "http://www.ozon.ru/context/detail/id/19431055/",
       "thumb": "html5-for-web-designers.jpg",
-      "categories": ["html5"],
-      "difficulty": ["beginner"]
+      "tags": [1, 4, 6]
     },
     {
       "title": "Изучаем HTML5",
-      "author": "Брюс Лоусон, Реми Шарп",
-      "language": "ru",
+      "authors": ["Брюс Лоусон", "Реми Шарп"],
       "link": "http://www.ozon.ru/context/detail/id/7622650/",
       "thumb": "introducing-html5.jpg",
-      "categories": ["html5"],
-      "difficulty": ["advanced"]
+      "tags": [3, 4, 6]
     },
     {
       "title": "Node.js in Action",
-      "author": "Майк Кэнтелон, Марк Хартер, T. J. Holowaychuk, Nathan Rajlich",
-      "language": "en",
+      "authors": ["Майк Кэнтелон", "Марк Хартер", "T. J. Holowaychuk", "Nathan Rajlich"],
       "link": "http://www.amazon.com/Node-js-Action-Mike-Cantelon/dp/1617290572",
       "thumb": "node-in-action.jpg",
-      "categories": ["node"],
-      "difficulty": ["beginner"]
+      "tags": [1, 5, 9]
     }
   ]
 }

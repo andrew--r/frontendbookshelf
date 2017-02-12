@@ -1,11 +1,8 @@
 mixin book(options)
-	+b.book(
-		data-categories=options.categories.toString().toLowerCase()
-		data-difficulties=options.difficulty.toString().toLowerCase()
-		data-languages=options.language.toString().toLowerCase()
-	)&attributes(attributes)
+	+b.book(data-tags=options.tags.join(','))&attributes(attributes)
 		+e.A.thumb(href=options.link title=options.title)
 			img(src=`images/books/${options.thumb}` alt=options.title)
-		+e.info
-			+e.SPAN.title= options.title
-			+e.SPAN.author= options.author
+		+e.SPAN.title=options.title
+		+e.SPAN.authors
+			each author in options.authors
+				+e.SPAN.author=author
