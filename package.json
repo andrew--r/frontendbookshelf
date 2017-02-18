@@ -12,11 +12,12 @@
     "lint": "yarn lint:styles & yarn lint:scripts",
     "lint:styles": "$(yarn bin)/stylelint source/**/*.css",
     "lint:scripts": "$(yarn bin)/eslint source/**/*.js",
+    "test": "$(yarn bin)/jest",
     "format:styles": "$(yarn bin)/gulp format:styles",
     "build": "yarn build:development",
     "build:production": "yarn clear && $(yarn bin)/cross-env NODE_ENV=production $(yarn bin)/gulp build",
     "build:development": "yarn clear && $(yarn bin)/cross-env NODE_ENV=development $(yarn bin)/gulp build",
-    "precommit": "yarn format:styles && yarn lint"
+    "precommit": "yarn format:styles && yarn lint && yarn test"
   },
   "dependencies": {},
   "devDependencies": {
@@ -45,6 +46,7 @@
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.8",
     "husky": "^0.13.1",
+    "jest": "^18.1.0",
     "plop": "^1.7.3",
     "postcss-cssnext": "^2.9.0",
     "postcss-easy-import": "^1.0.1",

@@ -1,7 +1,7 @@
 .book
 {
 	position: relative;
-	display: inline-block;
+	display: block;
 	border: 0;
 }
 
@@ -9,22 +9,18 @@
 {
 	position: relative;
 	display: flex;
-	align-items: center;
-	justify-content: flex-start;
+	align-items: flex-start;
+	justify-content: flex-end;
+	flex-direction: column;
 	width: 100%;
-	max-height: 360px;
+	height: 360px;
 	margin-bottom: 20px;
 }
 
 .book__thumb img
 {
+	width: auto;
 	max-height: 360px;
-	box-shadow: 0 8px 24px -8px rgba(0, 0, 0, .1);
-}
-
-.book__info
-{
-	padding: 0 .5rem;
 }
 
 .book__title
@@ -35,10 +31,16 @@
 	border: 0;
 }
 
-.book__author
+.book__authors
 {
 	display: block;
 	padding-top: 10px;
+}
+
+.book__author
+{
+	display: block;
+	padding-bottom: 3px;
 	font-size: 12px;
 	letter-spacing: .1em;
 	text-transform: uppercase;

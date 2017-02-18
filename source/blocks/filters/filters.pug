@@ -1,5 +1,6 @@
+include ../tag/tag
+
 mixin filters()
-	+b.filters&attributes(attributes)
-		.container
-			+e.text
-				| Мне нужна книга #[span.nobr по #[+e.SELECT.select.js-category]] #[span.nobr на #[+e.SELECT.select.js-language]] языке #[span.nobr для #[+e.SELECT.select.js-difficulty]] разработчиков
+	+b.filters.container&attributes(attributes)
+		each tagId in Object.keys(tags.dictionary)
+			+tag(tagId, tags.dictionary[tagId])

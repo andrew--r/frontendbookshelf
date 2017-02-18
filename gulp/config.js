@@ -1,3 +1,4 @@
+import path from 'path';
 import gutil from 'gulp-util';
 import stylelintConfig from '../stylelint.config';
 
@@ -52,9 +53,12 @@ export const PLUGINS_OPTIONS = {
 	},
 	webpackStream: {
 		base: {
-			entry: './source/scripts/index.js',
+			entry: path.resolve(process.cwd(), `${PATHS.source.scripts}/index.js`),
 			output: {
 				filename: 'bundle.js',
+			},
+			resolve: {
+				extensions: ['', '.js'],
 			},
 			module: {
 				loaders: [

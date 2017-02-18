@@ -1,6 +1,16 @@
+:root
+{
+	--grid-item-padding: 1rem;
+}
+
 .grid
 {
-	padding-top: 60px;
+	padding-top: 50px;
+
+	@media (--tablet)
+	{
+		padding-top: 30px;
+	}
 }
 
 .grid__inner
@@ -8,14 +18,15 @@
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-around;
-	margin: 0 calc(var(--grid-item-padding) * -1);
+	margin-right: calc(var(--grid-item-padding) * -1);
+	margin-left: calc(var(--grid-item-padding) * -1);
 	flex-wrap: wrap;
 }
 
 .grid__item
 {
 	min-width: 250px;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 	padding: 0 var(--grid-item-padding);
 	flex: 1 1 25%;
 }

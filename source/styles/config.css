@@ -1,12 +1,11 @@
 :root
 {
 	--site-width: 1140px;
+	--site-padding: 20px;
+	--site-background: #fff;
 	--link-color: #0072ba;
 	--link-color-hover: #d04000;
-	--bg-color: #fdfdfd;
 	--border-color: #eaeaea;
-
-	--grid-item-padding: 1rem;
 }
 
 @custom-media --mobile (width <= 480px);
