@@ -2,5 +2,5 @@ include ../tag/tag
 
 mixin filters()
 	+b.filters.container&attributes(attributes)
-		each tagId in Object.keys(tags)
-			+tag(tagId)
+		each tagId in Object.keys(tags.dictionary)
+			+tag(tagId, tags.dictionary[tagId])

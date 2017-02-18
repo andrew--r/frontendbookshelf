@@ -17,6 +17,12 @@
     "arrow-parens": ["error", "always"],
     "import/no-extraneous-dependencies": ["error", {
       "devDependencies": ["**/gulp/**/*.js"]
-    }]
+    }],
+    "valid-jsdoc": ["error", {
+      "requireParamDescription": false,
+      "requireReturnDescription": false
+    }],
+    "no-param-reassign": ["warn"],
+    "import/no-named-as-default": ["warn"]
   }
 }
