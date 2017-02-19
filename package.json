@@ -8,16 +8,19 @@
   "scripts": {
     "generate": "./node_modules/.bin/plop",
     "clear": "rm -rf ./build",
-    "start": "yarn clear && gulp watch",
+    "prestart": "yarn clear",
+    "start": "gulp watch",
+    "prelint": "yarn format:styles",
     "lint": "yarn lint:styles & yarn lint:scripts",
     "lint:styles": "stylelint source/**/*.css",
     "lint:scripts": "eslint source/**/*.js",
     "test": "jest",
     "format:styles": "gulp format:styles",
+    "prebuild": "yarn clear",
     "build": "yarn build:development",
-    "build:production": "yarn clear && cross-env NODE_ENV=production gulp build",
-    "build:development": "yarn clear && cross-env NODE_ENV=development gulp build",
-    "precommit": "yarn format:styles && yarn lint && yarn test"
+    "build:production": "cross-env NODE_ENV=production gulp build",
+    "build:development": "cross-env NODE_ENV=development gulp build",
+    "precommit": "yarn lint && yarn test"
   },
   "dependencies": {},
   "devDependencies": {
