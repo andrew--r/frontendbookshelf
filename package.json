@@ -6,7 +6,7 @@
   "author": "Andrew Romanov <me@andrew-r.ru>",
   "license": "MIT",
   "scripts": {
-    "generate": "./node_modules/.bin/plop",
+    "generate": "plop",
     "clear": "rm -rf ./build",
     "prestart": "yarn clear",
     "start": "gulp watch",
@@ -14,8 +14,8 @@
     "lint": "yarn lint:styles & yarn lint:scripts",
     "lint:styles": "stylelint source/**/*.css",
     "lint:scripts": "eslint source/**/*.js",
-    "test": "jest",
     "format:styles": "gulp format:styles",
+    "test": "jest",
     "prebuild": "yarn clear",
     "build": "yarn build:development",
     "build:production": "cross-env NODE_ENV=production gulp build",
