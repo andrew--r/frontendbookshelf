@@ -5,14 +5,9 @@ import sorting from 'postcss-sorting';
 import PATHS from '../paths';
 import { getPluginOptions } from '../helpers';
 
-const stylesPaths = [
-	PATHS.source.styles.common,
-	PATHS.source.styles.blocks,
-].map((pathString) => `${pathString}/**/*.css`);
-
 gulp.task('format:styles', () => {
 	return gulp
-		.src(stylesPaths)
+		.src(`${PATHS.source.styles.allStylesGlob}/**/*.css`)
 		.pipe(plumber(getPluginOptions('plumber')))
 		.pipe(postcss([
 			sorting(getPluginOptions('postcssSorting')),

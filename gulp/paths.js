@@ -10,6 +10,7 @@ export default {
 		},
 		scripts: path.resolve(__dirname, '../source/scripts'),
 		styles: {
+			allStylesGlob: `${path.resolve(__dirname, '../source')}/{styles,blocks}`,
 			common: path.resolve(__dirname, '../source/styles'),
 			blocks: path.resolve(__dirname, '../source/blocks'),
 		},
