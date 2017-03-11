@@ -6,7 +6,7 @@ import easyImport from 'postcss-easy-import';
 import cssnext from 'postcss-cssnext';
 import reporter from 'postcss-reporter';
 import csso from 'gulp-csso';
-import { PATHS } from '../config';
+import PATHS from '../paths';
 import { getPluginOptions } from '../helpers';
 
 gulp.task('styles', () => {

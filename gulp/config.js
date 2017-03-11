@@ -1,31 +1,7 @@
 import path from 'path';
 import gutil from 'gulp-util';
+import PATHS from './paths';
 import stylelintConfig from '../stylelint.config';
-
-export const PATHS = {
-	source: {
-		base: './source',
-		templates: {
-			blocks: './source/blocks',
-			layouts: './source/layouts',
-			pages: './source/pages',
-		},
-		scripts: './source/scripts',
-		styles: {
-			all: './source/{styles,blocks}',
-			common: './source/styles',
-			blocks: './source/blocks',
-		},
-		images: './source/images',
-		data: './source/data',
-	},
-	build: {
-		templates: './build',
-		scripts: './build',
-		styles: './build',
-		images: './build/images',
-	},
-};
 
 export const PLUGINS_OPTIONS = {
 	plumber: {

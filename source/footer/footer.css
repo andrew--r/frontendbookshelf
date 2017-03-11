@@ -1,0 +1,10 @@
+.footer
+{
+	width: 100%;
+}
+
+.footer__credits
+{
+	padding: .5rem 0;
+	font-size: .875rem;
+}

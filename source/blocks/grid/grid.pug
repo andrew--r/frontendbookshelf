@@ -3,6 +3,6 @@ include ../book/book
 mixin grid()
 	+b.grid.container&attributes(attributes)
 		+e.inner
-			each book in books
+			each book in books.list
 				+e.item
 					+book(book)

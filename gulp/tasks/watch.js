@@ -1,6 +1,6 @@
 import gulp from 'gulp';
 import browserSync from 'browser-sync';
-import { PATHS } from '../config';
+import PATHS from '../paths';
 import { getPluginOptions } from '../helpers';
 
 const server = browserSync.create();

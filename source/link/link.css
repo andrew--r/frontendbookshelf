@@ -1,0 +1,13 @@
+.link
+{
+	text-decoration: none;
+	color: var(--link-color);
+	border-bottom: 1px solid color(var(--link-color) alpha(25%));
+}
+
+.link:hover,
+.link.hover
+{
+	color: var(--link-color-hover);
+	border-bottom: 1px solid color(var(--link-color-hover) alpha(25%));
+}
