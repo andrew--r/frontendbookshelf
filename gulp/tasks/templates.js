@@ -5,7 +5,10 @@ import plumber from 'gulp-plumber';
 import getData from 'gulp-data';
 import pug from 'gulp-pug';
 import rename from 'gulp-rename';
-import { PATHS } from '../config';
+
+import { books, tags } from 'frontendbookshelf-data';
+
+import PATHS from '../paths';
 import { getPluginOptions } from '../helpers';
 
 const parseDataFile = (filePath) => JSON.parse(fs.readFileSync(filePath));
@@ -18,6 +21,7 @@ gulp.task('templates', () => {
 		.pipe(getData(() => glob
 			.sync(`${PATHS.source.data}/**/*.json`)
 			.map(parseDataFile)
+			.concat({ books, tags })
 			.reduce(mergeObjects, {})))
 		.pipe(pug(getPluginOptions('pug')))
 		.pipe(rename((path) => {

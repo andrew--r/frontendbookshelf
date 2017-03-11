@@ -1,0 +1,49 @@
+.book
+{
+	position: relative;
+	display: block;
+	border: 0;
+}
+
+.book__thumb
+{
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	flex-direction: column;
+	width: 100%;
+	height: 360px;
+	margin-bottom: 15px;
+}
+
+.book__thumb img
+{
+	width: auto;
+	max-height: 360px;
+	border: 1px solid var(--border-color);
+}
+
+.book__title
+{
+	display: block;
+	font-size: 22px;
+	font-weight: 700;
+	border: 0;
+}
+
+.book__authors
+{
+	display: block;
+	padding-top: 5px;
+}
+
+.book__author
+{
+	display: block;
+	padding-bottom: 3px;
+	font-size: 12px;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	color: #888;
+}

@@ -10,8 +10,8 @@
     "clear": "rm -rf ./build",
     "prestart": "yarn clear",
     "start": "gulp watch",
-    "prelint": "yarn format:styles",
-    "lint": "yarn lint:styles & yarn lint:scripts",
+    "lint": "yarn lint:styles & yarn lint:scripts & wait",
+    "prelint:styles": "yarn format:styles",
     "lint:styles": "stylelint source/**/*.css",
     "lint:scripts": "eslint source/**/*.js",
     "format:styles": "gulp format:styles",
@@ -20,9 +20,11 @@
     "build": "yarn build:development",
     "build:production": "cross-env NODE_ENV=production gulp build",
     "build:development": "cross-env NODE_ENV=development gulp build",
-    "precommit": "yarn lint && yarn test"
+    "precommit": "yarn lint:styles && yarn lint:scripts && yarn test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "frontendbookshelf-data": "^0.0.4"
+  },
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
@@ -32,8 +34,9 @@
     "bemto.pug": "^2.1.0",
     "browser-sync": "^2.18.6",
     "cross-env": "^3.1.4",
-    "eslint": "^3.14.1",
+    "eslint": "^3.17.1",
     "eslint-config-airbnb": "^14.0.0",
+    "eslint-config-airbnb-base": "^11.1.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-react": "^6.9.0",

@@ -1,7 +1,7 @@
 mixin book(options)
 	+b.book(data-tags=options.tags.join(','))&attributes(attributes)
-		+e.A.thumb(href=options.link title=options.title)
-			img(src=`images/books/${options.thumb}` alt=options.title)
+		+e.A.thumb(href=options.url title=options.title)
+			img(src=`images/${options.coverFilename}` alt=options.title)
 		+e.SPAN.title=options.title
 		+e.SPAN.authors
 			each author in options.authors

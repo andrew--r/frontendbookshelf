@@ -1,0 +1,52 @@
+:root
+{
+	--grid-item-padding: 2rem;
+}
+
+.grid
+{
+	padding-top: 80px;
+
+	@media (--tablet)
+	{
+		padding-top: 60px;
+	}
+
+	@media (--mobile)
+	{
+		padding-top: 30px;
+	}
+}
+
+.grid__inner
+{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	margin-right: calc(var(--grid-item-padding) * -1);
+	margin-left: calc(var(--grid-item-padding) * -1);
+	flex-wrap: wrap;
+}
+
+.grid__item
+{
+	min-width: 300px;
+	margin-bottom: 5%;
+	padding: 0 var(--grid-item-padding);
+	flex: 1 1 25%;
+
+	@media (--tablet)
+	{
+		margin-bottom: 10%;
+	}
+}
+
+.grid__item.js-last-visible
+{
+	flex-basis: 100%;
+}
+
+.grid__item.js-hidden
+{
+	display: none;
+}

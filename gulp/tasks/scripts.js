@@ -3,7 +3,7 @@ import gutil from 'gulp-util';
 import plumber from 'gulp-plumber';
 import webpackStream from 'webpack-stream';
 import uglify from 'gulp-uglify';
-import { PATHS } from '../config';
+import PATHS from '../paths';
 import { getPluginOptions } from '../helpers';
 
 const isProduction = process.env.NODE_ENV === 'production';
