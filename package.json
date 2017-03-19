@@ -10,10 +10,10 @@
     "clear": "rm -rf ./build",
     "prestart": "yarn clear",
     "start": "gulp watch",
-    "lint": "yarn lint:styles & yarn lint:scripts & wait",
+    "lint": "yarn lint:styles && yarn lint:scripts",
     "prelint:styles": "yarn format:styles",
     "lint:styles": "stylelint source/**/*.css",
-    "lint:scripts": "eslint source/**/*.js",
+    "lint:scripts": "eslint {gulp,source}",
     "format:styles": "gulp format:styles",
     "test": "jest",
     "prebuild": "yarn clear",
@@ -53,6 +53,7 @@
     "gulp-util": "^3.0.8",
     "husky": "^0.13.1",
     "jest": "^18.1.0",
+    "jimp": "^0.2.27",
     "plop": "^1.7.3",
     "postcss-cssnext": "^2.9.0",
     "postcss-easy-import": "^1.0.1",
@@ -60,6 +61,7 @@
     "postcss-sorting": "^2.0.1",
     "require-dir": "^0.3.1",
     "stylelint": "^7.7.1",
+    "through2": "^2.0.3",
     "webpack-stream": "^3.2.0"
   },
   "browserslist": [

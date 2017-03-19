@@ -7,7 +7,7 @@ import cssnext from 'postcss-cssnext';
 import reporter from 'postcss-reporter';
 import csso from 'gulp-csso';
 import PATHS from '../paths';
-import { getPluginOptions } from '../helpers';
+import getPluginOptions from '../helpers/get-plugin-options';
 
 gulp.task('styles', () => {
 	return gulp
