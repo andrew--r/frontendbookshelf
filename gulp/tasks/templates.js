@@ -9,7 +9,7 @@ import rename from 'gulp-rename';
 import { books, tags } from 'frontendbookshelf-data';
 
 import PATHS from '../paths';
-import { getPluginOptions } from '../helpers';
+import getPluginOptions from '../helpers/get-plugin-options';
 
 const parseDataFile = (filePath) => JSON.parse(fs.readFileSync(filePath));
 const mergeObjects = (target, source) => ({ ...target, ...source });
