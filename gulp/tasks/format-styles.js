@@ -3,7 +3,7 @@ import plumber from 'gulp-plumber';
 import postcss from 'gulp-postcss';
 import sorting from 'postcss-sorting';
 import PATHS from '../paths';
-import getPluginOptions from '../helpers/get-plugin-options';
+import getPluginOptions from '../plugins-options';
 
 gulp.task('format:styles', () => {
 	return gulp

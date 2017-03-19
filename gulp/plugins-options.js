@@ -3,7 +3,7 @@ import gutil from 'gulp-util';
 import PATHS from './paths';
 import stylelintConfig from '../stylelint.config';
 
-export const PLUGINS_OPTIONS = {
+const PLUGINS_OPTIONS = {
 	plumber: {
 		base: {
 			errorHandler: gutil.log,
@@ -66,3 +66,15 @@ export const PLUGINS_OPTIONS = {
 		},
 	},
 };
+
+/**
+ * Returns plugin options based on current NODE_ENV
+ *
+ * @param  {String} pluginName
+ * @return {Object} plugin options based on NODE_ENV
+ */
+export default function getPluginOptions(pluginName) {
+	const pluginOptions = PLUGINS_OPTIONS[pluginName] || {};
+
+	return { ...(pluginOptions.base || {}), ...(pluginOptions[process.env.NODE_ENV] || {}) };
+}

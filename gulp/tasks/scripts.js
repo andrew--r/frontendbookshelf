@@ -4,7 +4,7 @@ import plumber from 'gulp-plumber';
 import webpackStream from 'webpack-stream';
 import uglify from 'gulp-uglify';
 import PATHS from '../paths';
-import getPluginOptions from '../helpers/get-plugin-options';
+import getPluginOptions from '../plugins-options';
 
 const isProduction = process.env.NODE_ENV === 'production';
 

@@ -1,7 +1,7 @@
 import gulp from 'gulp';
 import browserSync from 'browser-sync';
 import PATHS from '../paths';
-import getPluginOptions from '../helpers/get-plugin-options';
+import getPluginOptions from '../plugins-options';
 
 const server = browserSync.create();
 const { reload } = server;
