@@ -29,13 +29,12 @@ export default class Filters {
 		const { currentTags } = this.state;
 
 		this.booksList.forEach((book) => {
-			const hasCurrentTags = currentTags.length;
-			const isBookInCurrentTags = currentTags.some(isInCollection(book.getTags()));
+			const bookMatchesCurrentTags = currentTags.every(isInCollection(book.getTags()));
 
-			if (hasCurrentTags && !isBookInCurrentTags) {
-				book.hide();
-			} else {
+			if (bookMatchesCurrentTags) {
 				book.show();
+			} else {
+				book.hide();
 			}
 		});
 	}
