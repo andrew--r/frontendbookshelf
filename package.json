@@ -23,7 +23,7 @@
     "precommit": "yarn lint:styles && yarn lint:scripts && yarn test"
   },
   "dependencies": {
-    "frontendbookshelf-data": "0.1.0"
+    "frontendbookshelf-data": "0.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
