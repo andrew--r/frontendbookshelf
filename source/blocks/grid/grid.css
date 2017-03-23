@@ -1,20 +1,22 @@
 :root
 {
 	--grid-item-padding: 2rem;
+	--grid-item-min-width: 18.75em;
+	--grid-item-max-width: 25rem;
 }
 
 .grid
 {
-	padding-top: 80px;
+	padding-top: 5rem;
 
 	@media (--tablet)
 	{
-		padding-top: 60px;
+		padding-top: 3.75rem;
 	}
 
 	@media (--mobile)
 	{
-		padding-top: 30px;
+		padding-top: 1.875rem;
 	}
 }
 
@@ -30,7 +32,8 @@
 
 .grid__item
 {
-	min-width: 300px;
+	min-width: var(--grid-item-min-width);
+	max-width: var(--grid-item-max-width);
 	margin-bottom: 5%;
 	padding: 0 var(--grid-item-padding);
 	flex: 1 1 25%;
@@ -50,3 +53,4 @@
 {
 	display: none;
 }
+
