@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/andrew--r/frontendbookshelf.svg?branch=master)](https://travis-ci.org/andrew--r/frontendbookshelf)
+
 # Книжная полка фронтендера
 
 ```bash
@@ -8,5 +10,5 @@ $ yarn build:development
 
 $ yarn build:production
 
-$ yarn generate block # add new block boilerplate
+$ yarn generate block # scaffold new block
 ```
