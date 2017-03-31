@@ -13,3 +13,6 @@ node_modules/
 .idea
 .vscode
 npm-debug.*
+
+# Secure stuff
+ftp-config.json

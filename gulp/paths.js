@@ -21,6 +21,7 @@ export default {
 		data: path.resolve(__dirname, '../source/data'),
 	},
 	build: {
+		base: path.resolve(__dirname, '../build'),
 		templates: path.resolve(__dirname, '../build'),
 		scripts: path.resolve(__dirname, '../build'),
 		styles: path.resolve(__dirname, '../build'),

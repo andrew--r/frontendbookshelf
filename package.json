@@ -24,6 +24,7 @@
     "prebuild": "yarn clear",
     "build": "yarn build:development",
     "qa": "yarn lint && yarn test",
+    "deploy": "yarn qa && yarn build:production && gulp deploy",
     "precommit": "yarn qa"
   },
   "dependencies": {
@@ -66,6 +67,7 @@
     "require-dir": "^0.3.1",
     "stylelint": "^7.7.1",
     "through2": "^2.0.3",
+    "vinyl-ftp": "^0.6.0",
     "webpack-stream": "^3.2.0"
   },
   "browserslist": [
