@@ -10,17 +10,18 @@
     "clear": "rm -rf ./build",
     "prestart": "yarn clear",
     "start": "gulp watch",
+    "format:styles": "gulp format:styles",
     "lint": "yarn lint:styles && yarn lint:scripts",
     "prelint:styles": "yarn format:styles",
     "lint:styles": "stylelint source/**/*.css",
     "lint:scripts": "eslint {gulp,source}",
-    "format:styles": "gulp format:styles",
     "test": "jest",
+    "build:development": "cross-env NODE_ENV=development gulp build",
+    "build:production": "cross-env NODE_ENV=production gulp build",
     "prebuild": "yarn clear",
     "build": "yarn build:development",
-    "build:production": "cross-env NODE_ENV=production gulp build",
-    "build:development": "cross-env NODE_ENV=development gulp build",
-    "precommit": "yarn lint:styles && yarn lint:scripts && yarn test"
+    "qa": "yarn lint && yarn test",
+    "precommit": "yarn qa"
   },
   "dependencies": {
     "frontendbookshelf-data": "0.2.0"
