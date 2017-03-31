@@ -5,6 +5,9 @@
   "repository": "https://github.com/andrew--r/frontendbookshelf",
   "author": "Andrew Romanov <me@andrew-r.ru>",
   "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "scripts": {
     "generate": "plop",
     "clear": "rm -rf ./build",
