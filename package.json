@@ -2,7 +2,7 @@
   "name": "frontendbookshelf",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:andrew--r/frontendbookshelf.git",
+  "repository": "https://github.com/andrew--r/frontendbookshelf",
   "author": "Andrew Romanov <me@andrew-r.ru>",
   "license": "MIT",
   "scripts": {
@@ -24,7 +24,7 @@
     "precommit": "yarn qa"
   },
   "dependencies": {
-    "frontendbookshelf-data": "0.2.0"
+    "frontendbookshelf-data": "1.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
