@@ -2588,9 +2588,9 @@ fresh@0.3.0, fresh@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.3.0.tgz#651f838e22424e7566de161d8358caa199f83d4f"
 
-frontendbookshelf-data@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/frontendbookshelf-data/-/frontendbookshelf-data-1.0.0.tgz#9b9aaa3f0e38b9405e3f27b3e247999908e6e557"
+frontendbookshelf-data@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/frontendbookshelf-data/-/frontendbookshelf-data-1.1.0.tgz#0a96ce8e753e7a08a658ed453c24d607eac05954"
 
 fs-exists-sync@^0.1.0:
   version "0.1.0"

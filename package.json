@@ -28,7 +28,7 @@
     "precommit": "yarn qa"
   },
   "dependencies": {
-    "frontendbookshelf-data": "1.0.0"
+    "frontendbookshelf-data": "1.1.0"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
