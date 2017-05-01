@@ -1,0 +1,26 @@
+.menu
+{
+	padding-bottom: 1em;
+}
+
+.menu__delimiter
+{
+	margin: 0 .3em;
+
+	@media (--mobile) {
+		display: none;
+	}
+}
+
+.menu__item {
+	@media (--mobile) {
+		display: table;
+		white-space: nowrap;
+	}
+}
+
+.menu__item:not(:last-child) {
+	@media (--mobile) {
+		margin-bottom: .5em;
+	}
+}
