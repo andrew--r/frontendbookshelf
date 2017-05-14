@@ -28,15 +28,19 @@ export default class Filters {
 	onUpdate() {
 		const { currentTags } = this.state;
 
-		this.booksList.forEach((book) => {
-			const bookMatchesCurrentTags = currentTags.every(isInCollection(book.getTags()));
+		if (currentTags.length) {
+			this.booksList.forEach((book) => {
+				const bookMatchesCurrentTags = currentTags.some(isInCollection(book.getTags()));
 
-			if (bookMatchesCurrentTags) {
-				book.show();
-			} else {
-				book.hide();
-			}
-		});
+				if (bookMatchesCurrentTags) {
+					book.show();
+				} else {
+					book.hide();
+				}
+			});
+		} else {
+			this.booksList.forEach((book) => book.show());
+		}
 	}
 
 	handleFilterToggle(event) {
