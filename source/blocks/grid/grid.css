@@ -8,17 +8,7 @@
 .grid
 {
 	overflow: hidden;
-	padding-top: 80px;
-
-	@media (--tablet)
-	{
-		padding-top: 60px;
-	}
-
-	@media (--mobile)
-	{
-		padding-top: 30px;
-	}
+	padding-top: 15px;
 }
 
 .grid__inner
