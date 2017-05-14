@@ -1,6 +1,18 @@
 .header
 {
 	width: 100%;
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-top: 32px;
+	padding-bottom: 32px;
+
+	@media (--tablet)
+	{
+		padding-top: 26px;
+		padding-bottom: 26px;
+	}
+
+	@media (--mobile)
+	{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 }

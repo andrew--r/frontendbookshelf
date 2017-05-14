@@ -1,15 +1,15 @@
 .logo
 {
-	font-size: 4rem;
+	font-size: 64px;
 	line-height: 1;
 
 	@media (--tablet)
 	{
-		font-size: 3.75rem;
+		font-size: 60px;
 	}
 
 	@media (--mobile)
 	{
-		font-size: 2.5rem;
+		font-size: 40px;
 	}
 }

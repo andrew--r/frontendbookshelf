@@ -1,26 +1,32 @@
 .menu
 {
-	padding-bottom: 1em;
+	padding-bottom: 16px;
 }
 
 .menu__delimiter
 {
-	margin: 0 .3em;
+	margin-right: 5px;
+	margin-left: 5px;
 
-	@media (--mobile) {
+	@media (--mobile)
+	{
 		display: none;
 	}
 }
 
-.menu__item {
-	@media (--mobile) {
+.menu__item
+{
+	@media (--mobile)
+	{
 		display: table;
 		white-space: nowrap;
 	}
 }
 
-.menu__item:not(:last-child) {
-	@media (--mobile) {
-		margin-bottom: .5em;
+.menu__item:not(:last-child)
+{
+	@media (--mobile)
+	{
+		margin-bottom: 8px;
 	}
 }

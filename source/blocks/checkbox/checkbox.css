@@ -23,7 +23,7 @@
 .checkbox
 {
 	position: relative;
-	font-size: 16px;
+	font-size: var(--checkbox-font-size);
 }
 
 .checkbox__real

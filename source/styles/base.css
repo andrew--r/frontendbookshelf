@@ -1,38 +1,10 @@
 html,
 body
 {
-	font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.2;
-	background: var(--site-background);
-}
-
-html
-{
 	height: 100%;
-}
-
-body
-{
-	min-height: 100%;
-}
-
-.container
-{
-	max-width: calc(var(--site-width) + var(--site-padding) * 2);
-	margin-right: auto;
-	margin-left: auto;
-	padding-right: var(--site-padding);
-	padding-left: var(--site-padding);
-}
-
-.starts-with-quote
-{
-	margin-left: -.4em;
-}
-
-.nobr
-{
-	white-space: nowrap;
+	font-family: var(--base-fonts-set);
+	font-size: var(--base-font-size);
+	line-height: var(--base-line-height);
+	background-color: var(--site-background-color);
 }
 

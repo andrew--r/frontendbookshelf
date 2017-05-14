@@ -5,13 +5,11 @@
 	line-height: 2;
 }
 
-.filters__text
+.filters__item.tag
 {
-	font-size: 1rem;
-}
-
-.filters__select
-{
-	margin: 0 .5em;
-	font-size: 1rem;
+	@media (--mobile)
+	{
+		display: block;
+		margin-bottom: 10px;
+	}
 }

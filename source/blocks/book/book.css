@@ -9,9 +9,9 @@
 {
 	position: relative;
 	display: flex;
+	flex-direction: column;
 	align-items: flex-start;
 	justify-content: flex-end;
-	flex-direction: column;
 	width: 100%;
 	height: 360px;
 	margin-bottom: 15px;
@@ -20,7 +20,7 @@
 .book__thumb img
 {
 	width: auto;
-	max-height: 360px;
+	max-height: 100%;
 	border: 1px solid var(--border-color);
 }
 
@@ -43,7 +43,7 @@
 	display: block;
 	padding-bottom: 3px;
 	font-size: 12px;
-	letter-spacing: .1em;
+	letter-spacing: 1pt;
 	text-transform: uppercase;
-	color: #888;
+	color: rgba(0, 0, 0, .5);
 }
