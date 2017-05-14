@@ -1,0 +1,28 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "window": true,
+    "document": true
+  },
+  "rules": {
+    "indent": ["error", "tab", {
+      "SwitchCase": 1
+    }],
+    "no-tabs": "off",
+    "no-multiple-empty-lines": ["error", {
+      "max": 1
+    }],
+    "newline-after-var": ["error", "always"],
+    "arrow-body-style": ["warn", "as-needed"],
+    "arrow-parens": ["error", "always"],
+    "valid-jsdoc": ["error", {
+      "requireParamDescription": false,
+      "requireReturnDescription": false
+    }],
+    "no-param-reassign": ["warn"],
+    "import/no-named-as-default": ["warn"],
+    "import/no-extraneous-dependencies": ["error", {
+      "devDependencies": ["**/gulp/**/*.js"]
+    }]
+  }
+}

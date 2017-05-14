@@ -1,0 +1,32 @@
+.menu
+{
+	padding-bottom: 16px;
+}
+
+.menu__delimiter
+{
+	margin-right: 5px;
+	margin-left: 5px;
+
+	@media (--mobile)
+	{
+		display: none;
+	}
+}
+
+.menu__item
+{
+	@media (--mobile)
+	{
+		display: table;
+		white-space: nowrap;
+	}
+}
+
+.menu__item:not(:last-child)
+{
+	@media (--mobile)
+	{
+		margin-bottom: 8px;
+	}
+}

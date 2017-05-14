@@ -1,0 +1,19 @@
+:root
+{
+	--site-width: 1440px;
+	--site-padding: 20px;
+	--site-background-color: #fff;
+
+	--base-fonts-set: Arial, Helvetica, sans-serif;
+	--base-font-size: 16px;
+	--base-line-height: 1.2;
+
+	--link-color: #0072ba;
+	--link-color-hover: #d04000;
+
+	--border-color: rgba(0, 0, 0, .2);
+}
+
+@custom-media --mobile (width <= 480px);
+@custom-media --tablet (width < 1024px);
+@custom-media --desktop (width >= 1024px);

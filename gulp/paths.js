@@ -1,10 +1,30 @@
+import path from 'path';
+
 export default {
-  appImages: 'app/images',
-  appStylesHelpers: 'app/styles/helpers',
-  dist: 'dist',
-  assets: 'dist/assets/',
-  images: 'dist/assets/images',
-  fonts: 'dist/assets/fonts',
-  bundledScripts: 'dist/assets/scripts',
-  styles: 'dist/assets/styles'
+	source: {
+		base: path.resolve(__dirname, '../source'),
+		templates: {
+			blocks: path.resolve(__dirname, '../source/blocks'),
+			layouts: path.resolve(__dirname, '../source/layouts'),
+			pages: path.resolve(__dirname, '../source/pages'),
+		},
+		scripts: path.resolve(__dirname, '../source/scripts'),
+		styles: {
+			allStylesGlob: `${path.resolve(__dirname, '../source')}/{styles,blocks}`,
+			common: path.resolve(__dirname, '../source/styles'),
+			blocks: path.resolve(__dirname, '../source/blocks'),
+		},
+		images: {
+			site: path.resolve(__dirname, '../source/images'),
+			booksCovers: path.resolve(__dirname, '../node_modules/frontendbookshelf-data/data/covers'),
+		},
+		data: path.resolve(__dirname, '../source/data'),
+	},
+	build: {
+		base: path.resolve(__dirname, '../build'),
+		templates: path.resolve(__dirname, '../build'),
+		scripts: path.resolve(__dirname, '../build'),
+		styles: path.resolve(__dirname, '../build'),
+		images: path.resolve(__dirname, '../build/images'),
+	},
 };

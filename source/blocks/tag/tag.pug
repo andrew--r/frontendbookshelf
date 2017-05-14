@@ -1,0 +1,6 @@
+include ../checkbox/checkbox
+
+mixin tag(id, name)
+	+b.LABEL.tag(for=id)&attributes(attributes)
+		+checkbox(id)(class='tag__checkbox')
+		+e.SPAN.content=name

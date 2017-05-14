@@ -1,0 +1,36 @@
+:root
+{
+	--tag-items-spacing: .25em;
+	--tag-color: #4078c0;
+	--tag-background-color: #e7f2ff;
+}
+
+.tag
+{
+	display: inline-block;
+	margin-right: .5em;
+	padding: .25em var(--tag-items-spacing);
+	line-height: 1;
+	cursor: pointer;
+	color: var(--tag-color);
+	border: 1px solid var(--tag-background-color);
+	border-radius: 3px;
+	background-color: var(--tag-background-color);
+}
+
+.tag__checkbox
+{
+	margin-right: var(--tag-items-spacing);
+	margin-left: var(--tag-items-spacing);
+}
+
+.tag__content
+{
+	padding-right: var(--tag-items-spacing);
+	padding-left: var(--tag-items-spacing);
+}
+
+.tag__content:active
+{
+	user-select: none;
+}

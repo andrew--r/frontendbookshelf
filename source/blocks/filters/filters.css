@@ -1,0 +1,15 @@
+.filters
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	line-height: 2;
+}
+
+.filters__item.tag
+{
+	@media (--mobile)
+	{
+		display: block;
+		margin-bottom: 10px;
+	}
+}

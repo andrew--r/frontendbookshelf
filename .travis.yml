@@ -1,0 +1,6 @@
+language: node_js
+node_js:
+  - "6"
+script:
+  - touch ftp-config.json && echo "{}" > ftp-config.json
+  - yarn qa

@@ -1,0 +1,16 @@
+.logo
+{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 64px;
+	line-height: 1;
+
+	@media (--tablet)
+	{
+		font-size: 60px;
+	}
+
+	@media (--mobile)
+	{
+		font-size: 36px;
+	}
+}

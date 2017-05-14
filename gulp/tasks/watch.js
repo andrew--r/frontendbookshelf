@@ -1,19 +1,27 @@
-import gulp        from 'gulp';
-import runSequence from 'run-sequence';
-import { reload }  from 'browser-sync';
+import gulp from 'gulp';
+import browserSync from 'browser-sync';
+import PATHS from '../paths';
+import getPluginOptions from '../plugins-options';
 
-gulp.task('watch', () => {
-  global.watch = true;
+const server = browserSync.create();
+const { reload } = server;
 
-  gulp.watch('app/sprites/**/*.png', ['sprites']);
+gulp.task('watch', ['build'], () => {
+	server.init(getPluginOptions('browserSync'));
 
-  gulp.watch('app/{styles,blocks}/**/*.styl', ['styles', () => reload('assets/styles/app.min.css')]);
+	gulp.watch([
+		`${PATHS.source.data}/**/*.json`,
+		`${PATHS.source.templates.blocks}/**/*.pug`,
+		`${PATHS.source.templates.layouts}/**/*.pug`,
+		`${PATHS.source.templates.pages}/**/*.pug`,
+	], ['templates', reload]);
 
-  gulp.watch('app/{pages,blocks}/**/*.jade', () => runSequence('templates', reload));
+	gulp.watch([
+		`${PATHS.source.styles.common}/**/*.css`,
+		`${PATHS.source.styles.blocks}/**/*.css`,
+	], ['styles', reload]);
 
-  gulp.watch('app/resources/**/*', ['copy:resources', reload]);
-  gulp.watch('app/fonts/**/*', ['copy:fonts', reload]);
-  gulp.watch('app/scripts/**/*.js', ['scripts:bundle', reload]);
+	gulp.watch(`${PATHS.source.scripts}/**/*.js`, ['scripts', reload]);
 
-  gulp.watch('app/icons/**/*.svg', ['icons', reload]);
+	gulp.watch(`${PATHS.source.images}/**/*`, ['images', reload]);
 });

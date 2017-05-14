@@ -1,3 +1,14 @@
-# «Книжная полка фронтендера»
+[![Build Status](https://travis-ci.org/andrew--r/frontendbookshelf.svg?branch=master)](https://travis-ci.org/andrew--r/frontendbookshelf)
 
-Знаете книгу, не вошедшую в нашу коллекцию? [Откройте issue](https://github.com/andrew--r/frontendbookshelf/issues).
+# Книжная полка фронтендера
+
+```bash
+$ yarn # install dependencies
+
+$ yarn build # alias for build:development
+$ yarn build:development
+
+$ yarn build:production
+
+$ yarn generate block # scaffold new block
+```
