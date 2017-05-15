@@ -5,7 +5,8 @@ import postcss from 'gulp-postcss';
 import easyImport from 'postcss-easy-import';
 import cssnext from 'postcss-cssnext';
 import reporter from 'postcss-reporter';
-import csso from 'gulp-csso';
+import flexbugsFixes from 'postcss-flexbugs-fixes';
+import csso from 'postcss-csso';
 import PATHS from '../paths';
 import getPluginOptions from '../plugins-options';
 
@@ -16,9 +17,10 @@ gulp.task('styles', () => {
 		.pipe(postcss([
 			easyImport(getPluginOptions('postcssEasyImport')),
 			cssnext(),
+			csso(),
+			flexbugsFixes(),
 			reporter({ clearAllMessages: true }),
 		]))
-		.pipe(csso())
 		.pipe(rename('main.css'))
 		.pipe(gulp.dest(PATHS.build.styles));
 });
