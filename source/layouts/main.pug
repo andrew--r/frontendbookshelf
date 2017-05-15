@@ -1,10 +1,22 @@
 include ../../node_modules/bemto.pug/bemto
 
+include ../blocks/header/header
+include ../blocks/footer/footer
+
 doctype html
 html(lang='ru')
 	include ../blocks/head/head
-	+b.BODY.page
-		block body
+	body
+		+b.page
+			+e.header
+				+header()
+
+			+e.content
+				block pageContent
+
+			+e.footer
+				+footer()
+
 		block scripts
 
 		script(src='bundle.js')

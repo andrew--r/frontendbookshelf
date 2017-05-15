@@ -5,7 +5,17 @@
 	min-height: 100vh;
 }
 
+.page__header,
+.page__footer
+{
+	flex-basis: auto;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
 .page__content
 {
-	flex: 1;
+	flex-basis: auto;
+	flex-grow: 1;
+	flex-shrink: 0;
 }

@@ -1,8 +1,7 @@
 :root
 {
 	--grid-item-padding: 32px;
-	--grid-item-min-width: 300px;
-	--grid-item-max-width: 400px;
+	--grid-item-width: 300px;
 }
 
 .grid
@@ -23,11 +22,7 @@
 
 .grid__item
 {
-	flex-basis: 25%;
-	flex-grow: 1;
-	flex-shrink: 1;
-	min-width: var(--grid-item-min-width);
-	max-width: var(--grid-item-max-width);
+	width: var(--grid-item-width);
 	padding: var(--grid-item-padding);
 }
 

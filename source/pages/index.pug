@@ -1,16 +1,10 @@
 extends ../layouts/main
-include ../blocks/header/header
 include ../blocks/filters/filters
 include ../blocks/grid/grid
-include ../blocks/footer/footer
-include ../blocks/logo/logo
 
 block head
 	- var pageTitle = 'Список книг';
 
-block body
-	+header()
-	+e.content
-		+filters()
-		+grid()
-	+footer()
+block pageContent
+	+filters()
+	+grid()
