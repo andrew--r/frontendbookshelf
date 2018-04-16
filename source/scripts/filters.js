@@ -1,9 +1,7 @@
 import isInCollection from './helpers/is-in-collection';
 import notStrictEquals from './helpers/not-strict-equals';
 
-import {
-	createBookFromNode,
-} from './book';
+import { createBookFromNode } from './book';
 
 export default class Filters {
 	constructor(options) {
