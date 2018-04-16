@@ -1,6 +1,5 @@
 language: node_js
 node_js:
-  - "6"
+  - "8"
 script:
-  - touch ftp-config.json && echo "{}" > ftp-config.json
-  - yarn qa
+  - npm run qa
